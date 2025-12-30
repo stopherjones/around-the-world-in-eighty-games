@@ -3,12 +3,15 @@ layout: default
 title: Countries
 ---
 
+# Countries
+
 <ul>
   {% assign sorted = site.countries | sort: "order" %}
   {% for country in sorted %}
     <li>
-      <a href="{{ country.url }}">{{ country.title }}</a>
-      ({{ country.continent }})
+      <a href="{{ site.baseurl }}{{ country.url }}">
+        {{ country.title }}
+      </a>
     </li>
   {% endfor %}
 </ul>
