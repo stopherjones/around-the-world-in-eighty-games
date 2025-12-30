@@ -1,35 +1,36 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
+---
+layout: default
+---
 
-<nav>
-  <a href="{{ site.baseurl }}/">Home</a>
-  <a href="{{ site.baseurl }}/countries/">Countries</a>
-  <a href="{{ site.baseurl }}/games/">Games</a>
-</nav>
+<h1>{{ page.name }}</h1>
 
-<main>
-  <h1>{{ page.title }}</h1>
+<p>{{ page.intro }}</p>
 
-  {{ content }}
+<h2>Tournaments</h2>
 
-  <h2>Games played here</h2>
-  <ul>
-    {% for game in site.data.games %}
-      {% if game[1].country == page.slug %}
-        <li>
-          <strong>{{ game[1].name }}</strong><br>
-          {{ game[1].description }}
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</main>
+{% assign tournaments = site.data.tournaments %}
+{% assign games = site.data.games %}
 
-</body>
-</html>
+<ul>
+{% for t_id in tournaments %}
+  {% assign t = t_id[1] %}
+  {% if t.country == page.slug %}
+    {% assign game = games | where: "slug", t.game | first %}
+
+    <li>
+      <strong>{{ game.name }}</strong> –
+      <a href="{{ t.bga_url }}" target="_blank">BGA tournament link</a>
+      <br>
+      Status: {{ t.status }}
+      <br>
+      Top 4:
+      <ul>
+        {% for p in t.top4 %}
+          <li>{{ p.rank }} – {{ p.name }}</li>
+        {% endfor %}
+      </ul>
+    </li>
+
+  {% endif %}
+{% endfor %}
+</ul>

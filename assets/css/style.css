@@ -1,0 +1,50 @@
+body {
+  font-family: Georgia, serif;
+  background: #fdfaf4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background: #e8dcc2;
+  border-bottom: 2px solid #c4b59f;
+  padding: 10px 20px;
+}
+
+.site-nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #4a3f35;
+  font-weight: bold;
+}
+
+.site-nav input {
+  padding: 5px;
+  border: 1px solid #b8a894;
+  background: #fffdf8;
+}
+
+.site-content {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: "Times New Roman", serif;
+  border-bottom: 1px solid #d8c9b3;
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  color: #7a6f63;
+  font-size: 0.9em;
+}

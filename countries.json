@@ -1,0 +1,13 @@
+---
+layout: null
+---
+
+[
+{% for country in site.countries %}
+  {
+    "name": "{{ country.name }}",
+    "slug": "{{ country.slug }}",
+    "url": "{{ country.url | relative_url }}"
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
