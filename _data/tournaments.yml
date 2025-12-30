@@ -52,3 +52,291 @@
     - { rank: "2nd", name: "TacCOIG" }
     - { rank: "3rd", name: "GeraldineMerida" }
     - { rank: "3rd", name: "Bleedingriver" }
+
+368887:
+  id: 368887
+  country: sweden
+  game: fika
+  status: completed
+  top4:
+    - { rank: "1st", name: "Niall" }
+    - { rank: "2nd", name: "Cheery Dog" }
+    - { rank: "3rd", name: "andycupid" }
+    - { rank: "3rd", name: "stopherjones" }
+
+374194:
+  id: 374194
+  country: norway
+  game: knarr
+  status: completed
+  top4:
+    - { rank: "1st", name: "Niall" }
+    - { rank: "2nd", name: "VemRD" }
+    - { rank: "3rd", name: "beckmast" }
+    - { rank: "3rd", name: "TacCOIG" }
+
+380123:
+  id: 380123
+  country: norway
+  game: herrlof
+  status: completed
+  top4:
+    - { rank: "1st", name: "TacCOIG" }
+    - { rank: "2nd", name: "stopherjones" }
+    - { rank: "3rd", name: "Niall" }
+    - { rank: "3rd", name: "Cheery Dog" }
+
+378251:
+  id: 378251
+  country: russia
+  game: st-petersburg
+  status: completed
+  top4:
+    - { rank: "1st", name: "Niall" }
+    - { rank: "2nd", name: "Castz" }
+    - { rank: "3rd", name: "TacCOIG" }
+    - { rank: "3rd", name: "VemRD" }
+
+387302:
+  id: 387302
+  country: greece
+  game: akropolis
+  status: completed
+  top4:
+    - { rank: "1st", name: "Castz" }
+    - { rank: "2nd", name: "TacCOIG" }
+    - { rank: "3rd", name: "Arjo14" }
+    - { rank: "4th", name: "Salvidrim" }
+
+387304:
+  id: 387304
+  country: greece
+  game: santorini
+  status: completed
+  top4:
+    - { rank: "1st", name: "TacCOIG" }
+    - { rank: "2nd", name: "Arjo14" }
+    - { rank: "3rd", name: "andycupid" }
+    - { rank: "3rd", name: "Cheery Dog" }
+
+404118:
+  id: 404118
+  country: italy
+  game: ponte-del-diavolo
+  status: completed
+  top4:
+    - { rank: "1st", name: "andycupid" }
+    - { rank: "2nd", name: "Castz" }
+    - { rank: "3rd", name: "Niall" }
+    - { rank: "3rd", name: "TacCOIG" }
+
+404125:
+  id: 404125
+  country: italy
+  game: verona-twist
+  status: completed
+  top4:
+    - { rank: "1st", name: "andycupid" }
+    - { rank: "2nd", name: "Castz" }
+    - { rank: "3rd", name: "Niall" }
+    - { rank: "3rd", name: "Cheery Dog" }
+
+404206:
+  id: 404206
+  country: italy
+  game: viticulture
+  status: completed
+  top4:
+    - { rank: "1st", name: "Niall" }
+    - { rank: "2nd", name: "VemRD" }
+    - { rank: "3rd", name: "Castz" }
+    - { rank: "4th", name: "drharris" }
+
+410031:
+  id: 410031
+  country: switzerland
+  game: ticket-to-ride-switzerland
+  status: completed
+  top4:
+    - { rank: "1st", name: "TacCOIG" }
+    - { rank: "2nd", name: "beckmast" }
+    - { rank: "3rd", name: "Niall" }
+    - { rank: "3rd", name: "andycupid" }
+
+420784:
+  id: 420784
+  country: france
+  game: oriflamme
+  status: completed
+  top4:
+    - { rank: "1st", name: "Castz" }
+    - { rank: "2nd", name: "TacCOIG" }
+    - { rank: "2nd", name: "Kurorac" }
+    - { rank: "3rd", name: "Salvidrim" }
+
+420786:
+  id: 420786
+  country: france
+  game: carcassonne
+  status: completed
+  top4:
+    - { rank: "1st", name: "Niall" }
+    - { rank: "2nd", name: "VemRD" }
+    - { rank: "3rd", name: "stopherjones" }
+    - { rank: "3rd", name: "TacCOIG" }
+
+420787:
+  id: 420787
+  country: france
+  game: fromage
+  status: completed
+  top4:
+    - { rank: "1st", name: "Niall" }
+    - { rank: "2nd", name: "Castz" }
+    - { rank: "3rd", name: "drharris" }
+    - { rank: "4th", name: "beckmast" }
+
+420929:
+  id: 420929
+  country: france
+  game: the-castles-of-burgundy
+  status: completed
+  top4:
+    - { rank: "1st", name: "Castz" }
+    - { rank: "2nd", name: "Niall" }
+    - { rank: "3rd", name: "VemRD" }
+    - { rank: "4th", name: "TacCOIG" }
+
+427916:
+  id: 427916
+  country: mallorca
+  game: finca
+  status: completed
+  top4:
+    - { rank: "1st", name: "Castz" }
+    - { rank: "2nd", name: "GeraldineMerida" }
+    - { rank: "3rd", name: "Zozoken" }
+    - { rank: "3rd", name: "Arjo14" }
+
+427918:
+  id: 427918
+  country: spain
+  game: alhambra
+  status: completed
+  top4:
+    - { rank: "1st", name: "Niall" }
+    - { rank: "2nd", name: "VemRD" }
+    - { rank: "3rd", name: "Castz" }
+    - { rank: "4th", name: "Cheery Dog" }
+
+427919:
+  id: 427919
+  country: portugal
+  game: azul-summer-pavilion
+  status: ongoing
+  round: null
+
+439073:
+  id: 439073
+  country: morocco
+  game: marrakech
+  status: completed
+  top4:
+    - { rank: "1st", name: "Niall" }
+    - { rank: "2nd", name: "Castz" }
+    - { rank: "3rd", name: "TacCOIG" }
+    - { rank: "4th", name: "Arjo14" }
+
+439074:
+  id: 439074
+  country: morocco
+  game: medina
+  status: completed
+  top4:
+    - { rank: "1st", name: "Castz" }
+    - { rank: "2nd", name: "stopherjones" }
+    - { rank: "3rd", name: "TacCOIG" }
+    - { rank: "4th", name: "drharris" }
+
+461495:
+  id: 461495
+  country: sahara
+  game: targi
+  status: ongoing
+  round: null
+
+461517:
+  id: 461517
+  country: sahara
+  game: caravan
+  status: completed
+  top4:
+    - { rank: "1st", name: "Niall" }
+    - { rank: "2nd", name: "Cheery Dog" }
+    - { rank: "3rd", name: "TacCOIG" }
+    - { rank: "4th", name: "Bleedingriver" }
+
+488440:
+  id: 488440
+  country: botswana
+  game: orapa-mine
+  status: completed
+  top4:
+    - { rank: "1st", name: "Cheery Dog" }
+    - { rank: "2nd", name: "beckmast" }
+    - { rank: "3rd", name: "Niall" }
+    - { rank: "3rd", name: "stopherjones" }
+
+488444:
+  id: 488444
+  country: uganda
+  game: rift-valley-reserve
+  status: completed
+  top4:
+    - { rank: "1st", name: "Castz" }
+    - { rank: "2nd", name: "Niall" }
+    - { rank: "3rd", name: "TacCOIG" }
+    - { rank: "4th", name: "stopherjones" }
+
+488602:
+  id: 488602
+  country: south-africa
+  game: rallymangt
+  status: completed
+  top4:
+    - { rank: "1st", name: "Castz" }
+    - { rank: "2nd", name: "Niall" }
+    - { rank: "3rd", name: "Cheery Dog" }
+    - { rank: "4th", name: "stopherjones" }
+
+499404:
+  id: 499404
+  country: egypt
+  game: sobek
+  status: ongoing
+  round: null
+
+499408:
+  id: 499408
+  country: egypt
+  game: luxor
+  status: ongoing
+  round: null
+
+499409:
+  id: 499409
+  country: egypt
+  game: imhotep
+  status: ongoing
+  round: null
+
+499398:
+  id: 499398
+  country: egypt
+  game: nile
+  status: completed
+  top4:
+    - { rank: "1st", name: "Castz" }
+    - { rank: "2nd", name: "stopherjones" }
+    - { rank: "3rd", name: "Niall" }
+    - { rank: "3rd", name: "Cheery Dog" }

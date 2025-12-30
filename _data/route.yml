@@ -17,3 +17,79 @@ countries:
   - slug: denmark
     games:
       - copenhagen
+
+  - slug: sweden
+    games:
+      - fika
+
+  - slug: norway
+    games:
+      - knarr
+      - herrlof
+
+  - slug: russia
+    games:
+      - st-petersburg
+
+  - slug: greece
+    games:
+      - akropolis
+      - santorini
+
+  - slug: italy
+    games:
+      - ponte-del-diavolo
+      - verona-twist
+      - viticulture
+
+  - slug: switzerland
+    games:
+      - ticket-to-ride-switzerland
+
+  - slug: france
+    games:
+      - oriflamme
+      - carcassonne
+      - fromage
+      - the-castles-of-burgundy
+
+  - slug: mallorca
+    games:
+      - finca
+
+  - slug: spain
+    games:
+      - alhambra
+
+  - slug: portugal
+    games:
+      - azul-summer-pavilion
+
+  - slug: morocco
+    games:
+      - marrakech
+      - medina
+
+  - slug: sahara
+    games:
+      - targi
+      - caravan
+
+  - slug: botswana
+    games:
+      - orapa-mine
+
+  - slug: uganda
+    games:
+      - rift-valley-reserve
+
+  - slug: south-africa
+    games:
+      - rallymangt
+
+  - slug: egypt
+    games:
+      - sobek
+      - luxor
+      - imhotep
+      - nile
