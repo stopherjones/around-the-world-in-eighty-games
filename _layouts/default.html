@@ -2,12 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} · Around the World in Eighty Games</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+    <header>
+      <h1>
+        <a href="{{ '/' | relative_url }}">
+          Around the World in Eighty Games
+        </a>
+      </h1>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/games/' | relative_url }}">Games</a>
+        <a href="{{ '/countries/' | relative_url }}">Countries</a>
+        <a href="{{ '/results/' | relative_url }}">Results</a>
+        <a href="{{ '/map/' | relative_url }}">Map</a>
+      </nav>
+    </header>
+
     <main>
       {{ content }}
     </main>
+
+    <footer>
+      <p>© {{ site.time | date: '%Y' }}</p>
+    </footer>
   </body>
 </html>
