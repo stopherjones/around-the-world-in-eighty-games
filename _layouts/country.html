@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<nav>
+  <a href="{{ site.baseurl }}/">Home</a>
+  <a href="{{ site.baseurl }}/countries/">Countries</a>
+  <a href="{{ site.baseurl }}/games/">Games</a>
+</nav>
+
+<main>
+  <h1>{{ page.title }}</h1>
+
+  {{ content }}
+
+  <h2>Games played here</h2>
+  <ul>
+    {% for game in site.data.games %}
+      {% if game[1].country == page.slug %}
+        <li>
+          <strong>{{ game[1].name }}</strong><br>
+          {{ game[1].description }}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</main>
+
+</body>
+</html>

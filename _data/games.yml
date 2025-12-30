@@ -1,0 +1,9 @@
+copenhagen:
+  name: Copenhagen
+  country: denmark
+  description: A strategic tile-laying game set in Denmark.
+
+azul:
+  name: Azul
+  country: portugal
+  description: A tile drafting game inspired by Portuguese tiles.
