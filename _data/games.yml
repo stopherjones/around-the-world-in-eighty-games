@@ -1,9 +1,18 @@
-copenhagen:
-  name: Copenhagen
-  country: denmark
-  description: A strategic tile-laying game set in Denmark.
-
-azul:
+- slug: azul
   name: Azul
-  country: portugal
-  description: A tile drafting game inspired by Portuguese tiles.
+  countries:
+    - denmark
+  tournaments:
+    - name: Denmark Azul Open
+      bga_url: https://boardgamearena.com/tournament?id=12345
+      country: denmark
+
+
+- slug: azul
+  name: Azul
+  countries:
+    - denmark
+  tournaments:
+    - name: Denmark Azul Open
+      bga_url: https://boardgamearena.com/tournament?id=12345
+      country: denmark
