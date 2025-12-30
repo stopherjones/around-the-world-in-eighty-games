@@ -3,13 +3,11 @@ layout: country
 name: Denmark
 slug: denmark
 continent: Europe
-order: 1
+order: 4
 intro: >
-  A brief intro about the Denmark stop. You can expand this later with more detail.
-tournaments:
-  # we'll wire these up later
-  # - denmark-open-2025
+  A placeholder intro for the Denmark stop.
 ---
+
 
 ## Denmark
 

@@ -1,18 +1,49 @@
-- slug: azul
-  name: Azul
+- slug: mr-jack
+  name: Mr Jack
+  countries:
+    - united-kingdom
+  tournaments:
+    - id: 354697
+      name: Mr Jack Tournament (UK)
+      bga_url: https://boardgamearena.com/tournament?id=354697
+      country: united-kingdom
+
+- slug: next-station-london
+  name: Next Station: London
+  countries:
+    - united-kingdom
+  tournaments:
+    - id: 354698
+      name: Next Station: London Tournament (UK)
+      bga_url: https://boardgamearena.com/tournament?id=354698
+      country: united-kingdom
+
+- slug: gift-of-tulips
+  name: Gift of Tulips
+  countries:
+    - netherlands
+  tournaments:
+    - id: 360285
+      name: Gift of Tulips Tournament (Netherlands)
+      bga_url: https://boardgamearena.com/tournament?id=360285
+      country: netherlands
+
+- slug: thurn-and-taxis
+  name: Thurn and Taxis
+  countries:
+    - germany
+  tournaments:
+    - id: 360291
+      name: Thurn and Taxis Tournament (Germany)
+      bga_url: https://boardgamearena.com/tournament?id=360291
+      country: germany
+
+- slug: copenhagen
+  name: Copenhagen
   countries:
     - denmark
   tournaments:
-    - name: Denmark Azul Open
-      bga_url: https://boardgamearena.com/tournament?id=12345
-      country: denmark
-
-
-- slug: azul
-  name: Azul
-  countries:
-    - denmark
-  tournaments:
-    - name: Denmark Azul Open
-      bga_url: https://boardgamearena.com/tournament?id=12345
+    - id: 368884
+      name: Copenhagen Tournament (Denmark)
+      bga_url: https://boardgamearena.com/tournament?id=368884
       country: denmark

@@ -1,7 +1,19 @@
 current_index: 0
 
 countries:
+  - slug: united-kingdom
+    games:
+      - mr-jack
+      - next-station-london
+
+  - slug: netherlands
+    games:
+      - gift-of-tulips
+
+  - slug: germany
+    games:
+      - thurn-and-taxis
+
   - slug: denmark
     games:
-      - azul
-      - patchwork
+      - copenhagen
