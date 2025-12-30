@@ -8,3 +8,31 @@ title: Around the World in Eighty Games
 ---
 
 Welcome to the project.
+
+<h2>Next Location</h2>
+
+{% assign route = site.data.route %}
+{% assign current_index = route.current_index %}
+{% assign next_index = current_index | plus: 1 %}
+{% assign next_stop = route.countries[next_index] %}
+
+{% if next_stop %}
+  {% assign next_country = site.countries | where: "slug", next_stop.slug | first %}
+
+  <div class="next-location">
+    <h3>{{ next_country.name }}</h3>
+
+    <p>{{ next_country.intro }}</p>
+
+    <h4>Games we'll play there:</h4>
+    <ul>
+      {% for game_slug in next_stop.games %}
+        <li>{{ game_slug }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+{% else %}
+  <p>No next location yet — the journey hasn’t started!</p>
+{% endif %}
+
