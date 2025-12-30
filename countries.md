@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Countries
+permalink: /countries/
 ---
 
 # Countries
