@@ -20,52 +20,62 @@ async function scrapeTournament(id) {
   const dom = new JSDOM(html);
   const doc = dom.window.document;
 
-  const pageText = doc.body.textContent.toLowerCase();
+const pageText = doc.body.textContent.toLowerCase();
 
-  const isCompleted = pageText.includes("this tournament has ended");
-  const isOngoing = pageText.includes("this tournament is in progress");
+const isCompleted = pageText.includes("this tournament has ended");
+const isOngoing = pageText.includes("this tournament is in progress");
+const isNotStarted =
+  pageText.includes("the registration for this private tournament is open") ||
+  pageText.includes("the registration for this tournament is open");
 
-  // Completed tournament
-  if (isCompleted) {
-    const playerBlocks = [
-      ...doc.querySelectorAll(".tournaments-results-players__player")
-    ];
+// Completed tournament
+if (isCompleted) {
+  const playerBlocks = [
+    ...doc.querySelectorAll(".tournaments-results-players__player")
+  ];
 
-    const top4 = playerBlocks.slice(0, 4).map(block => {
-      const nameEl = block.querySelector(".tournaments-results-players__name");
-      const rankEl = block.querySelector(".tournaments-results-players__rank");
-
-      return {
-        rank: rankEl ? rankEl.textContent.trim() : null,
-        name: nameEl ? nameEl.textContent.trim() : null
-      };
-    });
+  const top4 = playerBlocks.slice(0, 4).map(block => {
+    const nameEl = block.querySelector(".tournaments-results-players__name");
+    const rankEl = block.querySelector(".tournaments-results-players__rank");
 
     return {
-      id,
-      status: "completed",
-      top4
+      rank: rankEl ? rankEl.textContent.trim() : null,
+      name: nameEl ? nameEl.textContent.trim() : null
     };
-  }
+  });
 
-  // Ongoing tournament
-  if (isOngoing) {
-    const roundEl = doc.querySelector(".tournament_round");
-    const round = roundEl ? roundEl.textContent.trim() : null;
-
-    return {
-      id,
-      status: "ongoing",
-      round
-    };
-  }
-
-  // Fallback
   return {
     id,
-    status: "unknown"
+    status: "completed",
+    top4
   };
 }
+
+// Ongoing tournament
+if (isOngoing) {
+  const roundEl = doc.querySelector(".tournament_round");
+  const round = roundEl ? roundEl.textContent.trim() : null;
+
+  return {
+    id,
+    status: "ongoing",
+    round
+  };
+}
+
+// Not started yet
+if (isNotStarted) {
+  return {
+    id,
+    status: "not-started"
+  };
+}
+
+// Fallback
+return {
+  id,
+  status: "unknown"
+};
 
 // Main runner
 async function main() {
