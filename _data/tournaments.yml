@@ -1,415 +1,272 @@
-354697:
+"354697":
   id: 354697
-  country: united-kingdom
-  game: mr-jack
-  name: "Mr Jack Tournament (United Kingdom)"
-  bga_url: "https://boardgamearena.com/tournament?id=354697"
-  status: completed
-  top4:
-    - { rank: "1st", name: "TacCOIG" }
-    - { rank: "2nd", name: "Cheery Dog" }
-    - { rank: "3rd", name: "Saugust2" }
-    - { rank: "3rd", name: "andycupid" }
-
-354698:
+  country: null
+  game: null
+  name: Tournament 354697
+  bga_url: https://boardgamearena.com/tournament?id=354697
+  status: ongoing
+  round: null
+"354698":
   id: 354698
-  country: united-kingdom
-  game: next-station-london
-  name: "Next Station: London Tournament (United Kingdom)"
-  bga_url: "https://boardgamearena.com/tournament?id=354698"
-  status: completed
-  top4:
-    - { rank: "1st", name: "TacCOIG" }
-    - { rank: "2nd", name: "andycupid" }
-    - { rank: "3rd", name: "Cheery Dog" }
-    - { rank: "4th", name: "stopherjones" }
-
-360285:
+  country: null
+  game: null
+  name: Tournament 354698
+  bga_url: https://boardgamearena.com/tournament?id=354698
+  status: ongoing
+  round: null
+"360285":
   id: 360285
-  country: netherlands
-  game: gift-of-tulips
-  name: "Gift of Tulips Tournament (Netherlands)"
-  bga_url: "https://boardgamearena.com/tournament?id=360285"
-  status: completed
-  top4:
-    - { rank: "1st", name: "beckmast" }
-    - { rank: "2nd", name: "TacCOIG" }
-    - { rank: "3rd", name: "stopherjones" }
-    - { rank: "4th", name: "Niall" }
-
-360291:
+  country: null
+  game: null
+  name: Tournament 360285
+  bga_url: https://boardgamearena.com/tournament?id=360285
+  status: ongoing
+  round: null
+"360291":
   id: 360291
-  country: germany
-  game: thurn-and-taxis
-  name: "Thurn and Taxis Tournament (Germany)"
-  bga_url: "https://boardgamearena.com/tournament?id=360291"
-  status: completed
-  top4:
-    - { rank: "1st", name: "andycupid" }
-    - { rank: "2nd", name: "Cheery Dog" }
-    - { rank: "3rd", name: "Niall" }
-    - { rank: "3rd", name: "Sharon F" }
-
-368884:
+  country: null
+  game: null
+  name: Tournament 360291
+  bga_url: https://boardgamearena.com/tournament?id=360291
+  status: ongoing
+  round: null
+"368884":
   id: 368884
-  country: denmark
-  game: copenhagen
-  name: "Copenhagen Tournament (Denmark)"
-  bga_url: "https://boardgamearena.com/tournament?id=368884"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Castz" }
-    - { rank: "2nd", name: "TacCOIG" }
-    - { rank: "3rd", name: "GeraldineMerida" }
-    - { rank: "3rd", name: "Bleedingriver" }
-
-368887:
+  country: null
+  game: null
+  name: Tournament 368884
+  bga_url: https://boardgamearena.com/tournament?id=368884
+  status: ongoing
+  round: null
+"368887":
   id: 368887
-  country: sweden
-  game: fika
-  name: "Fika Tournament (Sweden)"
-  bga_url: "https://boardgamearena.com/tournament?id=368887"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Niall" }
-    - { rank: "2nd", name: "Cheery Dog" }
-    - { rank: "3rd", name: "andycupid" }
-    - { rank: "3rd", name: "stopherjones" }
-
-374194:
+  country: null
+  game: null
+  name: Tournament 368887
+  bga_url: https://boardgamearena.com/tournament?id=368887
+  status: ongoing
+  round: null
+"374194":
   id: 374194
-  country: norway
-  game: knarr
-  name: "Knarr Tournament (Norway)"
-  bga_url: "https://boardgamearena.com/tournament?id=374194"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Niall" }
-    - { rank: "2nd", name: "VemRD" }
-    - { rank: "3rd", name: "beckmast" }
-    - { rank: "3rd", name: "TacCOIG" }
-
-380123:
-  id: 380123
-  country: norway
-  game: herrlof
-  name: "Herrlof Tournament (Norway)"
-  bga_url: "https://boardgamearena.com/tournament?id=380123"
-  status: completed
-  top4:
-    - { rank: "1st", name: "TacCOIG" }
-    - { rank: "2nd", name: "stopherjones" }
-    - { rank: "3rd", name: "Niall" }
-    - { rank: "3rd", name: "Cheery Dog" }
-
-378251:
+  country: null
+  game: null
+  name: Tournament 374194
+  bga_url: https://boardgamearena.com/tournament?id=374194
+  status: ongoing
+  round: null
+"378251":
   id: 378251
-  country: russia
-  game: st-petersburg
-  name: "St Petersburg Tournament (Russia)"
-  bga_url: "https://boardgamearena.com/tournament?id=378251"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Niall" }
-    - { rank: "2nd", name: "Castz" }
-    - { rank: "3rd", name: "TacCOIG" }
-    - { rank: "3rd", name: "VemRD" }
-
-387302:
+  country: null
+  game: null
+  name: Tournament 378251
+  bga_url: https://boardgamearena.com/tournament?id=378251
+  status: ongoing
+  round: null
+"380123":
+  id: 380123
+  country: null
+  game: null
+  name: Tournament 380123
+  bga_url: https://boardgamearena.com/tournament?id=380123
+  status: ongoing
+  round: null
+"387302":
   id: 387302
-  country: greece
-  game: akropolis
-  name: "Akropolis Tournament (Greece)"
-  bga_url: "https://boardgamearena.com/tournament?id=387302"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Castz" }
-    - { rank: "2nd", name: "TacCOIG" }
-    - { rank: "3rd", name: "Arjo14" }
-    - { rank: "4th", name: "Salvidrim" }
-
-387304:
+  country: null
+  game: null
+  name: Tournament 387302
+  bga_url: https://boardgamearena.com/tournament?id=387302
+  status: ongoing
+  round: null
+"387304":
   id: 387304
-  country: greece
-  game: santorini
-  name: "Santorini Tournament (Greece)"
-  bga_url: "https://boardgamearena.com/tournament?id=387304"
-  status: completed
-  top4:
-    - { rank: "1st", name: "TacCOIG" }
-    - { rank: "2nd", name: "Arjo14" }
-    - { rank: "3rd", name: "andycupid" }
-    - { rank: "3rd", name: "Cheery Dog" }
-
-404118:
+  country: null
+  game: null
+  name: Tournament 387304
+  bga_url: https://boardgamearena.com/tournament?id=387304
+  status: ongoing
+  round: null
+"404118":
   id: 404118
-  country: italy
-  game: ponte-del-diavolo
-  name: "Ponte del Diavolo Tournament (Italy)"
-  bga_url: "https://boardgamearena.com/tournament?id=404118"
-  status: completed
-  top4:
-    - { rank: "1st", name: "andycupid" }
-    - { rank: "2nd", name: "Castz" }
-    - { rank: "3rd", name: "Niall" }
-    - { rank: "3rd", name: "TacCOIG" }
-
-404125:
+  country: null
+  game: null
+  name: Tournament 404118
+  bga_url: https://boardgamearena.com/tournament?id=404118
+  status: ongoing
+  round: null
+"404125":
   id: 404125
-  country: italy
-  game: verona-twist
-  name: "Verona Twist Tournament (Italy)"
-  bga_url: "https://boardgamearena.com/tournament?id=404125"
-  status: completed
-  top4:
-    - { rank: "1st", name: "andycupid" }
-    - { rank: "2nd", name: "Castz" }
-    - { rank: "3rd", name: "Niall" }
-    - { rank: "3rd", name: "Cheery Dog" }
-
-404206:
+  country: null
+  game: null
+  name: Tournament 404125
+  bga_url: https://boardgamearena.com/tournament?id=404125
+  status: ongoing
+  round: null
+"404206":
   id: 404206
-  country: italy
-  game: viticulture
-  name: "Viticulture Tournament (Italy)"
-  bga_url: "https://boardgamearena.com/tournament?id=404206"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Niall" }
-    - { rank: "2nd", name: "VemRD" }
-    - { rank: "3rd", name: "Castz" }
-    - { rank: "4th", name: "drharris" }
-
-410031:
+  country: null
+  game: null
+  name: Tournament 404206
+  bga_url: https://boardgamearena.com/tournament?id=404206
+  status: ongoing
+  round: null
+"410031":
   id: 410031
-  country: switzerland
-  game: ticket-to-ride-switzerland
-  name: "Ticket to Ride: Switzerland Tournament (Switzerland)"
-  bga_url: "https://boardgamearena.com/tournament?id=410031"
-  status: completed
-  top4:
-    - { rank: "1st", name: "TacCOIG" }
-    - { rank: "2nd", name: "beckmast" }
-    - { rank: "3rd", name: "Niall" }
-    - { rank: "3rd", name: "andycupid" }
-
-420784:
+  country: null
+  game: null
+  name: Tournament 410031
+  bga_url: https://boardgamearena.com/tournament?id=410031
+  status: ongoing
+  round: null
+"420784":
   id: 420784
-  country: france
-  game: oriflamme
-  name: "Oriflamme Tournament (France)"
-  bga_url: "https://boardgamearena.com/tournament?id=420784"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Castz" }
-    - { rank: "2nd", name: "TacCOIG" }
-    - { rank: "2nd", name: "Kurorac" }
-    - { rank: "3rd", name: "Salvidrim" }
-
-420786:
+  country: null
+  game: null
+  name: Tournament 420784
+  bga_url: https://boardgamearena.com/tournament?id=420784
+  status: ongoing
+  round: null
+"420786":
   id: 420786
-  country: france
-  game: carcassonne
-  name: "Carcassonne Tournament (France)"
-  bga_url: "https://boardgamearena.com/tournament?id=420786"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Niall" }
-    - { rank: "2nd", name: "VemRD" }
-    - { rank: "3rd", name: "stopherjones" }
-    - { rank: "3rd", name: "TacCOIG" }
-
-420787:
+  country: null
+  game: null
+  name: Tournament 420786
+  bga_url: https://boardgamearena.com/tournament?id=420786
+  status: ongoing
+  round: null
+"420787":
   id: 420787
-  country: france
-  game: fromage
-  name: "Fromage Tournament (France)"
-  bga_url: "https://boardgamearena.com/tournament?id=420787"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Niall" }
-    - { rank: "2nd", name: "Castz" }
-    - { rank: "3rd", name: "drharris" }
-    - { rank: "4th", name: "beckmast" }
-
-420929:
+  country: null
+  game: null
+  name: Tournament 420787
+  bga_url: https://boardgamearena.com/tournament?id=420787
+  status: ongoing
+  round: null
+"420929":
   id: 420929
-  country: france
-  game: the-castles-of-burgundy
-  name: "The Castles of Burgundy Tournament (France)"
-  bga_url: "https://boardgamearena.com/tournament?id=420929"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Castz" }
-    - { rank: "2nd", name: "Niall" }
-    - { rank: "3rd", name: "VemRD" }
-    - { rank: "4th", name: "TacCOIG" }
-
-427916:
+  country: null
+  game: null
+  name: Tournament 420929
+  bga_url: https://boardgamearena.com/tournament?id=420929
+  status: ongoing
+  round: null
+"427916":
   id: 427916
-  country: mallorca
-  game: finca
-  name: "Finca Tournament (Mallorca)"
-  bga_url: "https://boardgamearena.com/tournament?id=427916"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Castz" }
-    - { rank: "2nd", name: "GeraldineMerida" }
-    - { rank: "3rd", name: "Zozoken" }
-    - { rank: "3rd", name: "Arjo14" }
-
-427918:
+  country: null
+  game: null
+  name: Tournament 427916
+  bga_url: https://boardgamearena.com/tournament?id=427916
+  status: ongoing
+  round: null
+"427918":
   id: 427918
-  country: spain
-  game: alhambra
-  name: "Alhambra Tournament (Spain)"
-  bga_url: "https://boardgamearena.com/tournament?id=427918"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Niall" }
-    - { rank: "2nd", name: "VemRD" }
-    - { rank: "3rd", name: "Castz" }
-    - { rank: "4th", name: "Cheery Dog" }
-
-427919:
+  country: null
+  game: null
+  name: Tournament 427918
+  bga_url: https://boardgamearena.com/tournament?id=427918
+  status: ongoing
+  round: null
+"427919":
   id: 427919
-  country: portugal
-  game: azul-summer-pavilion
-  name: "Azul: Summer Pavilion Tournament (Portugal)"
-  bga_url: "https://boardgamearena.com/tournament?id=427919"
+  country: null
+  game: null
+  name: Tournament 427919
+  bga_url: https://boardgamearena.com/tournament?id=427919
   status: ongoing
   round: null
-
-439073:
+"439073":
   id: 439073
-  country: morocco
-  game: marrakech
-  name: "Marrakech Tournament (Morocco)"
-  bga_url: "https://boardgamearena.com/tournament?id=439073"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Niall" }
-    - { rank: "2nd", name: "Castz" }
-    - { rank: "3rd", name: "TacCOIG" }
-    - { rank: "4th", name: "Arjo14" }
-
-439074:
+  country: null
+  game: null
+  name: Tournament 439073
+  bga_url: https://boardgamearena.com/tournament?id=439073
+  status: ongoing
+  round: null
+"439074":
   id: 439074
-  country: morocco
-  game: medina
-  name: "Medina Tournament (Morocco)"
-  bga_url: "https://boardgamearena.com/tournament?id=439074"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Castz" }
-    - { rank: "2nd", name: "stopherjones" }
-    - { rank: "3rd", name: "TacCOIG" }
-    - { rank: "4th", name: "drharris" }
-
-461495:
+  country: null
+  game: null
+  name: Tournament 439074
+  bga_url: https://boardgamearena.com/tournament?id=439074
+  status: ongoing
+  round: null
+"461495":
   id: 461495
-  country: sahara-desert
-  game: targi
-  name: "Targi Tournament (Sahara)"
-  bga_url: "https://boardgamearena.com/tournament?id=461495"
+  country: null
+  game: null
+  name: Tournament 461495
+  bga_url: https://boardgamearena.com/tournament?id=461495
   status: ongoing
   round: null
-
-461517:
+"461517":
   id: 461517
-  country: sahara-desert
-  game: caravan
-  name: "Caravan Tournament (Sahara)"
-  bga_url: "https://boardgamearena.com/tournament?id=461517"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Niall" }
-    - { rank: "2nd", name: "Cheery Dog" }
-    - { rank: "3rd", name: "TacCOIG" }
-    - { rank: "4th", name: "Bleedingriver" }
-
-488440:
+  country: null
+  game: null
+  name: Tournament 461517
+  bga_url: https://boardgamearena.com/tournament?id=461517
+  status: ongoing
+  round: null
+"488440":
   id: 488440
-  country: botswana
-  game: orapa-mine
-  name: "Orapa Mine Tournament (Botswana)"
-  bga_url: "https://boardgamearena.com/tournament?id=488440"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Cheery Dog" }
-    - { rank: "2nd", name: "beckmast" }
-    - { rank: "3rd", name: "Niall" }
-    - { rank: "3rd", name: "stopherjones" }
-    
-488602:
-  id: 488602
-  country: south-africa
-  game: rallymangt
-  name: "RallymanGT Tournament (South Africa)"
-  bga_url: "https://boardgamearena.com/tournament?id=488602"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Castz" }
-    - { rank: "2nd", name: "Niall" }
-    - { rank: "3rd", name: "Cheery Dog" }
-    - { rank: "4th", name: "stopherjones" }
-
-488444:
+  country: null
+  game: null
+  name: Tournament 488440
+  bga_url: https://boardgamearena.com/tournament?id=488440
+  status: ongoing
+  round: null
+"488444":
   id: 488444
-  country: uganda
-  game: rift-valley-reserve
-  name: "Rift Valley Reserve Tournament (Uganda)"
-  bga_url: "https://boardgamearena.com/tournament?id=488444"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Castz" }
-    - { rank: "2nd", name: "Niall" }
-    - { rank: "3rd", name: "TacCOIG" }
-    - { rank: "4th", name: "stopherjones" }
-
-499404:
-  id: 499404
-  country: egypt
-  game: sobek
-  name: "Sobek Tournament (Egypt)"
-  bga_url: "https://boardgamearena.com/tournament?id=499404"
+  country: null
+  game: null
+  name: Tournament 488444
+  bga_url: https://boardgamearena.com/tournament?id=488444
   status: ongoing
   round: null
-
-499408:
-  id: 499408
-  country: egypt
-  game: luxor
-  name: "Luxor Tournament (Egypt)"
-  bga_url: "https://boardgamearena.com/tournament?id=499408"
+"488602":
+  id: 488602
+  country: null
+  game: null
+  name: Tournament 488602
+  bga_url: https://boardgamearena.com/tournament?id=488602
   status: ongoing
   round: null
-
-499409:
-  id: 499409
-  country: egypt
-  game: imhotep
-  name: "Imhotep Tournament (Egypt)"
-  bga_url: "https://boardgamearena.com/tournament?id=499409"
-  status: ongoing
-  round: null
-
-499398:
+"499398":
   id: 499398
-  country: egypt
-  game: nile
-  name: "Nile Tournament (Egypt)"
-  bga_url: "https://boardgamearena.com/tournament?id=499398"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Castz" }
-    - { rank: "2nd", name: "stopherjones" }
-    - { rank: "3rd", name: "Niall" }
-    - { rank: "3rd", name: "Cheery Dog" }
-
-511272:
+  country: null
+  game: null
+  name: Tournament 499398
+  bga_url: https://boardgamearena.com/tournament?id=499398
+  status: ongoing
+  round: null
+"499404":
+  id: 499404
+  country: null
+  game: null
+  name: Tournament 499404
+  bga_url: https://boardgamearena.com/tournament?id=499404
+  status: ongoing
+  round: null
+"499408":
+  id: 499408
+  country: null
+  game: null
+  name: Tournament 499408
+  bga_url: https://boardgamearena.com/tournament?id=499408
+  status: ongoing
+  round: null
+"499409":
+  id: 499409
+  country: null
+  game: null
+  name: Tournament 499409
+  bga_url: https://boardgamearena.com/tournament?id=499409
+  status: ongoing
+  round: null
+"511272":
   id: 511272
-  country: kenya
-  game: elongo
-  name: "Elongo Tournament (Kenya)"
-  bga_url: "https://boardgamearena.com/tournament?id=511272"
+  country: null
+  game: null
+  name: Tournament 511272
+  bga_url: https://boardgamearena.com/tournament?id=511272
+  status: ongoing
+  round: null
