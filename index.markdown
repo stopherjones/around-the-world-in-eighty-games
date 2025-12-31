@@ -11,6 +11,15 @@ Welcome to Around the World in 80 Games!
 
 We’re about to embark on a journey that takes us through exciting locations and cultures, all from the comfort of our virtual game table. Over the coming weeks, we’ll explore board games that represent different corners of the globe, offering a unique way to experience the world without leaving home.
 
+<p>
+  <strong>
+    <a href="{{ site.baseurl }}/countries/united-kingdom/">
+      Start here – United Kingdom
+    </a>
+  </strong>
+</p>
+
+
 <h2>Next Location and game(s)</h2>
 
 {% assign route = site.data.route %}

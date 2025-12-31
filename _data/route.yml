@@ -70,7 +70,7 @@ countries:
       - marrakech
       - medina
 
-  - slug: sahara
+  - slug: sahara-desert
     games:
       - targi
       - caravan
@@ -79,14 +79,14 @@ countries:
     games:
       - orapa-mine
 
-  - slug: uganda
-    games:
-      - rift-valley-reserve
-
   - slug: south-africa
     games:
       - rallymangt
 
+  - slug: uganda
+    games:
+      - rift-valley-reserve
+      
   - slug: egypt
     games:
       - sobek

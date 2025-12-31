@@ -121,7 +121,7 @@
 - slug: targi
   name: "Targi"
   countries:
-    - sahara
+    - sahara-desert
 
 - slug: caravan
   name: "Caravan"
@@ -133,16 +133,16 @@
   countries:
     - botswana
 
-- slug: rift-valley-reserve
-  name: "Rift Valley Reserve"
-  countries:
-    - uganda
-
 - slug: rallymangt
   name: "RallymanGT"
   countries:
     - south-africa
 
+- slug: rift-valley-reserve
+  name: "Rift Valley Reserve"
+  countries:
+    - uganda
+    
 - slug: sobek
   name: "Sobek"
   countries:

@@ -308,7 +308,7 @@
 
 461495:
   id: 461495
-  country: sahara
+  country: sahara-desert
   game: targi
   name: "Targi Tournament (Sahara)"
   bga_url: "https://boardgamearena.com/tournament?id=461495"
@@ -317,7 +317,7 @@
 
 461517:
   id: 461517
-  country: sahara
+  country: sahara-desert
   game: caravan
   name: "Caravan Tournament (Sahara)"
   bga_url: "https://boardgamearena.com/tournament?id=461517"
@@ -340,20 +340,7 @@
     - { rank: "2nd", name: "beckmast" }
     - { rank: "3rd", name: "Niall" }
     - { rank: "3rd", name: "stopherjones" }
-
-488444:
-  id: 488444
-  country: uganda
-  game: rift-valley-reserve
-  name: "Rift Valley Reserve Tournament (Uganda)"
-  bga_url: "https://boardgamearena.com/tournament?id=488444"
-  status: completed
-  top4:
-    - { rank: "1st", name: "Castz" }
-    - { rank: "2nd", name: "Niall" }
-    - { rank: "3rd", name: "TacCOIG" }
-    - { rank: "4th", name: "stopherjones" }
-
+    
 488602:
   id: 488602
   country: south-africa
@@ -367,6 +354,19 @@
     - { rank: "3rd", name: "Cheery Dog" }
     - { rank: "4th", name: "stopherjones" }
 
+488444:
+  id: 488444
+  country: uganda
+  game: rift-valley-reserve
+  name: "Rift Valley Reserve Tournament (Uganda)"
+  bga_url: "https://boardgamearena.com/tournament?id=488444"
+  status: completed
+  top4:
+    - { rank: "1st", name: "Castz" }
+    - { rank: "2nd", name: "Niall" }
+    - { rank: "3rd", name: "TacCOIG" }
+    - { rank: "4th", name: "stopherjones" }
+    
 499404:
   id: 499404
   country: egypt
