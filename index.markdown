@@ -82,3 +82,50 @@ Over the coming weeks, we’ll explore board games that represent different corn
   <p>No next location yet — the journey hasn’t started!</p>
 {% endif %}
 
+<h2>Ongoing Tournaments</h2>
+
+{% assign tournaments = site.data.tournaments %}
+{% assign any_ongoing = false %}
+
+<ul>
+{% for t_hash in tournaments %}
+  {% assign t = t_hash[1] %}
+
+  {% if t.status == "ongoing" %}
+    {% assign any_ongoing = true %}
+
+    {% assign game = site.data.games | where: "slug", t.game | first %}
+    {% assign country = site.countries | where: "slug", t.country | first %}
+
+    <li>
+      {%- comment -%} Game name {%- endcomment -%}
+      {% if game %}
+        {{ game.name }}
+      {% else %}
+        {{ t.game | replace: "-", " " | capitalize }}
+      {% endif %}
+
+      –
+      {%- comment -%} Country name + link {%- endcomment -%}
+      {% if country %}
+        <a href="{{ country.url | relative_url }}">{{ country.name }}</a>
+      {% else %}
+        {{ t.country | replace: "-", " " | capitalize }}
+      {% endif %}
+
+      –
+      {%- comment -%} Tournament link {%- endcomment -%}
+      {% if t.bga_url %}
+        <a href="{{ t.bga_url }}" target="_blank">BGA tournament link</a>
+      {% else %}
+        Tournament link coming soon
+      {% endif %}
+    </li>
+
+  {% endif %}
+{% endfor %}
+</ul>
+
+{% unless any_ongoing %}
+  <p>No tournaments are currently in progress.</p>
+{% endunless %}
