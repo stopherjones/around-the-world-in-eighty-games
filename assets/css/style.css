@@ -25,6 +25,27 @@ body {
   background: #fffdf8;
 }
 
+.country-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+}
+
+.country-nav a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
+.country-nav .prev {
+  text-align: left;
+}
+
+.country-nav .next {
+  text-align: right;
+}
+
 .site-content {
   max-width: 800px;
   margin: 30px auto;

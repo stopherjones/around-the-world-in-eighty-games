@@ -2,6 +2,47 @@
 layout: default
 ---
 
+{% assign route = site.data.route.countries %}
+{% assign current_slug = page.slug %}
+
+{% assign index = -1 %}
+{% for item in route %}
+  {% assign item_slug = item.slug | default: item %}
+  {% if item_slug == current_slug %}
+    {% assign index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% assign last_index = route.size | minus: 1 %}
+
+<div class="country-nav">
+  
+  {% if index > 0 %}
+    {% assign prev_index = index | minus: 1 %}
+    {% assign prev_item  = route[prev_index] %}
+    {% assign prev_slug  = prev_item.slug | default: prev_item %}
+    {% assign prev_doc   = site.countries | where: "slug", prev_slug | first %}
+    
+    <a class="prev" href="{{ site.baseurl }}/countries/{{ prev_slug }}/">
+      ← {{ prev_doc.name }}
+    </a>
+  {% endif %}
+
+  {% if index < last_index %}
+    {% assign next_index = index | plus: 1 %}
+    {% assign next_item  = route[next_index] %}
+    {% assign next_slug  = next_item.slug | default: next_item %}
+    {% assign next_doc   = site.countries | where: "slug", next_slug | first %}
+    
+    <a class="next" href="{{ site.baseurl }}/countries/{{ next_slug }}/">
+      {{ next_doc.name }} →
+    </a>
+  {% endif %}
+
+</div>
+
+
+
 <h1>{{ page.name }}</h1>
 
 {{ page.intro | markdownify }}
