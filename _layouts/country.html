@@ -60,7 +60,7 @@ layout: default
     {% assign game = games | where: "slug", t.game | first %}
 
     <li>
-      <strong>{{ game.name }}</strong> –
+      {{ game.name }} –
       <a href="{{ t.bga_url }}" target="_blank">BGA tournament link</a>
       <br>
       Status: {{ t.status }}
