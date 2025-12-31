@@ -407,3 +407,9 @@
     - { rank: "3rd", name: "Niall" }
     - { rank: "3rd", name: "Cheery Dog" }
 
+511272:
+  id: 511272
+  country: kenya
+  game: elongo
+  name: "Elongo Tournament (Kenya)"
+  bga_url: "https://boardgamearena.com/tournament?id=511272"
