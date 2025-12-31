@@ -142,7 +142,7 @@
   name: "Rift Valley Reserve"
   countries:
     - uganda
-    
+
 - slug: sobek
   name: "Sobek"
   countries:
@@ -162,3 +162,8 @@
   name: "Nile"
   countries:
     - egypt
+
+- slug: neom
+  name: "Neom"
+  countries:
+    - saudi-arabia

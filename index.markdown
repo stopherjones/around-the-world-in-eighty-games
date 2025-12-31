@@ -7,14 +7,16 @@ layout: default
 title: Around the World in Eighty Games
 ---
 
-Welcome to Around the World in 80 Games!
+<h1>Welcome to Around the World in 80 Games!</h1>
 
-We’re about to embark on a journey that takes us through exciting locations and cultures, all from the comfort of our virtual game table. Over the coming weeks, we’ll explore board games that represent different corners of the globe, offering a unique way to experience the world without leaving home.
+We’re about to embark on a journey that takes us through exciting locations and cultures, all from the comfort of our virtual game table. 
+
+Over the coming weeks, we’ll explore board games that represent different corners of the globe, offering a unique way to experience the world without leaving home.
 
 <p>
   <strong>
     <a href="{{ site.baseurl }}/countries/united-kingdom/">
-      Start here – United Kingdom
+      First stop: United Kingdom
     </a>
   </strong>
 </p>
@@ -32,8 +34,6 @@ We’re about to embark on a journey that takes us through exciting locations an
 
   <div class="next-location">
     <h3>{{ next_country.name }}</h3>
-
-    <p>{{ next_country.intro }}</p>
 
 <h4>Games we'll play there:</h4>
 

@@ -1,4 +1,4 @@
-current_index: 0
+current_index: 19
 
 countries:
   - slug: united-kingdom
@@ -86,10 +86,14 @@ countries:
   - slug: uganda
     games:
       - rift-valley-reserve
-      
+
   - slug: egypt
     games:
       - sobek
       - luxor
       - imhotep
       - nile
+
+  - slug: saudi-arabia
+    games:
+      - neom

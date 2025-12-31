@@ -366,7 +366,7 @@
     - { rank: "2nd", name: "Niall" }
     - { rank: "3rd", name: "TacCOIG" }
     - { rank: "4th", name: "stopherjones" }
-    
+
 499404:
   id: 499404
   country: egypt
@@ -406,3 +406,4 @@
     - { rank: "2nd", name: "stopherjones" }
     - { rank: "3rd", name: "Niall" }
     - { rank: "3rd", name: "Cheery Dog" }
+

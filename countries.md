@@ -6,9 +6,9 @@ permalink: /countries/
 
 <h1>Countries</h1>
 
-{% assign continents = site.countries | map: "continent" | uniq | sort %}
+{% assign continent_order = "Europe,Africa,Asia,South America,North America" | split: "," %}
 
-{% for continent in continents %}
+{% for continent in continent_order %}
   <section class="continent-block">
     <h2>{{ continent }}</h2>
 
@@ -18,11 +18,9 @@ permalink: /countries/
     {% for country in countries_in_continent %}
       <li>
         <a href="{{ country.url | relative_url }}">{{ country.name }}</a>
-        {%- comment -%}
-        Later: show tournaments / BGA links here
-        {%- endcomment -%}
       </li>
     {% endfor %}
     </ul>
   </section>
 {% endfor %}
+
