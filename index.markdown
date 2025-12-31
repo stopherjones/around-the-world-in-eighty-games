@@ -32,32 +32,49 @@ Over the coming weeks, we’ll explore board games that represent different corn
 {% if next_stop %}
   {% assign next_country = site.countries | where: "slug", next_stop.slug | first %}
 
-  <div class="next-location">
-    <h3>{{ next_country.name }}</h3>
+<div class="next-location">
+<h3>{{ next_country.name }}</h3>
 
 <h4>Games we'll play there:</h4>
 
 <ul>
+{% assign tournaments = site.data.tournaments %}
+
 {% for game_slug in next_stop.games %}
   {% assign game = site.data.games | where: "slug", game_slug | first %}
 
   {% if game %}
-    {%- assign tournaments = site.data.tournaments | where: "game", game.slug | where: "country", next_stop.slug -%}
-    {%- assign t = tournaments[0] -%}
+    {%- comment -%}
+    Find the tournament for this game in this specific next_stop country (if any)
+    {%- endcomment -%}
+    {% assign t = nil %}
+    {% for t_hash in tournaments %}
+      {% assign t_candidate = t_hash[1] %}
+      {% if t_candidate.game == game.slug and t_candidate.country == next_stop.slug %}
+        {% assign t = t_candidate %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
 
-    {% if t %}
-      {% assign country = site.countries | where: "slug", t.country | first %}
+    {% assign country = site.countries | where: "slug", next_stop.slug | first %}
 
-      <li>
-        {{ game.name }} –
-        <a href="{{ country.url | relative_url }}">{{ country.name }}</a> –
-        <a href="{{ t.bga_url }}" target="_blank">BGA tournament link</a>
-      </li>
-    {% endif %}
+    <li>
+      {{ game.name }}
+      –
+      {% if t %}
+        {% if t.bga_url %}
+          <a href="{{ t.bga_url }}" target="_blank">BGA tournament link</a>
+        {% else %}
+          Tournament link coming soon
+        {% endif %}
+      {% else %}
+        Tournament not yet created
+      {% endif %}
+    </li>
   {% endif %}
 {% endfor %}
-
 </ul>
+
 
   </div>
 

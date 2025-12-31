@@ -1,9 +1,9 @@
 ---
 layout: country
-name: Saudi Arabia
-slug: saudi-arabia
+name: Kenya
+slug: kenya
 continent: Africa
-order: 22
+order: 20
 intro: |
 
     placeholder
