@@ -4,168 +4,336 @@
   game: null
   name: Tournament 354697
   bga_url: https://boardgamearena.com/tournament?id=354697
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: TacCOIG
+    - rank: 2nd
+      name: Cheery Dog
+    - rank: 3rd
+      name: Saugust2
+    - rank: 3rd
+      name: andycupid
 "354698":
   id: 354698
   country: null
   game: null
   name: Tournament 354698
   bga_url: https://boardgamearena.com/tournament?id=354698
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: TacCOIG
+    - rank: 2nd
+      name: andycupid
+    - rank: 3rd
+      name: Cheery Dog
+    - rank: 4th
+      name: stopherjones
 "360285":
   id: 360285
   country: null
   game: null
   name: Tournament 360285
   bga_url: https://boardgamearena.com/tournament?id=360285
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: beckmast
+    - rank: 2nd
+      name: TacCOIG
+    - rank: 3rd
+      name: stopherjones
+    - rank: 4th
+      name: Niall
 "360291":
   id: 360291
   country: null
   game: null
   name: Tournament 360291
   bga_url: https://boardgamearena.com/tournament?id=360291
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: andycupid
+    - rank: 2nd
+      name: Cheery Dog
+    - rank: 3rd
+      name: Niall
+    - rank: 3rd
+      name: Sharon F
 "368884":
   id: 368884
   country: null
   game: null
   name: Tournament 368884
   bga_url: https://boardgamearena.com/tournament?id=368884
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: TacCOIG
+    - rank: 3rd
+      name: GeraldineMerida
+    - rank: 3rd
+      name: Bleedingriver
 "368887":
   id: 368887
   country: null
   game: null
   name: Tournament 368887
   bga_url: https://boardgamearena.com/tournament?id=368887
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Niall
+    - rank: 2nd
+      name: Cheery Dog
+    - rank: 3rd
+      name: andycupid
+    - rank: 3rd
+      name: stopherjones
 "374194":
   id: 374194
   country: null
   game: null
   name: Tournament 374194
   bga_url: https://boardgamearena.com/tournament?id=374194
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Niall
+    - rank: 2nd
+      name: VemRD
+    - rank: 3rd
+      name: beckmast
+    - rank: 3rd
+      name: TacCOIG
 "378251":
   id: 378251
   country: null
   game: null
   name: Tournament 378251
   bga_url: https://boardgamearena.com/tournament?id=378251
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Niall
+    - rank: 2nd
+      name: Castz
+    - rank: 3rd
+      name: TacCOIG
+    - rank: 3rd
+      name: VemRD
 "380123":
   id: 380123
   country: null
   game: null
   name: Tournament 380123
   bga_url: https://boardgamearena.com/tournament?id=380123
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: TacCOIG
+    - rank: 2nd
+      name: stopherjones
+    - rank: 3rd
+      name: Niall
+    - rank: 3rd
+      name: Cheery Dog
 "387302":
   id: 387302
   country: null
   game: null
   name: Tournament 387302
   bga_url: https://boardgamearena.com/tournament?id=387302
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: TacCOIG
+    - rank: 3rd
+      name: Arjo14
+    - rank: 4th
+      name: Salvidrim
 "387304":
   id: 387304
   country: null
   game: null
   name: Tournament 387304
   bga_url: https://boardgamearena.com/tournament?id=387304
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: TacCOIG
+    - rank: 2nd
+      name: Arjo14
+    - rank: 3rd
+      name: andycupid
+    - rank: 3rd
+      name: Cheery Dog
 "404118":
   id: 404118
   country: null
   game: null
   name: Tournament 404118
   bga_url: https://boardgamearena.com/tournament?id=404118
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: andycupid
+    - rank: 2nd
+      name: Castz
+    - rank: 3rd
+      name: Niall
+    - rank: 3rd
+      name: TacCOIG
 "404125":
   id: 404125
   country: null
   game: null
   name: Tournament 404125
   bga_url: https://boardgamearena.com/tournament?id=404125
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: andycupid
+    - rank: 2nd
+      name: Castz
+    - rank: 3rd
+      name: Niall
+    - rank: 3rd
+      name: Cheery Dog
 "404206":
   id: 404206
   country: null
   game: null
   name: Tournament 404206
   bga_url: https://boardgamearena.com/tournament?id=404206
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Niall
+    - rank: 2nd
+      name: VemRD
+    - rank: 3rd
+      name: Castz
+    - rank: 4th
+      name: drharris
 "410031":
   id: 410031
   country: null
   game: null
   name: Tournament 410031
   bga_url: https://boardgamearena.com/tournament?id=410031
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: TacCOIG
+    - rank: 2nd
+      name: beckmast
+    - rank: 3rd
+      name: Niall
+    - rank: 3rd
+      name: andycupid
 "420784":
   id: 420784
   country: null
   game: null
   name: Tournament 420784
   bga_url: https://boardgamearena.com/tournament?id=420784
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: TacCOIG
+    - rank: 2nd
+      name: Kurorac
+    - rank: 3rd
+      name: Salvidrim
 "420786":
   id: 420786
   country: null
   game: null
   name: Tournament 420786
   bga_url: https://boardgamearena.com/tournament?id=420786
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Niall
+    - rank: 2nd
+      name: VemRD
+    - rank: 3rd
+      name: stopherjones
+    - rank: 3rd
+      name: TacCOIG
 "420787":
   id: 420787
   country: null
   game: null
   name: Tournament 420787
   bga_url: https://boardgamearena.com/tournament?id=420787
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Niall
+    - rank: 2nd
+      name: Castz
+    - rank: 3rd
+      name: drharris
+    - rank: 4th
+      name: beckmast
 "420929":
   id: 420929
   country: null
   game: null
   name: Tournament 420929
   bga_url: https://boardgamearena.com/tournament?id=420929
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: Niall
+    - rank: 3rd
+      name: VemRD
+    - rank: 4th
+      name: TacCOIG
 "427916":
   id: 427916
   country: null
   game: null
   name: Tournament 427916
   bga_url: https://boardgamearena.com/tournament?id=427916
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: GeraldineMerida
+    - rank: 3rd
+      name: Zozoken
+    - rank: 3rd
+      name: Arjo14
 "427918":
   id: 427918
   country: null
   game: null
   name: Tournament 427918
   bga_url: https://boardgamearena.com/tournament?id=427918
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Niall
+    - rank: 2nd
+      name: VemRD
+    - rank: 3rd
+      name: Castz
+    - rank: 4th
+      name: Cheery Dog
 "427919":
   id: 427919
   country: null
@@ -180,16 +348,32 @@
   game: null
   name: Tournament 439073
   bga_url: https://boardgamearena.com/tournament?id=439073
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Niall
+    - rank: 2nd
+      name: Castz
+    - rank: 3rd
+      name: TacCOIG
+    - rank: 4th
+      name: Arjo14
 "439074":
   id: 439074
   country: null
   game: null
   name: Tournament 439074
   bga_url: https://boardgamearena.com/tournament?id=439074
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: stopherjones
+    - rank: 3rd
+      name: TacCOIG
+    - rank: 4th
+      name: drharris
 "461495":
   id: 461495
   country: null
@@ -204,32 +388,64 @@
   game: null
   name: Tournament 461517
   bga_url: https://boardgamearena.com/tournament?id=461517
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Niall
+    - rank: 2nd
+      name: Cheery Dog
+    - rank: 3rd
+      name: TacCOIG
+    - rank: 4th
+      name: Bleedingriver
 "488440":
   id: 488440
   country: null
   game: null
   name: Tournament 488440
   bga_url: https://boardgamearena.com/tournament?id=488440
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Cheery Dog
+    - rank: 2nd
+      name: beckmast
+    - rank: 3rd
+      name: Niall
+    - rank: 3rd
+      name: stopherjones
 "488444":
   id: 488444
   country: null
   game: null
   name: Tournament 488444
   bga_url: https://boardgamearena.com/tournament?id=488444
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: Niall
+    - rank: 3rd
+      name: TacCOIG
+    - rank: 4th
+      name: stopherjones
 "488602":
   id: 488602
   country: null
   game: null
   name: Tournament 488602
   bga_url: https://boardgamearena.com/tournament?id=488602
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: Niall
+    - rank: 3rd
+      name: Cheery Dog
+    - rank: 4th
+      name: stopherjones
 "499398":
   id: 499398
   country: null
@@ -268,5 +484,5 @@
   game: null
   name: Tournament 511272
   bga_url: https://boardgamearena.com/tournament?id=511272
-  status: ongoing
+  status: unknown
   round: null
