@@ -1,144 +1,112 @@
-import fs from "fs";
-import path from "path";
-import yaml from "yaml";
-import { JSDOM } from "jsdom";
+// CommonJS version — works on GitHub Actions without config
+const { JSDOM } = require("jsdom");
+const fs = require("fs");
+const yaml = require("yaml");
 
 const FILE_PATH = "_data/tournaments.yml";
-const BGA_URL = "https://boardgamearena.com/tournament?id=";
 
-// ------------------------------------------------------------
 // Load existing YAML
-// ------------------------------------------------------------
 function loadExisting() {
   if (!fs.existsSync(FILE_PATH)) return {};
   const raw = fs.readFileSync(FILE_PATH, "utf8");
   return yaml.parse(raw) || {};
 }
 
-// ------------------------------------------------------------
-// Fetch tournament HTML
-// ------------------------------------------------------------
-async function fetchTournament(id) {
-  const url = `${BGA_URL}${id}`;
+// Fetch + parse a single tournament
+async function scrapeTournament(id) {
+  const url = `https://boardgamearena.com/tournament?id=${id}`;
   const res = await fetch(url);
-
-  if (!res.ok) {
-    console.warn(`⚠️ Failed to fetch ${id}: ${res.status}`);
-    return null;
-  }
-
   const html = await res.text();
-  return { id, html, url };
-}
-
-// ------------------------------------------------------------
-// Parse tournament HTML into structured data
-// ------------------------------------------------------------
-function parseTournament({ id, html, url }) {
   const dom = new JSDOM(html);
   const doc = dom.window.document;
 
-  // Title
-  const titleEl = doc.querySelector(".tournament_title, h1");
-  const name = titleEl ? titleEl.textContent.trim() : `Tournament ${id}`;
+  const pageText = doc.body.textContent.toLowerCase();
 
-  // Extract game + country from title pattern
-  let country = null;
-  let game = null;
+  const isCompleted = pageText.includes("this tournament has ended");
+  const isOngoing = pageText.includes("this tournament is in progress");
 
-  const match = name.match(/^(.*?) Tournament \((.*?)\)$/);
-  if (match) {
-    game = match[1]
-      .trim()
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-");
+  // Completed tournament
+  if (isCompleted) {
+    const playerBlocks = [
+      ...doc.querySelectorAll(".tournaments-results-players__player")
+    ];
 
-    country = match[2]
-      .trim()
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-");
-  }
+    const top4 = playerBlocks.slice(0, 4).map(block => {
+      const nameEl = block.querySelector(".tournaments-results-players__name");
+      const rankEl = block.querySelector(".tournaments-results-players__rank");
 
-  // Status
-  let status = "ongoing";
-  const statusEl = doc.querySelector(".tournament_status, .status");
-  if (statusEl) {
-    const text = statusEl.textContent.toLowerCase();
-    if (text.includes("completed")) status = "completed";
-  }
-
-  // Round (if ongoing)
-  let round = null;
-  const roundEl = doc.querySelector(".tournament_round, .round");
-  if (roundEl) {
-    const m = roundEl.textContent.match(/Round\s+(\d+)/i);
-    if (m) round = Number(m[1]);
-  }
-
-  // Top 4 (if completed)
-  let top4 = null;
-  if (status === "completed") {
-    top4 = [];
-    const rows = [...doc.querySelectorAll(".ranking_table tr")].slice(1, 5);
-
-    rows.forEach((row) => {
-      const cols = row.querySelectorAll("td");
-      if (cols.length >= 2) {
-        top4.push({
-          rank: cols[0].textContent.trim(),
-          name: cols[1].textContent.trim(),
-        });
-      }
+      return {
+        rank: rankEl ? rankEl.textContent.trim() : null,
+        name: nameEl ? nameEl.textContent.trim() : null
+      };
     });
 
-    if (top4.length === 0) top4 = null;
+    return {
+      id,
+      status: "completed",
+      top4
+    };
   }
 
+  // Ongoing tournament
+  if (isOngoing) {
+    const roundEl = doc.querySelector(".tournament_round");
+    const round = roundEl ? roundEl.textContent.trim() : null;
+
+    return {
+      id,
+      status: "ongoing",
+      round
+    };
+  }
+
+  // Fallback
   return {
     id,
-    country,
-    game,
-    name,
-    bga_url: url,
-    status,
-    ...(status === "completed" ? { top4 } : { round }),
+    status: "unknown"
   };
 }
 
-// ------------------------------------------------------------
-// Main scraping routine
-// ------------------------------------------------------------
-async function scrape() {
-  console.log("🔍 Loading existing tournaments...");
+// Main runner
+async function main() {
   const existing = loadExisting();
-
   const ids = Object.keys(existing).map(Number);
-  console.log(`📡 Scraping ${ids.length} tournaments...`);
 
   for (const id of ids) {
-    const fetched = await fetchTournament(id);
-    if (!fetched) continue;
+    try {
+      console.log(`Scraping tournament ${id}...`);
+      const scraped = await scrapeTournament(id);
 
-    const parsed = parseTournament(fetched);
-    existing[id] = parsed;
+      // Merge only scraper-controlled fields
+      existing[id].status = scraped.status;
 
-    console.log(`✓ Updated ${id}`);
+      if (scraped.status === "completed") {
+        existing[id].top4 = scraped.top4;
+        delete existing[id].round;
+      } else if (scraped.status === "ongoing") {
+        existing[id].round = scraped.round;
+        delete existing[id].top4;
+      }
+    } catch (err) {
+      console.error(`Error scraping ${id}:`, err.message);
+      existing[id].status = "error";
+      existing[id].error = err.message;
+    }
   }
 
-  // Sort by numeric ID
+  // Sort by ID
   const sorted = Object.fromEntries(
     Object.entries(existing).sort(([a], [b]) => Number(a) - Number(b))
   );
 
   // Write YAML
   const output = yaml.stringify(sorted, { indent: 2 });
-  fs.mkdirSync(path.dirname(FILE_PATH), { recursive: true });
   fs.writeFileSync(FILE_PATH, output, "utf8");
 
-  console.log("🎉 tournaments.yml updated");
+  console.log("✓ tournaments.yml updated");
 }
 
-scrape().catch((err) => {
-  console.error(err);
-  process.exit(1);
+main().catch(err => {
+  console.error("Scraper failed:", err);
+  process.exit(0);
 });
