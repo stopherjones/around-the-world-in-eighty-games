@@ -7,7 +7,9 @@ layout: default
 title: Around the World in Eighty Games
 ---
 
-Welcome to the project.
+Welcome to Around the World in 80 Games!
+
+We’re about to embark on a journey that takes us through exciting locations and cultures, all from the comfort of our virtual game table. Over the coming weeks, we’ll explore board games that represent different corners of the globe, offering a unique way to experience the world without leaving home.
 
 <h2>Next Location and game(s)</h2>
 
@@ -31,7 +33,10 @@ Welcome to the project.
   {% assign game = site.data.games | where: "slug", game_slug | first %}
 
   {% if game %}
-    {% for t in game.tournaments %}
+    {%- assign tournaments = site.data.tournaments | where: "game", game.slug | where: "country", next_stop.slug -%}
+    {%- assign t = tournaments[0] -%}
+
+    {% if t %}
       {% assign country = site.countries | where: "slug", t.country | first %}
 
       <li>
@@ -39,10 +44,10 @@ Welcome to the project.
         <a href="{{ country.url | relative_url }}">{{ country.name }}</a> –
         <a href="{{ t.bga_url }}" target="_blank">BGA tournament link</a>
       </li>
-
-    {% endfor %}
+    {% endif %}
   {% endif %}
 {% endfor %}
+
 </ul>
 
   </div>

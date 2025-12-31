@@ -2,6 +2,8 @@
   id: 354697
   country: united-kingdom
   game: mr-jack
+  name: "Mr Jack Tournament (United Kingdom)"
+  bga_url: "https://boardgamearena.com/tournament?id=354697"
   status: completed
   top4:
     - { rank: "1st", name: "TacCOIG" }
@@ -13,6 +15,8 @@
   id: 354698
   country: united-kingdom
   game: next-station-london
+  name: "Next Station: London Tournament (United Kingdom)"
+  bga_url: "https://boardgamearena.com/tournament?id=354698"
   status: completed
   top4:
     - { rank: "1st", name: "TacCOIG" }
@@ -24,6 +28,8 @@
   id: 360285
   country: netherlands
   game: gift-of-tulips
+  name: "Gift of Tulips Tournament (Netherlands)"
+  bga_url: "https://boardgamearena.com/tournament?id=360285"
   status: completed
   top4:
     - { rank: "1st", name: "beckmast" }
@@ -35,6 +41,8 @@
   id: 360291
   country: germany
   game: thurn-and-taxis
+  name: "Thurn and Taxis Tournament (Germany)"
+  bga_url: "https://boardgamearena.com/tournament?id=360291"
   status: completed
   top4:
     - { rank: "1st", name: "andycupid" }
@@ -46,6 +54,8 @@
   id: 368884
   country: denmark
   game: copenhagen
+  name: "Copenhagen Tournament (Denmark)"
+  bga_url: "https://boardgamearena.com/tournament?id=368884"
   status: completed
   top4:
     - { rank: "1st", name: "Castz" }
@@ -57,6 +67,8 @@
   id: 368887
   country: sweden
   game: fika
+  name: "Fika Tournament (Sweden)"
+  bga_url: "https://boardgamearena.com/tournament?id=368887"
   status: completed
   top4:
     - { rank: "1st", name: "Niall" }
@@ -68,6 +80,8 @@
   id: 374194
   country: norway
   game: knarr
+  name: "Knarr Tournament (Norway)"
+  bga_url: "https://boardgamearena.com/tournament?id=374194"
   status: completed
   top4:
     - { rank: "1st", name: "Niall" }
@@ -79,6 +93,8 @@
   id: 380123
   country: norway
   game: herrlof
+  name: "Herrlof Tournament (Norway)"
+  bga_url: "https://boardgamearena.com/tournament?id=380123"
   status: completed
   top4:
     - { rank: "1st", name: "TacCOIG" }
@@ -90,6 +106,8 @@
   id: 378251
   country: russia
   game: st-petersburg
+  name: "St Petersburg Tournament (Russia)"
+  bga_url: "https://boardgamearena.com/tournament?id=378251"
   status: completed
   top4:
     - { rank: "1st", name: "Niall" }
@@ -101,6 +119,8 @@
   id: 387302
   country: greece
   game: akropolis
+  name: "Akropolis Tournament (Greece)"
+  bga_url: "https://boardgamearena.com/tournament?id=387302"
   status: completed
   top4:
     - { rank: "1st", name: "Castz" }
@@ -112,6 +132,8 @@
   id: 387304
   country: greece
   game: santorini
+  name: "Santorini Tournament (Greece)"
+  bga_url: "https://boardgamearena.com/tournament?id=387304"
   status: completed
   top4:
     - { rank: "1st", name: "TacCOIG" }
@@ -123,6 +145,8 @@
   id: 404118
   country: italy
   game: ponte-del-diavolo
+  name: "Ponte del Diavolo Tournament (Italy)"
+  bga_url: "https://boardgamearena.com/tournament?id=404118"
   status: completed
   top4:
     - { rank: "1st", name: "andycupid" }
@@ -134,6 +158,8 @@
   id: 404125
   country: italy
   game: verona-twist
+  name: "Verona Twist Tournament (Italy)"
+  bga_url: "https://boardgamearena.com/tournament?id=404125"
   status: completed
   top4:
     - { rank: "1st", name: "andycupid" }
@@ -145,6 +171,8 @@
   id: 404206
   country: italy
   game: viticulture
+  name: "Viticulture Tournament (Italy)"
+  bga_url: "https://boardgamearena.com/tournament?id=404206"
   status: completed
   top4:
     - { rank: "1st", name: "Niall" }
@@ -156,6 +184,8 @@
   id: 410031
   country: switzerland
   game: ticket-to-ride-switzerland
+  name: "Ticket to Ride: Switzerland Tournament (Switzerland)"
+  bga_url: "https://boardgamearena.com/tournament?id=410031"
   status: completed
   top4:
     - { rank: "1st", name: "TacCOIG" }
@@ -167,6 +197,8 @@
   id: 420784
   country: france
   game: oriflamme
+  name: "Oriflamme Tournament (France)"
+  bga_url: "https://boardgamearena.com/tournament?id=420784"
   status: completed
   top4:
     - { rank: "1st", name: "Castz" }
@@ -178,6 +210,8 @@
   id: 420786
   country: france
   game: carcassonne
+  name: "Carcassonne Tournament (France)"
+  bga_url: "https://boardgamearena.com/tournament?id=420786"
   status: completed
   top4:
     - { rank: "1st", name: "Niall" }
@@ -189,6 +223,8 @@
   id: 420787
   country: france
   game: fromage
+  name: "Fromage Tournament (France)"
+  bga_url: "https://boardgamearena.com/tournament?id=420787"
   status: completed
   top4:
     - { rank: "1st", name: "Niall" }
@@ -200,6 +236,8 @@
   id: 420929
   country: france
   game: the-castles-of-burgundy
+  name: "The Castles of Burgundy Tournament (France)"
+  bga_url: "https://boardgamearena.com/tournament?id=420929"
   status: completed
   top4:
     - { rank: "1st", name: "Castz" }
@@ -211,6 +249,8 @@
   id: 427916
   country: mallorca
   game: finca
+  name: "Finca Tournament (Mallorca)"
+  bga_url: "https://boardgamearena.com/tournament?id=427916"
   status: completed
   top4:
     - { rank: "1st", name: "Castz" }
@@ -222,6 +262,8 @@
   id: 427918
   country: spain
   game: alhambra
+  name: "Alhambra Tournament (Spain)"
+  bga_url: "https://boardgamearena.com/tournament?id=427918"
   status: completed
   top4:
     - { rank: "1st", name: "Niall" }
@@ -233,6 +275,8 @@
   id: 427919
   country: portugal
   game: azul-summer-pavilion
+  name: "Azul: Summer Pavilion Tournament (Portugal)"
+  bga_url: "https://boardgamearena.com/tournament?id=427919"
   status: ongoing
   round: null
 
@@ -240,6 +284,8 @@
   id: 439073
   country: morocco
   game: marrakech
+  name: "Marrakech Tournament (Morocco)"
+  bga_url: "https://boardgamearena.com/tournament?id=439073"
   status: completed
   top4:
     - { rank: "1st", name: "Niall" }
@@ -251,6 +297,8 @@
   id: 439074
   country: morocco
   game: medina
+  name: "Medina Tournament (Morocco)"
+  bga_url: "https://boardgamearena.com/tournament?id=439074"
   status: completed
   top4:
     - { rank: "1st", name: "Castz" }
@@ -262,6 +310,8 @@
   id: 461495
   country: sahara
   game: targi
+  name: "Targi Tournament (Sahara)"
+  bga_url: "https://boardgamearena.com/tournament?id=461495"
   status: ongoing
   round: null
 
@@ -269,6 +319,8 @@
   id: 461517
   country: sahara
   game: caravan
+  name: "Caravan Tournament (Sahara)"
+  bga_url: "https://boardgamearena.com/tournament?id=461517"
   status: completed
   top4:
     - { rank: "1st", name: "Niall" }
@@ -280,6 +332,8 @@
   id: 488440
   country: botswana
   game: orapa-mine
+  name: "Orapa Mine Tournament (Botswana)"
+  bga_url: "https://boardgamearena.com/tournament?id=488440"
   status: completed
   top4:
     - { rank: "1st", name: "Cheery Dog" }
@@ -291,6 +345,8 @@
   id: 488444
   country: uganda
   game: rift-valley-reserve
+  name: "Rift Valley Reserve Tournament (Uganda)"
+  bga_url: "https://boardgamearena.com/tournament?id=488444"
   status: completed
   top4:
     - { rank: "1st", name: "Castz" }
@@ -302,6 +358,8 @@
   id: 488602
   country: south-africa
   game: rallymangt
+  name: "RallymanGT Tournament (South Africa)"
+  bga_url: "https://boardgamearena.com/tournament?id=488602"
   status: completed
   top4:
     - { rank: "1st", name: "Castz" }
@@ -313,6 +371,8 @@
   id: 499404
   country: egypt
   game: sobek
+  name: "Sobek Tournament (Egypt)"
+  bga_url: "https://boardgamearena.com/tournament?id=499404"
   status: ongoing
   round: null
 
@@ -320,6 +380,8 @@
   id: 499408
   country: egypt
   game: luxor
+  name: "Luxor Tournament (Egypt)"
+  bga_url: "https://boardgamearena.com/tournament?id=499408"
   status: ongoing
   round: null
 
@@ -327,6 +389,8 @@
   id: 499409
   country: egypt
   game: imhotep
+  name: "Imhotep Tournament (Egypt)"
+  bga_url: "https://boardgamearena.com/tournament?id=499409"
   status: ongoing
   round: null
 
@@ -334,6 +398,8 @@
   id: 499398
   country: egypt
   game: nile
+  name: "Nile Tournament (Egypt)"
+  bga_url: "https://boardgamearena.com/tournament?id=499398"
   status: completed
   top4:
     - { rank: "1st", name: "Castz" }

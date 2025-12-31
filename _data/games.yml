@@ -2,328 +2,163 @@
   name: "Mr Jack"
   countries:
     - united-kingdom
-  tournaments:
-    - id: 354697
-      name: "Mr Jack Tournament (United Kingdom)"
-      bga_url: "https://boardgamearena.com/tournament?id=354697"
-      country: united-kingdom
 
 - slug: next-station-london
   name: "Next Station: London"
   countries:
     - united-kingdom
-  tournaments:
-    - id: 354698
-      name: "Next Station: London Tournament (United Kingdom)"
-      bga_url: "https://boardgamearena.com/tournament?id=354698"
-      country: united-kingdom
 
 - slug: gift-of-tulips
   name: "Gift of Tulips"
   countries:
     - netherlands
-  tournaments:
-    - id: 360285
-      name: "Gift of Tulips Tournament (Netherlands)"
-      bga_url: "https://boardgamearena.com/tournament?id=360285"
-      country: netherlands
 
 - slug: thurn-and-taxis
   name: "Thurn and Taxis"
   countries:
     - germany
-  tournaments:
-    - id: 360291
-      name: "Thurn and Taxis Tournament (Germany)"
-      bga_url: "https://boardgamearena.com/tournament?id=360291"
-      country: germany
 
 - slug: copenhagen
   name: "Copenhagen"
   countries:
     - denmark
-  tournaments:
-    - id: 368884
-      name: "Copenhagen Tournament (Denmark)"
-      bga_url: "https://boardgamearena.com/tournament?id=368884"
-      country: denmark
 
 - slug: fika
   name: "Fika"
   countries:
     - sweden
-  tournaments:
-    - id: 368887
-      name: "Fika Tournament (Sweden)"
-      bga_url: "https://boardgamearena.com/tournament?id=368887"
-      country: sweden
 
 - slug: knarr
   name: "Knarr"
   countries:
     - norway
-  tournaments:
-    - id: 374194
-      name: "Knarr Tournament (Norway)"
-      bga_url: "https://boardgamearena.com/tournament?id=374194"
-      country: norway
 
 - slug: herrlof
   name: "Herrlof"
   countries:
     - norway
-  tournaments:
-    - id: 380123
-      name: "Herrlof Tournament (Norway)"
-      bga_url: "https://boardgamearena.com/tournament?id=380123"
-      country: norway
 
 - slug: st-petersburg
   name: "St Petersburg"
   countries:
     - russia
-  tournaments:
-    - id: 378251
-      name: "St Petersburg Tournament (Russia)"
-      bga_url: "https://boardgamearena.com/tournament?id=378251"
-      country: russia
 
 - slug: akropolis
   name: "Akropolis"
   countries:
     - greece
-  tournaments:
-    - id: 387302
-      name: "Akropolis Tournament (Greece)"
-      bga_url: "https://boardgamearena.com/tournament?id=387302"
-      country: greece
 
 - slug: santorini
   name: "Santorini"
   countries:
     - greece
-  tournaments:
-    - id: 387304
-      name: "Santorini Tournament (Greece)"
-      bga_url: "https://boardgamearena.com/tournament?id=387304"
-      country: greece
 
 - slug: ponte-del-diavolo
   name: "Ponte del Diavolo"
   countries:
     - italy
-  tournaments:
-    - id: 404118
-      name: "Ponte del Diavolo Tournament (Italy)"
-      bga_url: "https://boardgamearena.com/tournament?id=404118"
-      country: italy
 
 - slug: verona-twist
   name: "Verona Twist"
   countries:
     - italy
-  tournaments:
-    - id: 404125
-      name: "Verona Twist Tournament (Italy)"
-      bga_url: "https://boardgamearena.com/tournament?id=404125"
-      country: italy
 
 - slug: viticulture
   name: "Viticulture"
   countries:
     - italy
-  tournaments:
-    - id: 404206
-      name: "Viticulture Tournament (Italy)"
-      bga_url: "https://boardgamearena.com/tournament?id=404206"
-      country: italy
 
 - slug: ticket-to-ride-switzerland
   name: "Ticket to Ride: Switzerland"
   countries:
     - switzerland
-  tournaments:
-    - id: 410031
-      name: "Ticket to Ride: Switzerland Tournament (Switzerland)"
-      bga_url: "https://boardgamearena.com/tournament?id=410031"
-      country: switzerland
 
 - slug: oriflamme
   name: "Oriflamme"
   countries:
     - france
-  tournaments:
-    - id: 420784
-      name: "Oriflamme Tournament (France)"
-      bga_url: "https://boardgamearena.com/tournament?id=420784"
-      country: france
 
 - slug: carcassonne
   name: "Carcassonne"
   countries:
     - france
-  tournaments:
-    - id: 420786
-      name: "Carcassonne Tournament (France)"
-      bga_url: "https://boardgamearena.com/tournament?id=420786"
-      country: france
 
 - slug: fromage
   name: "Fromage"
   countries:
     - france
-  tournaments:
-    - id: 420787
-      name: "Fromage Tournament (France)"
-      bga_url: "https://boardgamearena.com/tournament?id=420787"
-      country: france
 
 - slug: the-castles-of-burgundy
   name: "The Castles of Burgundy"
   countries:
     - france
-  tournaments:
-    - id: 420929
-      name: "The Castles of Burgundy Tournament (France)"
-      bga_url: "https://boardgamearena.com/tournament?id=420929"
-      country: france
 
 - slug: finca
   name: "Finca"
   countries:
     - mallorca
-  tournaments:
-    - id: 427916
-      name: "Finca Tournament (Mallorca)"
-      bga_url: "https://boardgamearena.com/tournament?id=427916"
-      country: mallorca
 
 - slug: alhambra
   name: "Alhambra"
   countries:
     - spain
-  tournaments:
-    - id: 427918
-      name: "Alhambra Tournament (Spain)"
-      bga_url: "https://boardgamearena.com/tournament?id=427918"
-      country: spain
 
 - slug: azul-summer-pavilion
   name: "Azul: Summer Pavilion"
   countries:
     - portugal
-  tournaments:
-    - id: 427919
-      name: "Azul: Summer Pavilion Tournament (Portugal)"
-      bga_url: "https://boardgamearena.com/tournament?id=427919"
-      country: portugal
 
 - slug: marrakech
   name: "Marrakech"
   countries:
     - morocco
-  tournaments:
-    - id: 439073
-      name: "Marrakech Tournament (Morocco)"
-      bga_url: "https://boardgamearena.com/tournament?id=439073"
-      country: morocco
 
 - slug: medina
   name: "Medina"
   countries:
     - morocco
-  tournaments:
-    - id: 439074
-      name: "Medina Tournament (Morocco)"
-      bga_url: "https://boardgamearena.com/tournament?id=439074"
-      country: morocco
 
 - slug: targi
   name: "Targi"
   countries:
     - sahara
-  tournaments:
-    - id: 461495
-      name: "Targi Tournament (Sahara)"
-      bga_url: "https://boardgamearena.com/tournament?id=461495"
-      country: sahara
 
 - slug: caravan
   name: "Caravan"
   countries:
     - sahara
-  tournaments:
-    - id: 461517
-      name: "Caravan Tournament (Sahara)"
-      bga_url: "https://boardgamearena.com/tournament?id=461517"
-      country: sahara
 
 - slug: orapa-mine
   name: "Orapa Mine"
   countries:
     - botswana
-  tournaments:
-    - id: 488440
-      name: "Orapa Mine Tournament (Botswana)"
-      bga_url: "https://boardgamearena.com/tournament?id=488440"
-      country: botswana
 
 - slug: rift-valley-reserve
   name: "Rift Valley Reserve"
   countries:
     - uganda
-  tournaments:
-    - id: 488444
-      name: "Rift Valley Reserve Tournament (Uganda)"
-      bga_url: "https://boardgamearena.com/tournament?id=488444"
-      country: uganda
 
 - slug: rallymangt
   name: "RallymanGT"
   countries:
     - south-africa
-  tournaments:
-    - id: 488602
-      name: "RallymanGT Tournament (South Africa)"
-      bga_url: "https://boardgamearena.com/tournament?id=488602"
-      country: south-africa
 
 - slug: sobek
   name: "Sobek"
   countries:
     - egypt
-  tournaments:
-    - id: 499404
-      name: "Sobek Tournament (Egypt)"
-      bga_url: "https://boardgamearena.com/tournament?id=499404"
-      country: egypt
 
 - slug: luxor
   name: "Luxor"
   countries:
     - egypt
-  tournaments:
-    - id: 499408
-      name: "Luxor Tournament (Egypt)"
-      bga_url: "https://boardgamearena.com/tournament?id=499408"
-      country: egypt
 
 - slug: imhotep
   name: "Imhotep"
   countries:
     - egypt
-  tournaments:
-    - id: 499409
-      name: "Imhotep Tournament (Egypt)"
-      bga_url: "https://boardgamearena.com/tournament?id=499409"
-      country: egypt
 
 - slug: nile
   name: "Nile"
   countries:
     - egypt
-  tournaments:
-    - id: 499398
-      name: "Nile Tournament (Egypt)"
-      bga_url: "https://boardgamearena.com/tournament?id=499398"
-      country: egypt

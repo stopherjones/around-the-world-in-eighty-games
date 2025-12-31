@@ -41,8 +41,6 @@ layout: default
 
 </div>
 
-
-
 <h1>{{ page.name }}</h1>
 
 {{ page.intro | markdownify }}
@@ -52,9 +50,14 @@ layout: default
 {% assign tournaments = site.data.tournaments %}
 {% assign games = site.data.games %}
 
+<h2>Tournaments</h2>
+
 <ul>
-{% for t_id in tournaments %}
-  {% assign t = t_id[1] %}
+{% assign games = site.data.games %}
+
+{% for t_hash in site.data.tournaments %}
+  {% assign t = t_hash[1] %}
+
   {% if t.country == page.slug %}
     {% assign game = games | where: "slug", t.game | first %}
 
@@ -63,15 +66,16 @@ layout: default
       <a href="{{ t.bga_url }}" target="_blank">BGA tournament link</a>
       <br>
       Status: {{ t.status }}
-      <br>
-      Top 4:
-      <ul>
-        {% for p in t.top4 %}
-          <li>{{ p.rank }} – {{ p.name }}</li>
-        {% endfor %}
-      </ul>
+      {% if t.top4 %}
+        <br>
+        Top 4:
+        <ul>
+          {% for p in t.top4 %}
+            <li>{{ p.rank }} – {{ p.name }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     </li>
-
   {% endif %}
 {% endfor %}
 </ul>
