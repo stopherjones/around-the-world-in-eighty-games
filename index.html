@@ -5,6 +5,15 @@
 
 layout: default
 title: Around the World in Eighty Games
+next_locations:
+  - slug: kenya
+    games:
+      - elongo
+  - slug: saudi-arabia
+    games:
+      - neom
+
+
 ---
 
 <h1>Welcome to Around the World in 80 Games!</h1>
@@ -21,65 +30,57 @@ Over the coming weeks, we’ll explore board games that represent different corn
   </strong>
 </p>
 
-
 <h2>Next Location and game(s)</h2>
 
-{% assign route = site.data.route %}
-{% assign current_index = route.current_index %}
-{% assign next_index = current_index | plus: 1 %}
-{% assign next_stop = route.countries[next_index] %}
+{% if page.next_locations %}
+  {% assign tournaments = site.data.tournaments | sort %}
 
-{% if next_stop %}
-  {% assign next_country = site.countries | where: "slug", next_stop.slug | first %}
+  {% for item in page.next_locations %}
+    {% assign country = site.countries | where: "slug", item.slug | first %}
 
-<div class="next-location">
-<h3>{{ next_country.name }}</h3>
+    <div class="next-location">
+      <h3>
+        {% if country -%}
+          <a href="{{ country.url | relative_url }}">{{ country.name }}</a>
+        {%- else -%}
+          {{ item.slug | replace: "-", " " | capitalize }}
+        {%- endif %}
+      </h3>
 
-<h4>Games we'll play there:</h4>
+      <h4>Games we'll play there:</h4>
+      <ul>
+        {%- for game_slug in item.games -%}
+          {% assign game = site.data.games | where: "slug", game_slug | first -%}
 
-<ul>
-{% assign tournaments = site.data.tournaments %}
+          {%- if game -%}
+            {% assign t = nil -%}
+            {%- for t_hash in tournaments -%}
+              {% assign t_candidate = t_hash[1] -%}
+              {% if t_candidate.game == game.slug and t_candidate.country == item.slug -%}
+                {% assign t = t_candidate -%}
+                {% break %}
+              {%- endif -%}
+            {%- endfor -%}
 
-{% for game_slug in next_stop.games %}
-  {% assign game = site.data.games | where: "slug", game_slug | first %}
-
-  {% if game %}
-    {%- comment -%}
-    Find the tournament for this game in this specific next_stop country (if any)
-    {%- endcomment -%}
-    {% assign t = nil %}
-    {% for t_hash in tournaments %}
-      {% assign t_candidate = t_hash[1] %}
-      {% if t_candidate.game == game.slug and t_candidate.country == next_stop.slug %}
-        {% assign t = t_candidate %}
-        {% break %}
-      {% endif %}
-    {% endfor %}
-
-    {% assign country = site.countries | where: "slug", next_stop.slug | first %}
-
-    <li>
-      {{ game.name }}
-      –
-      {% if t %}
-        {% if t.bga_url %}
-          <a href="{{ t.bga_url }}" target="_blank">BGA tournament link</a>
-        {% else %}
-          Tournament link coming soon
-        {% endif %}
-      {% else %}
-        Tournament not yet created
-      {% endif %}
-    </li>
-  {% endif %}
-{% endfor %}
-</ul>
-
-
-  </div>
-
+            <li>
+              {{ game.name }} –
+              {%- if t -%}
+                {%- if t.bga_url -%}
+                  <a href="{{ t.bga_url }}" target="_blank">BGA tournament link</a>
+                {%- else -%}
+                  Tournament link coming soon
+                {%- endif -%}
+              {%- else -%}
+                Tournament not yet created
+              {%- endif -%}
+            </li>
+          {%- endif -%}
+        {%- endfor %}
+      </ul>
+    </div>
+  {% endfor %}
 {% else %}
-  <p>No next location yet — the journey hasn’t started!</p>
+  <p>No next locations listed.</p>
 {% endif %}
 
 <h2>Ongoing Tournaments</h2>

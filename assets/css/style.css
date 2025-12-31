@@ -98,6 +98,14 @@ h1, h2 {
   color: var(--nav-bg);
 }
 
+h4 {
+  font-family: system-ui, sans-serif; /* old look uses sans-serif headings */
+  color: var(--nav-bg);
+  color: rgb(75, 75, 75);       /* text colour */
+  font-weight: 600;    /* 400 = normal, 600 = semi-bold, 700 = bold */
+  font-size: 1.0rem;   /* adjust size */
+}
+
 ul {
   list-style: none;
   padding-left: 1.2rem;
@@ -107,7 +115,9 @@ ul li {
   position: relative;
   margin: 0.35rem 0;
   padding-left: 1rem;
-  font-size: 0.95rem;
+  color: rgb(75, 75, 75);       /* text colour */
+  font-weight: 600;    /* 400 = normal, 600 = semi-bold, 700 = bold */
+  font-size: 1.1rem;   /* adjust size */
 }
 
 ul li::before {
