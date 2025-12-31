@@ -94,6 +94,133 @@ countries:
       - imhotep
       - nile
 
+  - slug: kenya
+    games:
+      - elongo
+
   - slug: saudi-arabia
     games:
       - neom
+    
+  - slug: iraq
+    games:
+      - tigris-and-euphrates
+
+  - slug: uzbekistan
+    games:
+      - khiva
+      - samarkand
+
+  - slug: pakistan
+    games:
+      - nanga-parbat
+      - k2
+
+  - slug: nepal
+    games:
+      - trek-12-dhaulagiri
+
+  - slug: india
+    games:
+      - jaipur
+      - go-goa
+
+  - slug: china
+    games:
+      - takenoko
+      - in-the-year-of-the-dragon
+
+  - slug: thailand
+    games:
+      - siam
+
+  - slug: vietnam
+    games:
+      - fai-fo-hoi-pho
+
+  - slug: singapore
+    games:
+      - roll-to-the-top-marina-bay
+
+  - slug: indonesia
+    games:
+      - hutan
+
+  - slug: japan
+    games:
+      - lets-go-to-japan
+      - king-of-tokyo
+      - white-castle
+      - kokeshi
+
+  - slug: australia
+    games:
+      - boomerang-australia
+      - dingos-dreams
+
+  - slug: hawaii
+    games:
+      - hawaii
+
+  - slug: incan-america
+    games:
+      - incan-gold
+
+  - slug: bolivia
+    games:
+      - tiwanaku
+
+  - slug: argentina
+    games:
+      - cities-buenos-aires
+
+  - slug: amazon
+    games:
+      - rainforest
+      - amazonas
+
+  - slug: tobago
+    games:
+      - tobago
+
+  - slug: puerto-rico
+    games:
+      - puerto-rico
+
+  - slug: bahamas
+    games:
+      - bahama-taxi
+
+  - slug: caribbean
+    games:
+      - maracaibo
+
+  - slug: guatemala
+    games:
+      - yaxha
+      - tikal
+
+  - slug: mexico
+    games:
+      - mexica
+      - viva-catrina
+      - teotihuacan
+
+  - slug: usa
+    games:
+      - gold-west
+      - pioneer-days
+      - welcome-to-las-vegas
+      - mother-road-route-66
+      - streetcar
+      - get-on-board-new-york
+
+  - slug: canada
+    games:
+      - niagara
+      - quadrata-canada
+      - fleet
+
+  - slug: greenland
+    games:
+      - northwest-passage

@@ -163,7 +163,238 @@
   countries:
     - egypt
 
+- slug: elongo
+  name: "Elongo"
+  countries:
+    - kenya
+
 - slug: neom
   name: "Neom"
   countries:
     - saudi-arabia
+
+- slug: tigris-and-euphrates
+  name: "Tigris & Euphrates"
+  countries:
+    - iraq
+
+- slug: khiva
+  name: "Khiva"
+  countries:
+    - uzbekistan
+
+- slug: samarkand
+  name: "Samarkand"
+  countries:
+    - uzbekistan
+
+- slug: nanga-parbat
+  name: "Nanga Parbat"
+  countries:
+    - pakistan
+
+- slug: k2
+  name: "K2"
+  countries:
+    - pakistan
+
+- slug: trek-12-dhaulagiri
+  name: "Trek 12 – Dhaulagiri"
+  countries:
+    - nepal
+
+- slug: jaipur
+  name: "Jaipur"
+  countries:
+    - india
+
+- slug: go-goa
+  name: "Go Goa"
+  countries:
+    - india
+
+- slug: takenoko
+  name: "Takenoko"
+  countries:
+    - china
+
+- slug: in-the-year-of-the-dragon
+  name: "In The Year of The Dragon"
+  countries:
+    - china
+
+- slug: siam
+  name: "Siam"
+  countries:
+    - thailand
+
+- slug: fai-fo-hoi-pho
+  name: "Fai Fo / Hoi Pho"
+  countries:
+    - vietnam
+
+- slug: roll-to-the-top-marina-bay
+  name: "Roll to the Top (Marina Bay)"
+  countries:
+    - singapore
+
+- slug: hutan
+  name: "Hutan"
+  countries:
+    - indonesia
+
+- slug: lets-go-to-japan
+  name: "Let's Go to Japan"
+  countries:
+    - japan
+
+- slug: king-of-tokyo
+  name: "King of Tokyo"
+  countries:
+    - japan
+
+- slug: white-castle
+  name: "White Castle"
+  countries:
+    - japan
+
+- slug: kokeshi
+  name: "Kokeshi"
+  countries:
+    - japan
+
+- slug: boomerang-australia
+  name: "Boomerang Australia"
+  countries:
+    - australia
+
+- slug: dingos-dreams
+  name: "Dingo's Dreams"
+  countries:
+    - australia
+
+- slug: hawaii
+  name: "Hawaii"
+  countries:
+    - hawaii
+
+- slug: incan-gold
+  name: "Incan Gold"
+  countries:
+    - incan-america
+
+- slug: tiwanaku
+  name: "Tiwanaku"
+  countries:
+    - bolivia
+
+- slug: cities-buenos-aires
+  name: "Cities (Buenos Aires)"
+  countries:
+    - argentina
+
+- slug: rainforest
+  name: "Rainforest"
+  countries:
+    - amazon
+
+- slug: amazonas
+  name: "Amazonas"
+  countries:
+    - amazon
+
+- slug: tobago
+  name: "Tobago"
+  countries:
+    - tobago
+
+- slug: puerto-rico
+  name: "Puerto Rico"
+  countries:
+    - puerto-rico
+
+- slug: bahama-taxi
+  name: "Bahama Taxi"
+  countries:
+    - bahamas
+
+- slug: maracaibo
+  name: "Maracaibo"
+  countries:
+    - caribbean
+
+- slug: yaxha
+  name: "Yaxha"
+  countries:
+    - guatemala
+
+- slug: tikal
+  name: "Tikal"
+  countries:
+    - guatemala
+
+- slug: mexica
+  name: "Mexica"
+  countries:
+    - mexico
+
+- slug: viva-catrina
+  name: "Viva Catrina"
+  countries:
+    - mexico
+
+- slug: teotihuacan
+  name: "Teotihuacan"
+  countries:
+    - mexico
+
+- slug: gold-west
+  name: "Gold West"
+  countries:
+    - usa
+
+- slug: pioneer-days
+  name: "Pioneer Days"
+  countries:
+    - usa
+
+- slug: welcome-to-las-vegas
+  name: "Welcome to Las Vegas"
+  countries:
+    - usa
+
+- slug: mother-road-route-66
+  name: "Mother Road Route 66"
+  countries:
+    - usa
+
+- slug: streetcar
+  name: "Streetcar"
+  countries:
+    - usa
+
+- slug: get-on-board-new-york
+  name: "Get on Board New York"
+  countries:
+    - usa
+
+- slug: niagara
+  name: "Niagara"
+  countries:
+    - canada
+
+- slug: quadrata-canada
+  name: "Quadrata Canada"
+  countries:
+    - canada
+
+- slug: fleet
+  name: "Fleet"
+  countries:
+    - canada
+
+- slug: northwest-passage
+  name: "Northwest Passage"
+  countries:
+    - greenland
+
