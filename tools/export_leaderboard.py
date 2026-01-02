@@ -12,17 +12,17 @@ SCOPES = [
     "https://www.googleapis.com/auth/drive.readonly"
 ]
 
+CONTINENTS = ["Europe", "Africa"]
+
 
 def get_credentials():
     print("Working directory:", os.getcwd())
 
     creds = None
 
-    # token.json stores the user's access and refresh tokens
     if os.path.exists("token.json"):
         creds = Credentials.from_authorized_user_file("token.json", SCOPES)
 
-    # If no valid credentials, run the OAuth flow
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
@@ -32,22 +32,18 @@ def get_credentials():
             )
             creds = flow.run_local_server(port=0)
 
-        # Save the credentials for next time
         with open("token.json", "w") as token:
             token.write(creds.to_json())
 
     return creds
 
 
-def get_sheet():
+def get_sheet(tab_name):
     creds = get_credentials()
     gc = gspread.authorize(creds)
 
-    # Your spreadsheet name
     sh = gc.open("Around the World in 80 Games")
-
-    # Your tab name
-    ws = sh.worksheet("Europe")
+    ws = sh.worksheet(tab_name)
 
     return ws
 
@@ -65,23 +61,27 @@ def transform_rows(rows):
     return leaderboard
 
 
-def write_yaml(data):
-    os.makedirs("_data", exist_ok=True)
-    with open("_data/leaderboard.yml", "w", encoding="utf-8") as f:
+def write_yaml(continent, data):
+    os.makedirs("_data/leaderboard", exist_ok=True)
+    path = f"_data/leaderboard/{continent.lower()}.yml"
+    with open(path, "w", encoding="utf-8") as f:
         yaml.dump(data, f, allow_unicode=True, sort_keys=False)
 
 
 def main():
-    ws = get_sheet()
+    for continent in CONTINENTS:
+        print(f"Processing {continent}...")
+        ws = get_sheet(continent)
 
-    rows = ws.get_all_records(
-        expected_headers=["Players", "Stops", "Points", "Trophies"]
-    )
+        rows = ws.get_all_records(
+            expected_headers=["Players", "Stops", "Points", "Trophies"]
+        )
 
-    leaderboard = transform_rows(rows)
-    write_yaml(leaderboard)
+        leaderboard = transform_rows(rows)
+        write_yaml(continent, leaderboard)
 
-    print("Leaderboard exported to _data/leaderboard.yml")
+    print("All leaderboards updated.")
+
 
 if __name__ == "__main__":
     main()

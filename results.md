@@ -6,10 +6,7 @@ permalink: /results/
 
 <h1>European Standings - top 10</h1>
 
-{% assign leaderboard = site.data.leaderboard 
-     | sort: "points" 
-     | reverse 
-     | slice: 0, 10 %}
+{% assign leaderboard = site.data.leaderboard.europe | sort: "points" | reverse % | slice: 0, 10 %}
 
 <table class="results-table">
   <thead>
@@ -31,3 +28,29 @@ permalink: /results/
     {% endfor %}
   </tbody>
 </table>
+
+<h1>African Standings - top 10</h1>
+
+{% assign leaderboard = site.data.leaderboard.africa | sort: "points" | reverse % | slice: 0, 10 %}
+
+<table class="results-table">
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>Stops</th>
+      <th>Points</th>
+      <th>Trophies</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in leaderboard %}
+      <tr>
+        <td>{{ row.player }}</td>
+        <td>{{ row.stops }}</td>
+        <td>{{ row.points }}</td>
+        <td>{{ row.trophies }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
