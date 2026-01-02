@@ -64,15 +64,38 @@ layout: default
       <a href="{{ t.bga_url }}" target="_blank">BGA tournament link</a>
       <br>
       Status: {{ t.status }}
-      {% if t.top4 %}
-        <br>
-        Top 4:
-        <ul>
-          {% for p in t.top4 %}
-            <li>{{ p.rank }} – {{ p.name }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
+{% if t.top4 %}
+  <br>
+  <table class="trophy-table">
+    <caption>Top 4</caption>
+    <thead>
+      <tr>
+        <th>Trophy</th>
+        <th>Rank</th>
+        <th>Player</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for p in t.top4 %}
+        {% assign trophy = "" %}
+        {% if p.rank contains "1" %}
+          {% assign trophy = "🥇" %}
+        {% elsif p.rank contains "2" %}
+          {% assign trophy = "🥈" %}
+        {% elsif p.rank contains "3" %}
+          {% assign trophy = "🥉" %}
+        {% endif %}
+
+        <tr>
+          <td class="trophy">{{ trophy }}</td>
+          <td>{{ p.rank }}</td>
+          <td>{{ p.name }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endif %}
+
     </li>
   {% endif %}
 {% endfor %}

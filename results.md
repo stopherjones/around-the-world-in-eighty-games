@@ -11,7 +11,7 @@ permalink: /results/
      | reverse 
      | slice: 0, 10 %}
 
-<table>
+<table class="results-table">
   <thead>
     <tr>
       <th>Player</th>
