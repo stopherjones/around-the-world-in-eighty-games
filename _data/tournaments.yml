@@ -470,11 +470,19 @@
   bga_url: https://boardgamearena.com/tournament?id=499408
   status: ongoing
   round: null
-"499409":
-  id: 499409
-  country: egypt
-  game: imhotep
-  name: Imhotep Tournament (Egypt)
-  bga_url: https://boardgamearena.com/tournament?id=499409
+"511272":
+  id: 511272
+  country: kenya
+  game: elongo
+  name: Elongo Tournament (Kenya)
+  bga_url: https://boardgamearena.com/tournament?id=511272
+  status: ongoing
+  round: null
+"511982":
+  id: 511982
+  country: saudi-arabia
+  game: neom
+  name: Neom Tournament (Saudi Arabia)
+  bga_url: https://boardgamearena.com/tournament?id=511982
   status: ongoing
   round: null
