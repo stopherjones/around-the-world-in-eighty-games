@@ -4,7 +4,7 @@ title: European Standings
 permalink: /results/
 ---
 
-<h1>European Standings</h1>
+<h1>European Standings - top 10</h1>
 
 {% assign leaderboard = site.data.leaderboard 
      | sort: "points" 
