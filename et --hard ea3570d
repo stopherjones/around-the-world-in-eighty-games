@@ -1,0 +1,146 @@
+[33mcommit c8b319a9e97e042c84eb1da53b2abe584222baca[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Chris J <chrisjones59@googlemail.com>
+Date:   Fri Jan 2 10:59:19 2026 +0000
+
+    Remove OAuth secrets from repo
+
+ client_secret.json | 1 [31m-[m
+ token.json         | 1 [31m-[m
+ 2 files changed, 2 deletions(-)
+
+[33mcommit f2c9cbf7665de28c4dc38a35000ab9ea6cbcdb8b[m
+Author: Chris J <chrisjones59@googlemail.com>
+Date:   Fri Jan 2 10:55:22 2026 +0000
+
+    Sheets api and european results
+
+ _data/leaderboard.yml       | 92 [32m+++++++++++++++++++++++++++++++++++++++++++++[m
+ _layouts/default.html       |  2 [32m+[m[31m-[m
+ client_secret.json          |  1 [32m+[m
+ results.md                  | 52 [32m++++++++++++[m[31m-------------[m
+ token.json                  |  1 [32m+[m
+ tools/export_leaderboard.py | 87 [32m++++++++++++++++++++++++++++++++++++++++++[m
+ 6 files changed, 208 insertions(+), 27 deletions(-)
+
+[33mcommit ea3570da4f153192d1e829ca2a2376227d8f37fa[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Chris J <chrisjones59@googlemail.com>
+Date:   Fri Jan 2 09:19:59 2026 +0000
+
+    kenya, saudi
+
+ _countries/kenya.md        |  9 [32m++++++++[m[31m-[m
+ _countries/saudi-arabia.md |  6 [32m+++++[m[31m-[m
+ _data/tournaments.yml      | 20 [32m++++++++++++++[m[31m------[m
+ 3 files changed, 27 insertions(+), 8 deletions(-)
+
+[33mcommit 4198693dd0d5edefd24458661ca2f9e582d4738c[m
+Author: github-actions <github-actions@github.com>
+Date:   Wed Dec 31 17:08:15 2025 +0000
+
+    Update tournaments.yml
+
+ _data/tournaments.yml | 582 [32m++++++++++++++++++++++++++++[m[31m----------------------[m
+ 1 file changed, 327 insertions(+), 255 deletions(-)
+
+[33mcommit 93d660720662680f92c736435dee72a9244eadbc[m
+Author: Chris Jones <chrisjones59@googlemail.com>
+Date:   Wed Dec 31 17:06:33 2025 +0000
+
+    Update scrape.yml
+
+[33mcommit 127e350686d9c30a9185d38d0c656132d4b3af4b[m
+Author: Chris Jones <chrisjones59@googlemail.com>
+Date:   Wed Dec 31 17:05:50 2025 +0000
+
+    Update scrape_tournaments.js
+
+ scripts/scrape_tournaments.js | 150 [32m+++++++++++++++++++++++++++++++[m[31m-----------[m
+ 1 file changed, 112 insertions(+), 38 deletions(-)
+
+[33mcommit 3f629833408bc83f8cd8809dec2ab61ad780cf2b[m
+Author: chrisjones59@googlemail.com <chrisjones59@googlemail.com>
+Date:   Wed Dec 31 16:39:10 2025 +0000
+
+    update scrape_tournaments.js
+
+ scripts/scrape_tournaments.js | 160 [32m++++++++++[m[31m--------------------------------[m
+ 1 file changed, 38 insertions(+), 122 deletions(-)
+
+[33mcommit 6e78c781d309039081a72eff948d4f5706e7ccfc[m
+Author: chrisjones59@googlemail.com <chrisjones59@googlemail.com>
+Date:   Wed Dec 31 16:35:23 2025 +0000
+
+    update tournaments.yml
+
+ _data/tournaments.yml | 712 [32m++++++++++++++++++++++[m[31m----------------------------[m
+ 1 file changed, 316 insertions(+), 396 deletions(-)
+
+[33mcommit a2e257d151fe3a1d3ab962b83f695401d9d1740d[m
+Author: Chris Jones <chrisjones59@googlemail.com>
+Date:   Wed Dec 31 16:05:32 2025 +0000
+
+    Update scrape_tournaments.js
+
+ scripts/scrape_tournaments.js | 76 [32m++++++++++++++++++++++++[m[31m-------------------[m
+ 1 file changed, 43 insertions(+), 33 deletions(-)
+
+[33mcommit 4b99347bcf126ebe7f40e90a53284aabf346473c[m
+Author: github-actions <github-actions@github.com>
+Date:   Wed Dec 31 15:54:09 2025 +0000
+
+    Update tournaments.yml
+
+ _data/tournaments.yml | 326 [32m+++++++++++++++++++++++++++++++++++++++++[m[31m---------[m
+ 1 file changed, 271 insertions(+), 55 deletions(-)
+
+[33mcommit 444fe7429e403a248269aeaf1f1e159b0c269a59[m
+Author: Chris Jones <chrisjones59@googlemail.com>
+Date:   Wed Dec 31 15:52:56 2025 +0000
+
+    Delete package.json
+
+ package.json | 3 [31m---[m
+ 1 file changed, 3 deletions(-)
+
+[33mcommit 8568d066ac13cd2c85e28a1442eae8cea9fd73e5[m
+Author: Chris Jones <chrisjones59@googlemail.com>
+Date:   Wed Dec 31 15:47:26 2025 +0000
+
+    Update scrape.yml
+
+[33mcommit 14234e012747b4e68745718ee9503ef08484e92e[m
+Author: Chris Jones <chrisjones59@googlemail.com>
+Date:   Wed Dec 31 15:46:56 2025 +0000
+
+    Update scrape_tournaments.js
+
+ scripts/scrape_tournaments.js | 168 [32m+++++++++++++++++[m[31m-------------------------[m
+ 1 file changed, 68 insertions(+), 100 deletions(-)
+
+[33mcommit a87f352e1925d211d752e3d348a3ac52f137b721[m
+Author: github-actions <github-actions@github.com>
+Date:   Wed Dec 31 15:02:07 2025 +0000
+
+    Update tournaments.yml
+
+ _data/tournaments.yml | 605 [32m+++++++++++++++++++[m[31m-------------------------------[m
+ 1 file changed, 231 insertions(+), 374 deletions(-)
+
+[33mcommit 8ac98d25f2c14eba51eeef0fad394d471d91fdee[m
+Author: Chris J <chrisjones59@googlemail.com>
+Date:   Wed Dec 31 15:00:20 2025 +0000
+
+    package.json
+
+ _data/tournaments.yml | 6 [32m++++++[m
+ package.json          | 3 [32m+++[m
+ 2 files changed, 9 insertions(+)
+
+[33mcommit 578fb4fff5112bb8bde036f68119590ba730cca5[m
+Author: Chris J <chrisjones59@googlemail.com>
+Date:   Wed Dec 31 14:53:30 2025 +0000
+
+    UK...
+
+ index.html | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
