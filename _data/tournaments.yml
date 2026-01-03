@@ -380,8 +380,16 @@
   game: targi
   name: Targi Tournament (Sahara)
   bga_url: https://boardgamearena.com/tournament?id=461495
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Cheery Dog
+    - rank: 2nd
+      name: Niall
+    - rank: 3rd
+      name: Sharon F
+    - rank: 3rd
+      name: LaurieW917
 "461517":
   id: 461517
   country: sahara-desert
@@ -476,7 +484,7 @@
   game: elongo
   name: Elongo Tournament (Kenya)
   bga_url: https://boardgamearena.com/tournament?id=511272
-  status: ongoing
+  status: unknown
   round: null
 "511982":
   id: 511982
@@ -484,5 +492,5 @@
   game: neom
   name: Neom Tournament (Saudi Arabia)
   bga_url: https://boardgamearena.com/tournament?id=511982
-  status: ongoing
+  status: unknown
   round: null
