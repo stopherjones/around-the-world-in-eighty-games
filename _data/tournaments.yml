@@ -478,6 +478,14 @@
   bga_url: https://boardgamearena.com/tournament?id=499408
   status: ongoing
   round: null
+  "499408":
+  id: 499409
+  country: egypt
+  game: imhotep
+  name: imhotep Tournament (Egypt)
+  bga_url: https://boardgamearena.com/tournament?id=499409
+  status: ongoing
+  round: null
 "511272":
   id: 511272
   country: kenya
