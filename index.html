@@ -64,6 +64,9 @@ Over the coming weeks, we’ll explore board games that represent different corn
 
             <li>
               {{ game.name }}
+{% comment %}
+This entire block is ignored by Liquid.
+You can put text, tags, or markup here.
               {%- if t -%}
                 {%- if t.bga_url -%}
                   <a href="{{ t.bga_url }}" target="_blank">- Register now on BGA</a>
@@ -74,6 +77,7 @@ Over the coming weeks, we’ll explore board games that represent different corn
                 Tournament not yet created
               {%- endif -%}
             </li>
+{% endcomment %}
           {%- endif -%}
         {%- endfor %}
       </ul>
