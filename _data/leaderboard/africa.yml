@@ -1,84 +1,64 @@
+- player: Niall
+  stops: 7
+  points: 64
+  trophies: 🥇🥇🥈🥈🥈
 - player: Castz
-  stops: 2
-  points: 22
-  trophies: 🥇
-- player: stopherjones
-  stops: 3
-  points: 16
-  trophies: 🥈🥉
+  stops: 4
+  points: 46
+  trophies: 🥇🥇🥇🥈
+- player: Cheery Dog
+  stops: 5
+  points: 44
+  trophies: 🥇🥇🥈🥉
 - player: Tac
-  stops: 3
-  points: 18
-  trophies: 🥉
+  stops: 7
+  points: 39
+  trophies: 🥉🥉🥉🥉
+- player: stopherjones
+  stops: 7
+  points: 31
+  trophies: 🥈🥉
 - player: drharris
-  stops: 3
+  stops: 7
+  points: 23
+  trophies: 🥉
+- player: Kurorac
+  stops: 7
+  points: 15
+  trophies: ''
+- player: VemRD
+  stops: 6
+  points: 14
+  trophies: ''
+- player: Sharon F
+  stops: 6
+  points: 14
+  trophies: 🥉
+- player: beckmast
+  stops: 4
+  points: 13
+  trophies: 🥈
+- player: Bleedingriver
+  stops: 4
   points: 11
   trophies: 🥉
-- player: Niall
-  stops: 3
-  points: 22
-  trophies: 🥉
+- player: Geraldine Merida
+  stops: 4
+  points: 10
+  trophies: ''
 - player: Zozoken
   stops: 2
   points: 8
   trophies: ''
-- player: Kurorac
-  stops: 3
-  points: 3
-  trophies: ''
-- player: Sharon F
-  stops: 3
-  points: 4
-  trophies: ''
-- player: andycupid
-  stops: 0
-  points: 0
-  trophies: ''
-- player: Cheery Dog
-  stops: 1
-  points: 13
-  trophies: 🥇
-- player: VemRD
-  stops: 2
-  points: 2
-  trophies: ''
-- player: beckmast
-  stops: 1
-  points: 8
-  trophies: 🥈
 - player: Arjo14
   stops: 1
   points: 8
-  trophies: ''
-- player: Bleedingriver
-  stops: 0
-  points: 0
-  trophies: ''
-- player: Salvidrim
-  stops: 0
-  points: 0
-  trophies: ''
-- player: Geraldine Merida
+  trophies: 🥉
+- player: LaurieW917
   stops: 1
-  points: 4
-  trophies: ''
-- player: Fixelled
-  stops: 0
-  points: 0
-  trophies: ''
+  points: 8
+  trophies: 🥉
 - player: daniinnc
-  stops: 0
-  points: 0
-  trophies: ''
-- player: Saugust2
-  stops: 0
-  points: 0
-  trophies: ''
-- player: CabbageOfKastis
-  stops: 0
-  points: 0
-  trophies: ''
-- player: Jonitis
-  stops: 0
-  points: 0
+  stops: 1
+  points: 1
   trophies: ''
