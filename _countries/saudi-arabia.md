@@ -2,7 +2,7 @@
 layout: country
 name: Saudi Arabia
 slug: saudi-arabia
-continent: Africa
+continent: Asia
 order: 22
 intro: |
 
