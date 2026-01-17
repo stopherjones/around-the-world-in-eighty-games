@@ -340,8 +340,16 @@
   game: azul-summer-pavilion
   name: "Azul: Summer Pavilion Tournament (Portugal)"
   bga_url: https://boardgamearena.com/tournament?id=427919
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Niall
+    - rank: 2nd
+      name: TacCOIG
+    - rank: 3rd
+      name: VemRD
+    - rank: 3rd
+      name: Kurorac
 "439073":
   id: 439073
   country: morocco
