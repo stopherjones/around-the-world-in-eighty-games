@@ -500,7 +500,7 @@
   game: elongo
   name: Elongo Tournament (Kenya)
   bga_url: https://boardgamearena.com/tournament?id=511272
-  status: unknown
+  status: ongoing
   round: null
 "511982":
   id: 511982
@@ -508,5 +508,5 @@
   game: neom
   name: Neom Tournament (Saudi Arabia)
   bga_url: https://boardgamearena.com/tournament?id=511982
-  status: unknown
+  status: ongoing
   round: null
