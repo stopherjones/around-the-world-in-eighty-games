@@ -6,13 +6,10 @@
 layout: default
 title: Around the World in Eighty Games
 next_locations:
-  - slug: kenya
+  - slug: iraq
     games:
-      - elongo
-  - slug: saudi-arabia
-    games:
-      - neom
-
+      - assyria
+      - tigris-and-euphrates
 
 ---
 
@@ -32,14 +29,36 @@ Over the coming weeks, we’ll explore board games that represent different corn
 
 <h2>Next Location and game(s)</h2>
 
+{% comment %}
+Check whether this page defines any upcoming locations.
+If not, we skip the whole block and show a fallback message.
+{% endcomment %}
 {% if page.next_locations %}
+  
+  {% comment %}
+  Load all tournaments (sorted) so we can look up whether a game
+  at a given location already has a tournament created.
+  {% endcomment %}
   {% assign tournaments = site.data.tournaments | sort %}
 
+  {% comment %}
+  Loop through each upcoming location defined in the page front matter.
+  Each "item" contains a slug and a list of games.
+  {% endcomment %}
   {% for item in page.next_locations %}
+
+    {% comment %}
+    Find the matching country object based on the slug.
+    If no match is found, we fall back to a prettified slug.
+    {% endcomment %}
     {% assign country = site.countries | where: "slug", item.slug | first %}
 
     <div class="next-location">
       <h3>
+        {% comment %}
+        Display the country name as a link if we found it.
+        Otherwise, display a capitalized version of the slug.
+        {% endcomment %}
         {% if country -%}
           <a href="{{ country.url | relative_url }}">{{ country.name }}</a>
         {%- else -%}
@@ -49,10 +68,24 @@ Over the coming weeks, we’ll explore board games that represent different corn
 
       <h4>Games we'll play there:</h4>
       <ul>
+
+        {% comment %}
+        Loop through each game slug listed for this location.
+        {% endcomment %}
         {%- for game_slug in item.games -%}
+
+          {% comment %}
+          Look up the full game object by slug.
+          If not found, we skip it.
+          {% endcomment %}
           {% assign game = site.data.games | where: "slug", game_slug | first -%}
 
           {%- if game -%}
+
+            {% comment %}
+            Try to find a matching tournament for this game *at this location*.
+            We search through all tournaments and pick the first match.
+            {% endcomment %}
             {% assign t = nil -%}
             {%- for t_hash in tournaments -%}
               {% assign t_candidate = t_hash[1] -%}
@@ -64,6 +97,12 @@ Over the coming weeks, we’ll explore board games that represent different corn
 
             <li>
               {{ game.name }}
+
+              {% comment %}
+              The following block is commented out in your original code.
+              It would show a tournament link or a placeholder if uncommented.
+              Keeping your original comment block intact.
+              {% endcomment %}
 {% comment %}
 This entire block is ignored by Liquid.
 You can put text, tags, or markup here.
@@ -78,32 +117,55 @@ You can put text, tags, or markup here.
               {%- endif -%}
             </li>
 {% endcomment %}
+            </li>
+
           {%- endif -%}
         {%- endfor %}
       </ul>
     </div>
   {% endfor %}
+
 {% else %}
+  {% comment %}
+  Fallback when no next locations are defined.
+  {% endcomment %}
   <p>No next locations listed.</p>
 {% endif %}
   
 <h2>Ongoing Tournaments</h2>
 
+{% comment %}
+Reload tournaments (unsorted this time).
+We'll scan for any that have status == "ongoing".
+{% endcomment %}
 {% assign tournaments = site.data.tournaments %}
 {% assign any_ongoing = false %}
 
 <ul>
+{% comment %}
+Loop through all tournaments.
+Each tournament is stored as a key/value pair in t_hash.
+We extract the value into "t".
+{% endcomment %}
 {% for t_hash in tournaments %}
   {% assign t = t_hash[1] %}
 
+  {% comment %}
+  Only display tournaments that are currently ongoing.
+  {% endcomment %}
   {% if t.status == "ongoing" %}
     {% assign any_ongoing = true %}
 
+    {% comment %}
+    Look up the game and country objects for display.
+    If not found, fall back to prettified slugs.
+    {% endcomment %}
     {% assign game = site.data.games | where: "slug", t.game | first %}
     {% assign country = site.countries | where: "slug", t.country | first %}
 
     <li>
-      {%- comment -%} Game name {%- endcomment -%}
+
+      {% comment %} Display game name {% endcomment %}
       {% if game %}
         {{ game.name }}
       {% else %}
@@ -111,7 +173,7 @@ You can put text, tags, or markup here.
       {% endif %}
 
       –
-      {%- comment -%} Country name + link {%- endcomment -%}
+      {% comment %} Display country name with link {% endcomment %}
       {% if country %}
         <a href="{{ country.url | relative_url }}">{{ country.name }}</a>
       {% else %}
@@ -119,7 +181,7 @@ You can put text, tags, or markup here.
       {% endif %}
 
       –
-      {%- comment -%} Tournament link {%- endcomment -%}
+      {% comment %} Display BGA link or placeholder {% endcomment %}
       {% if t.bga_url %}
         <a href="{{ t.bga_url }}" target="_blank">BGA tournament link</a>
       {% else %}
@@ -131,6 +193,9 @@ You can put text, tags, or markup here.
 {% endfor %}
 </ul>
 
+{% comment %}
+If we never found any ongoing tournaments, show a fallback message.
+{% endcomment %}
 {% unless any_ongoing %}
   <p>No tournaments are currently in progress.</p>
 {% endunless %}

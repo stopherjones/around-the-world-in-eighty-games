@@ -510,3 +510,19 @@
   bga_url: https://boardgamearena.com/tournament?id=511982
   status: ongoing
   round: null
+"520693":
+  id: 520693
+  country: Iraq
+  game: Tigris & Euphrates
+  name: Tigris & Euphrates Tournament (Iraq)
+  bga_url: https://boardgamearena.com/tournament?id=520693
+  status: unknown
+  round: null
+"520693":
+  id: 520699
+  country: Iraq
+  game: Assyria
+  name: Assyria Tournament (Iraq)
+  bga_url: https://boardgamearena.com/tournament?id=520699
+  status: unknown
+  round: null

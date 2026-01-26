@@ -3,7 +3,7 @@ layout: country
 name: Kenya
 slug: kenya
 continent: Africa
-order: 20
+order: 21
 intro: |
 
     For our next stop, we're going to briefly double back on our route, stopping in Kenya, to celebrate the lives of Maasai warriors and boys in the recently released game, Elongo. 

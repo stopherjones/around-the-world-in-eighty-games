@@ -126,7 +126,7 @@
 - slug: caravan
   name: "Caravan"
   countries:
-    - sahara
+    - sahara-desert
 
 - slug: orapa-mine
   name: "Orapa Mine"
@@ -175,6 +175,11 @@
 
 - slug: tigris-and-euphrates
   name: "Tigris & Euphrates"
+  countries:
+    - iraq
+
+- slug: assyria
+  name: "Assyria"
   countries:
     - iraq
 
