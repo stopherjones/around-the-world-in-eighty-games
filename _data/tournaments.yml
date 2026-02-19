@@ -468,24 +468,48 @@
   game: nile
   name: Nile Tournament (Egypt)
   bga_url: https://boardgamearena.com/tournament?id=499398
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: GeraldineMerida
+    - rank: 3rd
+      name: Silene
+    - rank: 3rd
+      name: Sharon F
 "499404":
   id: 499404
   country: egypt
   game: sobek
   name: Sobek Tournament (Egypt)
   bga_url: https://boardgamearena.com/tournament?id=499404
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: TacCOIG
+    - rank: 3rd
+      name: Sharon F
+    - rank: 3rd
+      name: VemRD
 "499408":
   id: 499408
   country: egypt
   game: luxor
   name: Luxor Tournament (Egypt)
   bga_url: https://boardgamearena.com/tournament?id=499408
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: Arjo14
+    - rank: 3rd
+      name: Silene
+    - rank: 4th
+      name: Cheery Dog
 "499409":
   id: 499409
   country: egypt
@@ -500,24 +524,32 @@
   game: elongo
   name: Elongo Tournament (Kenya)
   bga_url: https://boardgamearena.com/tournament?id=511272
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Niall
+    - rank: 2nd
+      name: stopherjones
+    - rank: 3rd
+      name: TacCOIG
+    - rank: 3rd
+      name: drharris
 "511982":
   id: 511982
   country: saudi-arabia
   game: neom
   name: Neom Tournament (Saudi Arabia)
   bga_url: https://boardgamearena.com/tournament?id=511982
-  status: ongoing
-  round: null
-"5208478":
-  id: 528478
-  country: Iraq
-  game: Tigris & Euphrates
-  name: Tigris & Euphrates Tournament (Iraq)
-  bga_url: https://boardgamearena.com/tournament?id=528478
-  status: unknown
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Silene
+    - rank: 2nd
+      name: drharris
+    - rank: 3rd
+      name: Arjo14
+    - rank: 4th
+      name: stopherjones
 "528477":
   id: 528477
   country: Iraq
@@ -528,9 +560,17 @@
   round: null
 "528687":
   id: 528687
-  country: Uzbekistan 
+  country: Uzbekistan
   game: Khiva
   name: Khiva Tournament (Uzbekistan)
   bga_url: https://boardgamearena.com/tournament?id=528687
+  status: unknown
+  round: null
+"5208478":
+  id: 528478
+  country: Iraq
+  game: Tigris & Euphrates
+  name: Tigris & Euphrates Tournament (Iraq)
+  bga_url: https://boardgamearena.com/tournament?id=528478
   status: unknown
   round: null
