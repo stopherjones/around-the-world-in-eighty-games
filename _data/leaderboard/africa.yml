@@ -1,64 +1,76 @@
+- player: Castz
+  stops: 8
+  points: 87
+  trophies: 🥇🥇🥇🥇🥇🥇🥈
+- player: Cheery Dog
+  stops: 9
+  points: 66
+  trophies: 🥇🥇🥈🥈🥉🥉
 - player: Niall
   stops: 7
   points: 64
   trophies: 🥇🥇🥈🥈🥈
-- player: Castz
-  stops: 4
-  points: 46
-  trophies: 🥇🥇🥇🥈
-- player: Cheery Dog
-  stops: 5
-  points: 44
-  trophies: 🥇🥇🥈🥉
 - player: Tac
-  stops: 7
-  points: 39
-  trophies: 🥉🥉🥉🥉
+  stops: 11
+  points: 62
+  trophies: 🥈🥉🥉🥉🥉🥉
 - player: stopherjones
-  stops: 7
-  points: 31
+  stops: 11
+  points: 43
   trophies: 🥈🥉
+- player: Sharon F
+  stops: 10
+  points: 35
+  trophies: 🥉🥉🥉🥉
 - player: drharris
-  stops: 7
-  points: 23
+  stops: 11
+  points: 31
   trophies: 🥉
 - player: Kurorac
-  stops: 7
-  points: 15
-  trophies: ''
-- player: VemRD
-  stops: 6
-  points: 14
-  trophies: ''
-- player: Sharon F
-  stops: 6
-  points: 14
+  stops: 11
+  points: 26
   trophies: 🥉
-- player: beckmast
+- player: VemRD
+  stops: 10
+  points: 26
+  trophies: 🥉
+- player: Silene
   stops: 4
-  points: 13
+  points: 26
+  trophies: 🥇🥉
+- player: Geraldine Merida
+  stops: 7
+  points: 22
+  trophies: 🥈
+- player: Arjo14
+  stops: 3
+  points: 22
+  trophies: 🥈🥉
+- player: beckmast
+  stops: 7
+  points: 19
   trophies: 🥈
 - player: Bleedingriver
-  stops: 4
-  points: 11
+  stops: 8
+  points: 16
   trophies: 🥉
-- player: Geraldine Merida
-  stops: 4
-  points: 10
-  trophies: ''
 - player: Zozoken
   stops: 2
   points: 8
   trophies: ''
-- player: Arjo14
-  stops: 1
-  points: 8
-  trophies: 🥉
 - player: LaurieW917
   stops: 1
   points: 8
   trophies: 🥉
 - player: daniinnc
+  stops: 5
+  points: 6
+  trophies: ''
+- player: Salvidrim
+  stops: 2
+  points: 2
+  trophies: ''
+- player: havensand
   stops: 1
   points: 1
   trophies: ''
