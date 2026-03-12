@@ -2,6 +2,9 @@ const { JSDOM } = require("jsdom");
 const fs = require("fs");
 const yaml = require("yaml");
 
+// Compatibility polyfill for fetch in older Node environments
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+
 const FILE_PATH = "_data/tournaments.yml";
 
 function loadExisting() {
@@ -18,49 +21,42 @@ async function scrapeTournament(id) {
   const doc = dom.window.document;
 
   const pageText = doc.body.textContent.toLowerCase();
-  
-  // 1. IMPROVED STATUS DETECTION
+  const progressBarText = doc.querySelector(".bga-progress-bar")?.textContent.toLowerCase() || "";
+
+  // 1. SCRAPE PLAYERS FIRST (The most reliable indicator of completion)
+  // We look for any table row that looks like a ranking podium
+  const rows = [...doc.querySelectorAll("tr")].filter(row => 
+    row.textContent.match(/1st|2nd|3rd|4th/i) && (row.querySelector("a") || row.querySelector(".player-name"))
+  );
+
+  let top4 = null;
+  if (rows.length > 0) {
+    top4 = rows.slice(0, 4).map((row, index) => {
+      const nameEl = row.querySelector("a.playername, a[href*='player'], .player-name, .name");
+      const ranks = ["1st", "2nd", "3rd", "4th"];
+      return {
+        rank: ranks[index],
+        name: nameEl ? nameEl.textContent.trim() : "Unknown"
+      };
+    });
+  }
+
+  // 2. DETERMINE STATUS
   let status = "unknown";
   
-  // Checking for explicit 'ended' signals in headers or the specific progress area
-  const isFinished = pageText.includes("tournament has ended") || 
-                     pageText.includes("this tournament is finished") ||
-                     doc.querySelector(".bga-tournament-finished, .tournament_finished") !== null;
-
-  const isOngoing = pageText.includes("in progress") || 
-                    pageText.includes("waiting for") || 
-                    pageText.includes("playing an encounter");
-
-  if (isFinished) {
+  // If we found a podium/results, it MUST be completed
+  if (top4 && top4.length > 0) {
     status = "completed";
-  } else if (isOngoing) {
+  } else if (pageText.includes("tournament has ended") || progressBarText.includes("finished")) {
+    status = "completed";
+  } else if (pageText.includes("in progress") || progressBarText.includes("playing") || progressBarText.includes("waiting")) {
     status = "ongoing";
   }
 
-  // 2. RELIABLE PLAYER SCRAPING (Targeting the 'Tournament State' table)
-  let top4 = null;
-  if (status === "completed") {
-    // We look for any table row that contains ranking identifiers
-    const rows = [...doc.querySelectorAll("tr")].filter(row => 
-      row.textContent.match(/1st|2nd|3rd|4th/i) && row.querySelector("a")
-    );
-
-    if (rows.length > 0) {
-      top4 = rows.slice(0, 4).map((row, index) => {
-        const nameEl = row.querySelector("a.playername, a[href*='player'], .player-name");
-        const ranks = ["1st", "2nd", "3rd", "4th"];
-        return {
-          rank: ranks[index],
-          name: nameEl ? nameEl.textContent.trim() : "Unknown"
-        };
-      });
-    }
-  }
-
-  // 3. ROUND SCRAPING (Ongoing)
+  // 3. ROUND SCRAPING (Only if ongoing)
   let round = null;
   if (status === "ongoing") {
-    const roundMatch = pageText.match(/round\s*(\d+)/i);
+    const roundMatch = (progressBarText + pageText).match(/round\s*(\d+)/i);
     round = roundMatch ? roundMatch[1] : "1";
   }
 
@@ -73,36 +69,34 @@ async function main() {
 
   for (const id of ids) {
     try {
-      console.log(`Checking Tournament ${id}...`);
+      console.log(`Scraping ${id}...`);
       const scraped = await scrapeTournament(id);
 
-      // PREVENT DUPLICATES: Force-clear volatile fields before re-assigning
+      // Clean existing fields to prevent YAML duplicates
       delete existing[id].status;
       delete existing[id].top4;
       delete existing[id].round;
 
-      // Update with new data
       existing[id].status = scraped.status;
       
-      if (scraped.status === "completed" && scraped.top4) {
+      if (scraped.status === "completed") {
         existing[id].top4 = scraped.top4;
       } else if (scraped.status === "ongoing") {
         existing[id].round = scraped.round;
       }
 
-      console.log(` -> Status: ${scraped.status}`);
+      console.log(` -> Result: ${scraped.status} ${scraped.top4 ? '(with players)' : ''}`);
     } catch (err) {
       console.error(`Error on ${id}:`, err.message);
     }
   }
 
-  // Clean sort and write
   const sorted = Object.fromEntries(
     Object.entries(existing).sort(([a], [b]) => Number(a) - Number(b))
   );
 
   fs.writeFileSync(FILE_PATH, yaml.stringify(sorted), "utf8");
-  console.log("✓ All tournaments processed and saved to YAML.");
+  console.log("✓ Update complete.");
 }
 
 main();
