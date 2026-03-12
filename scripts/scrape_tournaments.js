@@ -1,4 +1,3 @@
-// CommonJS version — updated for 2026 layout status & YAML merging
 const { JSDOM } = require("jsdom");
 const fs = require("fs");
 const yaml = require("yaml");
@@ -18,38 +17,38 @@ async function scrapeTournament(id) {
   const dom = new JSDOM(html);
   const doc = dom.window.document;
 
-  const pageContent = doc.body.textContent.toLowerCase();
+  const pageText = doc.body.textContent.toLowerCase();
   
-  // 1. Status Detection (Broadened for reliability)
+  // Status detection using the text cues you identified
   let status = "unknown";
-  
-  // Check for "Finished" or "Ended" anywhere on the page
-  const hasEnded = pageContent.includes("ended") || pageContent.includes("finished");
-  // Check for active indicators
-  const inProgress = pageContent.includes("in progress") || 
-                     pageContent.includes("playing an encounter") || 
-                     pageContent.includes("waiting for the next");
+  if (pageText.includes("this tournament has ended") || pageText.includes("finished")) {
+    status = "completed";
+  } else if (pageText.includes("progress") || pageText.includes("encounter") || pageText.includes("waiting")) {
+    status = "ongoing";
+  }
 
-  if (hasEnded) status = "completed";
-  else if (inProgress) status = "ongoing";
-
-  // 2. Result Scraping (Completed)
+  // Scrape results for completed tournaments
   if (status === "completed") {
-    // Target the Tournament State table rows
-    const rows = [...doc.querySelectorAll("#tournament_ranking tr, table.ranking tr")].slice(1);
+    // Look for the "Tournament State" table. 
+    // BGA often uses #tournament_ranking or general table structures in the new layout.
+    const rows = [...doc.querySelectorAll("#tournament_ranking tr, .ranking_table tr, table tr")]
+      .filter(row => row.textContent.match(/1st|2nd|3rd/i)); // Only rows with rank text
+
     const top4 = rows.slice(0, 4).map((row, index) => {
-      const nameEl = row.querySelector("a.playername, .player-name");
-      const name = nameEl ? nameEl.textContent.trim() : "Unknown";
+      // Find the first link (usually the player) or a player-name class
+      const nameEl = row.querySelector("a[href*='player'], .player-name, .name");
       const ranks = ["1st", "2nd", "3rd", "4th"];
-      return { rank: ranks[index], name: name };
+      return {
+        rank: ranks[index],
+        name: nameEl ? nameEl.textContent.trim() : "Unknown"
+      };
     });
 
     return { status, top4: top4.length > 0 ? top4 : null };
   }
 
-  // 3. Progress Scraping (Ongoing)
   if (status === "ongoing") {
-    const roundMatch = pageContent.match(/round\s*(\d+)/i);
+    const roundMatch = pageText.match(/round\s*(\d+)/i);
     return { status, round: roundMatch ? roundMatch[1] : "1" };
   }
 
@@ -62,23 +61,21 @@ async function main() {
 
   for (const id of ids) {
     try {
-      console.log(`Scraping tournament ${id}...`);
+      console.log(`Scraping ${id}...`);
       const scraped = await scrapeTournament(id);
 
-      // FIX: Remove old volatile keys to prevent YAML duplication
+      // CRITICAL: Explicitly clear old keys to prevent YAML duplicates
       delete existing[id].status;
-      delete existing[id].round;
       delete existing[id].top4;
+      delete existing[id].round;
 
-      // Apply new data
+      // Assign new values
       existing[id].status = scraped.status;
-      if (scraped.status === "completed") {
-        existing[id].top4 = scraped.top4;
-      } else if (scraped.status === "ongoing") {
-        existing[id].round = scraped.round;
-      }
+      if (scraped.top4) existing[id].top4 = scraped.top4;
+      if (scraped.round) existing[id].round = scraped.round;
+
     } catch (err) {
-      console.error(`Error scraping ${id}:`, err.message);
+      console.error(`Error on ${id}:`, err.message);
     }
   }
 
@@ -86,8 +83,9 @@ async function main() {
     Object.entries(existing).sort(([a], [b]) => Number(a) - Number(b))
   );
 
+  // Use a clean stringify to ensure no weird formatting
   fs.writeFileSync(FILE_PATH, yaml.stringify(sorted), "utf8");
-  console.log("Update complete.");
+  console.log("✓ tournaments.yml updated and cleaned.");
 }
 
 main();
