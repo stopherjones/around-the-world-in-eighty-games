@@ -4,7 +4,7 @@
   game: mr-jack
   name: Mr Jack Tournament (United Kingdom)
   bga_url: https://boardgamearena.com/tournament?id=354697
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: TacCOIG
@@ -20,7 +20,7 @@
   game: next-station-london
   name: "Next Station: London Tournament (United Kingdom)"
   bga_url: https://boardgamearena.com/tournament?id=354698
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: TacCOIG
@@ -36,7 +36,7 @@
   game: gift-of-tulips
   name: Gift of Tulips Tournament (Netherlands)
   bga_url: https://boardgamearena.com/tournament?id=360285
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: beckmast
@@ -52,7 +52,7 @@
   game: thurn-and-taxis
   name: Thurn and Taxis Tournament (Germany)
   bga_url: https://boardgamearena.com/tournament?id=360291
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: andycupid
@@ -68,7 +68,7 @@
   game: copenhagen
   name: Copenhagen Tournament (Denmark)
   bga_url: https://boardgamearena.com/tournament?id=368884
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Castz
@@ -84,7 +84,7 @@
   game: fika
   name: Fika Tournament (Sweden)
   bga_url: https://boardgamearena.com/tournament?id=368887
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Niall
@@ -100,7 +100,7 @@
   game: knarr
   name: Knarr Tournament (Norway)
   bga_url: https://boardgamearena.com/tournament?id=374194
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Niall
@@ -116,7 +116,7 @@
   game: st-petersburg
   name: St Petersburg Tournament (Russia)
   bga_url: https://boardgamearena.com/tournament?id=378251
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Niall
@@ -132,7 +132,7 @@
   game: herrlof
   name: Herrlof Tournament (Norway)
   bga_url: https://boardgamearena.com/tournament?id=380123
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: TacCOIG
@@ -148,7 +148,7 @@
   game: akropolis
   name: Akropolis Tournament (Greece)
   bga_url: https://boardgamearena.com/tournament?id=387302
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Castz
@@ -164,7 +164,7 @@
   game: santorini
   name: Santorini Tournament (Greece)
   bga_url: https://boardgamearena.com/tournament?id=387304
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: TacCOIG
@@ -180,7 +180,7 @@
   game: ponte-del-diavolo
   name: Ponte del Diavolo Tournament (Italy)
   bga_url: https://boardgamearena.com/tournament?id=404118
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: andycupid
@@ -196,7 +196,7 @@
   game: verona-twist
   name: Verona Twist Tournament (Italy)
   bga_url: https://boardgamearena.com/tournament?id=404125
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: andycupid
@@ -212,7 +212,7 @@
   game: viticulture
   name: Viticulture Tournament (Italy)
   bga_url: https://boardgamearena.com/tournament?id=404206
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Niall
@@ -228,7 +228,7 @@
   game: ticket-to-ride-switzerland
   name: "Ticket to Ride: Switzerland Tournament (Switzerland)"
   bga_url: https://boardgamearena.com/tournament?id=410031
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: TacCOIG
@@ -244,7 +244,7 @@
   game: oriflamme
   name: Oriflamme Tournament (France)
   bga_url: https://boardgamearena.com/tournament?id=420784
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Castz
@@ -260,7 +260,7 @@
   game: carcassonne
   name: Carcassonne Tournament (France)
   bga_url: https://boardgamearena.com/tournament?id=420786
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Niall
@@ -276,7 +276,7 @@
   game: fromage
   name: Fromage Tournament (France)
   bga_url: https://boardgamearena.com/tournament?id=420787
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Niall
@@ -292,7 +292,7 @@
   game: the-castles-of-burgundy
   name: The Castles of Burgundy Tournament (France)
   bga_url: https://boardgamearena.com/tournament?id=420929
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Castz
@@ -308,7 +308,7 @@
   game: finca
   name: Finca Tournament (Mallorca)
   bga_url: https://boardgamearena.com/tournament?id=427916
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Castz
@@ -324,7 +324,7 @@
   game: alhambra
   name: Alhambra Tournament (Spain)
   bga_url: https://boardgamearena.com/tournament?id=427918
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Niall
@@ -340,7 +340,7 @@
   game: azul-summer-pavilion
   name: "Azul: Summer Pavilion Tournament (Portugal)"
   bga_url: https://boardgamearena.com/tournament?id=427919
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Niall
@@ -356,7 +356,7 @@
   game: marrakech
   name: Marrakech Tournament (Morocco)
   bga_url: https://boardgamearena.com/tournament?id=439073
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Niall
@@ -372,7 +372,7 @@
   game: medina
   name: Medina Tournament (Morocco)
   bga_url: https://boardgamearena.com/tournament?id=439074
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Castz
@@ -388,7 +388,7 @@
   game: targi
   name: Targi Tournament (Sahara)
   bga_url: https://boardgamearena.com/tournament?id=461495
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Cheery Dog
@@ -404,7 +404,7 @@
   game: caravan
   name: Caravan Tournament (Sahara)
   bga_url: https://boardgamearena.com/tournament?id=461517
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Niall
@@ -420,7 +420,7 @@
   game: orapa-mine
   name: Orapa Mine Tournament (Botswana)
   bga_url: https://boardgamearena.com/tournament?id=488440
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Cheery Dog
@@ -436,7 +436,7 @@
   game: rift-valley-reserve
   name: Rift Valley Reserve Tournament (Uganda)
   bga_url: https://boardgamearena.com/tournament?id=488444
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Castz
@@ -452,7 +452,7 @@
   game: rallymangt
   name: RallymanGT Tournament (South Africa)
   bga_url: https://boardgamearena.com/tournament?id=488602
-  status: completed
+  status: unknown
   top4:
     - rank: 1st
       name: Castz
@@ -468,31 +468,55 @@
   game: nile
   name: Nile Tournament (Egypt)
   bga_url: https://boardgamearena.com/tournament?id=499398
-  status: ongoing
-  round: null
+  status: unknown
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: GeraldineMerida
+    - rank: 3rd
+      name: Silene
+    - rank: 3rd
+      name: Sharon F
 "499404":
   id: 499404
   country: egypt
   game: sobek
   name: Sobek Tournament (Egypt)
   bga_url: https://boardgamearena.com/tournament?id=499404
-  status: ongoing
-  round: null
+  status: unknown
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: TacCOIG
+    - rank: 3rd
+      name: Sharon F
+    - rank: 3rd
+      name: VemRD
 "499408":
   id: 499408
   country: egypt
   game: luxor
   name: Luxor Tournament (Egypt)
   bga_url: https://boardgamearena.com/tournament?id=499408
-  status: ongoing
-  round: null
+  status: unknown
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: Arjo14
+    - rank: 3rd
+      name: Silene
+    - rank: 4th
+      name: Cheery Dog
 "499409":
   id: 499409
   country: egypt
   game: imhotep
   name: Imhotep Tournament (Egypt)
   bga_url: https://boardgamearena.com/tournament?id=499409
-  status: ongoing
+  status: unknown
   round: null
 "511272":
   id: 511272
@@ -500,29 +524,53 @@
   game: elongo
   name: Elongo Tournament (Kenya)
   bga_url: https://boardgamearena.com/tournament?id=511272
-  status: ongoing
-  round: null
+  status: unknown
+  top4:
+    - rank: 1st
+      name: Niall
+    - rank: 2nd
+      name: stopherjones
+    - rank: 3rd
+      name: TacCOIG
+    - rank: 3rd
+      name: drharris
 "511982":
   id: 511982
   country: saudi-arabia
   game: neom
   name: Neom Tournament (Saudi Arabia)
   bga_url: https://boardgamearena.com/tournament?id=511982
-  status: ongoing
-  round: null
-"520693":
-  id: 520693
-  country: Iraq
-  game: Tigris & Euphrates
-  name: Tigris & Euphrates Tournament (Iraq)
-  bga_url: https://boardgamearena.com/tournament?id=520693
   status: unknown
-  round: null
-"520693":
-  id: 520699
+  top4:
+    - rank: 1st
+      name: Silene
+    - rank: 2nd
+      name: drharris
+    - rank: 3rd
+      name: Arjo14
+    - rank: 4th
+      name: stopherjones
+"528477":
+  id: 528477
   country: Iraq
   game: Assyria
   name: Assyria Tournament (Iraq)
-  bga_url: https://boardgamearena.com/tournament?id=520699
+  bga_url: https://boardgamearena.com/tournament?id=528477
+  status: unknown
+  round: null
+"528687":
+  id: 528687
+  country: Uzbekistan
+  game: Khiva
+  name: Khiva Tournament (Uzbekistan)
+  bga_url: https://boardgamearena.com/tournament?id=528687
+  status: unknown
+  round: null
+"5208478":
+  id: 528478
+  country: Iraq
+  game: Tigris & Euphrates
+  name: Tigris & Euphrates Tournament (Iraq)
+  bga_url: https://boardgamearena.com/tournament?id=528478
   status: unknown
   round: null
