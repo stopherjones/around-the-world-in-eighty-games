@@ -468,48 +468,96 @@
   game: nile
   name: Nile Tournament (Egypt)
   bga_url: https://boardgamearena.com/tournament?id=499398
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: GeraldineMerida
+    - rank: 3rd
+      name: Sharon F
+    - rank: 4th
+      name: Silene
 "499404":
   id: 499404
   country: egypt
   game: sobek
   name: Sobek Tournament (Egypt)
   bga_url: https://boardgamearena.com/tournament?id=499404
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: TacCOIG
+    - rank: 3rd
+      name: Sharon F
+    - rank: 4th
+      name: VemRD
 "499408":
   id: 499408
   country: egypt
   game: luxor
   name: Luxor Tournament (Egypt)
   bga_url: https://boardgamearena.com/tournament?id=499408
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Castz
+    - rank: 2nd
+      name: Arjo14
+    - rank: 3rd
+      name: Silene
+    - rank: 4th
+      name: Cheery Dog
 "499409":
   id: 499409
   country: egypt
   game: imhotep
   name: Imhotep Tournament (Egypt)
   bga_url: https://boardgamearena.com/tournament?id=499409
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Silene
+    - rank: 2nd
+      name: Cheery Dog
+    - rank: 3rd
+      name: TacCOIG
+    - rank: 4th
+      name: Kurorac
 "511272":
   id: 511272
   country: kenya
   game: elongo
   name: Elongo Tournament (Kenya)
   bga_url: https://boardgamearena.com/tournament?id=511272
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Niall
+    - rank: 2nd
+      name: stopherjones
+    - rank: 3rd
+      name: drharris
+    - rank: 4th
+      name: TacCOIG
 "511982":
   id: 511982
   country: saudi-arabia
   game: neom
   name: Neom Tournament (Saudi Arabia)
   bga_url: https://boardgamearena.com/tournament?id=511982
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+    - rank: 1st
+      name: Silene
+    - rank: 2nd
+      name: drharris
+    - rank: 3rd
+      name: Arjo14
+    - rank: 4th
+      name: stopherjones
 "520693":
   id: 520693
   country: Iraq
@@ -524,5 +572,13 @@
   game: Assyria
   name: Assyria Tournament (Iraq)
   bga_url: https://boardgamearena.com/tournament?id=520699
+  status: unknown
+  round: null
+"528687":
+  id: 528687
+  country: Uzbekistan
+  game: Khiva
+  name: Khiva Tournament (Uzbekistan)
+  bga_url: https://boardgamearena.com/tournament?id=528687
   status: unknown
   round: null
