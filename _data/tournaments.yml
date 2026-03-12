@@ -526,3 +526,11 @@
   bga_url: https://boardgamearena.com/tournament?id=520699
   status: unknown
   round: null
+"528687":
+  id: 528687
+  country: Uzbekistan
+  game: Khiva
+  name: Khiva Tournament (Iraq)
+  bga_url: https://boardgamearena.com/tournament?id=528687
+  status: unknown
+  round: null
