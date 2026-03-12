@@ -105,12 +105,12 @@ countries:
   - slug: iraq
     games:
       - tigris-and-euphrates
+      - assyria
 
   - slug: uzbekistan
     games:
       - khiva
-      - samarkand
-
+      
   - slug: pakistan
     games:
       - nanga-parbat

@@ -187,12 +187,7 @@
   name: "Khiva"
   countries:
     - uzbekistan
-
-- slug: samarkand
-  name: "Samarkand"
-  countries:
-    - uzbekistan
-
+    
 - slug: nanga-parbat
   name: "Nanga Parbat"
   countries:
