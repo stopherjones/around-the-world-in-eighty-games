@@ -564,7 +564,7 @@
   game: Tigris & Euphrates
   name: Tigris & Euphrates Tournament (Iraq)
   bga_url: https://boardgamearena.com/tournament?id=520693
-  status: unknown
+  status: ongoing
   round: null
 "520693":
   id: 520699
@@ -572,7 +572,7 @@
   game: Assyria
   name: Assyria Tournament (Iraq)
   bga_url: https://boardgamearena.com/tournament?id=520699
-  status: unknown
+  status: ongoing
   round: null
 "528687":
   id: 528687
@@ -580,5 +580,5 @@
   game: Khiva
   name: Khiva Tournament (Uzbekistan)
   bga_url: https://boardgamearena.com/tournament?id=528687
-  status: unknown
+  status: ongoing
   round: null
