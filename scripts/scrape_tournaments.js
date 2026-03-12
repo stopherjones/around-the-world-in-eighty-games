@@ -19,40 +19,52 @@ async function scrapeTournament(id) {
 
   const pageText = doc.body.textContent.toLowerCase();
   
-  // Status detection using the text cues you identified
+  // 1. IMPROVED STATUS DETECTION
   let status = "unknown";
-  if (pageText.includes("this tournament has ended") || pageText.includes("finished")) {
+  
+  // Checking for explicit 'ended' signals in headers or the specific progress area
+  const isFinished = pageText.includes("tournament has ended") || 
+                     pageText.includes("this tournament is finished") ||
+                     doc.querySelector(".bga-tournament-finished, .tournament_finished") !== null;
+
+  const isOngoing = pageText.includes("in progress") || 
+                    pageText.includes("waiting for") || 
+                    pageText.includes("playing an encounter");
+
+  if (isFinished) {
     status = "completed";
-  } else if (pageText.includes("progress") || pageText.includes("encounter") || pageText.includes("waiting")) {
+  } else if (isOngoing) {
     status = "ongoing";
   }
 
-  // Scrape results for completed tournaments
+  // 2. RELIABLE PLAYER SCRAPING (Targeting the 'Tournament State' table)
+  let top4 = null;
   if (status === "completed") {
-    // Look for the "Tournament State" table. 
-    // BGA often uses #tournament_ranking or general table structures in the new layout.
-    const rows = [...doc.querySelectorAll("#tournament_ranking tr, .ranking_table tr, table tr")]
-      .filter(row => row.textContent.match(/1st|2nd|3rd/i)); // Only rows with rank text
+    // We look for any table row that contains ranking identifiers
+    const rows = [...doc.querySelectorAll("tr")].filter(row => 
+      row.textContent.match(/1st|2nd|3rd|4th/i) && row.querySelector("a")
+    );
 
-    const top4 = rows.slice(0, 4).map((row, index) => {
-      // Find the first link (usually the player) or a player-name class
-      const nameEl = row.querySelector("a[href*='player'], .player-name, .name");
-      const ranks = ["1st", "2nd", "3rd", "4th"];
-      return {
-        rank: ranks[index],
-        name: nameEl ? nameEl.textContent.trim() : "Unknown"
-      };
-    });
-
-    return { status, top4: top4.length > 0 ? top4 : null };
+    if (rows.length > 0) {
+      top4 = rows.slice(0, 4).map((row, index) => {
+        const nameEl = row.querySelector("a.playername, a[href*='player'], .player-name");
+        const ranks = ["1st", "2nd", "3rd", "4th"];
+        return {
+          rank: ranks[index],
+          name: nameEl ? nameEl.textContent.trim() : "Unknown"
+        };
+      });
+    }
   }
 
+  // 3. ROUND SCRAPING (Ongoing)
+  let round = null;
   if (status === "ongoing") {
     const roundMatch = pageText.match(/round\s*(\d+)/i);
-    return { status, round: roundMatch ? roundMatch[1] : "1" };
+    round = roundMatch ? roundMatch[1] : "1";
   }
 
-  return { status: "unknown" };
+  return { status, top4, round };
 }
 
 async function main() {
@@ -61,31 +73,36 @@ async function main() {
 
   for (const id of ids) {
     try {
-      console.log(`Scraping ${id}...`);
+      console.log(`Checking Tournament ${id}...`);
       const scraped = await scrapeTournament(id);
 
-      // CRITICAL: Explicitly clear old keys to prevent YAML duplicates
+      // PREVENT DUPLICATES: Force-clear volatile fields before re-assigning
       delete existing[id].status;
       delete existing[id].top4;
       delete existing[id].round;
 
-      // Assign new values
+      // Update with new data
       existing[id].status = scraped.status;
-      if (scraped.top4) existing[id].top4 = scraped.top4;
-      if (scraped.round) existing[id].round = scraped.round;
+      
+      if (scraped.status === "completed" && scraped.top4) {
+        existing[id].top4 = scraped.top4;
+      } else if (scraped.status === "ongoing") {
+        existing[id].round = scraped.round;
+      }
 
+      console.log(` -> Status: ${scraped.status}`);
     } catch (err) {
       console.error(`Error on ${id}:`, err.message);
     }
   }
 
+  // Clean sort and write
   const sorted = Object.fromEntries(
     Object.entries(existing).sort(([a], [b]) => Number(a) - Number(b))
   );
 
-  // Use a clean stringify to ensure no weird formatting
   fs.writeFileSync(FILE_PATH, yaml.stringify(sorted), "utf8");
-  console.log("✓ tournaments.yml updated and cleaned.");
+  console.log("✓ All tournaments processed and saved to YAML.");
 }
 
 main();
