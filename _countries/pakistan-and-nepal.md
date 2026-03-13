@@ -1,9 +1,9 @@
 ---
 layout: country
-name: Uzbekistan 
-slug: uzbekistan
+name: Pakistan and Nepal
+slug: pakistan-and-nepal
 continent: Asia
-order: 24
+order: 25
 intro: |
 
     From Uzbekistan we travel south-east towards India, but we’re not taking the easy route, we’re donning our crampons and oxygen tanks for a spot of serious mountaineering!
