@@ -560,7 +560,7 @@
       name: stopherjones
 "528478":
   id: 528478
-  country: Iraq
+  country: iraq
   game: Tigris & Euphrates
   name: Tigris & Euphrates Tournament (Iraq)
   bga_url: https://boardgamearena.com/tournament?id=528478
@@ -568,7 +568,7 @@
   round: null
 "520693":
   id: 520699
-  country: Iraq
+  country: iraq
   game: Assyria
   name: Assyria Tournament (Iraq)
   bga_url: https://boardgamearena.com/tournament?id=520699
@@ -576,9 +576,33 @@
   round: null
 "528687":
   id: 528687
-  country: Uzbekistan
+  country: uzbekistan
   game: Khiva
   name: Khiva Tournament (Uzbekistan)
   bga_url: https://boardgamearena.com/tournament?id=528687
+  status: ongoing
+  round: null
+"538858":
+  id: 538858
+  country: pakistan-and-nepal
+  game: Pakistan and Nepal
+  name: K2 Tournament (Pakistan and Nepal)
+  bga_url: https://boardgamearena.com/tournament?id=538858
+  status: ongoing
+  round: null
+"538885":
+  id: 538885
+  country: pakistan-and-nepal
+  game: Nanga Parbat
+  name: Nanga Parbat Tournament (Pakistan and Nepal)
+  bga_url: https://boardgamearena.com/tournament?id=538885
+  status: ongoing
+  round: null
+"538888":
+  id: 538888
+  country: pakistan-and-nepal
+  game: Trek12
+  name: Trek12 Tournament (Pakistan and Nepal)
+  bga_url: https://boardgamearena.com/tournament?id=538888
   status: ongoing
   round: null
