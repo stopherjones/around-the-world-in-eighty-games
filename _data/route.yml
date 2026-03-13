@@ -111,14 +111,11 @@ countries:
     games:
       - khiva
       
-  - slug: pakistan
+  - slug: pakistan-and-nepal
     games:
       - nanga-parbat
       - k2
-
-  - slug: nepal
-    games:
-      - trek-12-dhaulagiri
+      - trek-12
 
   - slug: india
     games:

@@ -191,17 +191,17 @@
 - slug: nanga-parbat
   name: "Nanga Parbat"
   countries:
-    - pakistan
+    - pakistan-and-nepal
 
 - slug: k2
   name: "K2"
   countries:
-    - pakistan
+    - pakistan-and-nepal
 
-- slug: trek-12-dhaulagiri
-  name: "Trek 12 – Dhaulagiri"
+- slug: trek-12
+  name: "Trek 12"
   countries:
-    - nepal
+    - pakistan-and-nepal
 
 - slug: jaipur
   name: "Jaipur"
