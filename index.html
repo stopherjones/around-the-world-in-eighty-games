@@ -30,108 +30,31 @@ Over the coming weeks, we’ll explore board games that represent different corn
 
 <h2>Next Location and game(s)</h2>
 
-{% comment %}
-Check whether this page defines any upcoming locations.
-If not, we skip the whole block and show a fallback message.
-{% endcomment %}
 {% if page.next_locations %}
   
-  {% comment %}
-  Load all tournaments (sorted) so we can look up whether a game
-  at a given location already has a tournament created.
-  {% endcomment %}
-  {% assign tournaments = site.data.tournaments | sort %}
-
-  {% comment %}
-  Loop through each upcoming location defined in the page front matter.
-  Each "item" contains a slug and a list of games.
-  {% endcomment %}
   {% for item in page.next_locations %}
-
-    {% comment %}
-    Find the matching country object based on the slug.
-    If no match is found, we fall back to a prettified slug.
-    {% endcomment %}
-    {% assign country = site.countries | where: "slug", item.slug | first %}
-
     <div class="next-location">
       <h3>
-        {% comment %}
-        Display the country name as a link if we found it.
-        Otherwise, display a capitalized version of the slug.
+        {% comment %} 
+        Display the slug directly. We use 'replace' and 'capitalize' 
+        to make it look like a title (e.g., "pakistan-and-nepal" -> "Pakistan and nepal")
         {% endcomment %}
-        {% if country -%}
-          <a href="{{ country.url | relative_url }}">{{ country.name }}</a>
-        {%- else -%}
-          {{ item.slug | replace: "-", " " | capitalize }}
-        {%- endif %}
+        {{ item.slug | replace: "-", " " | capitalize }}
       </h3>
 
       <h4>Games we'll play there:</h4>
       <ul>
-
-        {% comment %}
-        Loop through each game slug listed for this location.
-        {% endcomment %}
-        {%- for game_slug in item.games -%}
-
-          {% comment %}
-          Look up the full game object by slug.
-          If not found, we skip it.
-          {% endcomment %}
-          {% assign game = site.data.games | where: "slug", game_slug | first -%}
-
-          {%- if game -%}
-
-            {% comment %}
-            Try to find a matching tournament for this game *at this location*.
-            We search through all tournaments and pick the first match.
-            {% endcomment %}
-            {% assign t = nil -%}
-            {%- for t_hash in tournaments -%}
-              {% assign t_candidate = t_hash[1] -%}
-              {% if t_candidate.game == game.slug and t_candidate.country == item.slug -%}
-                {% assign t = t_candidate -%}
-                {% break %}
-              {%- endif -%}
-            {%- endfor -%}
-
-            <li>
-              {{ game.name }}
-
-              {% comment %}
-              The following block is commented out in your original code.
-              It would show a tournament link or a placeholder if uncommented.
-              Keeping your original comment block intact.
-              {% endcomment %}
-{% comment %}
-This entire block is ignored by Liquid.
-You can put text, tags, or markup here.
-              {%- if t -%}
-                {%- if t.bga_url -%}
-                  <a href="{{ t.bga_url }}" target="_blank">- Register now on BGA</a>
-                {%- else -%}
-                  Tournament link coming soon
-                {%- endif -%}
-              {%- else -%}
-                Tournament not yet created
-              {%- endif -%}
-            </li>
-{% endcomment %}
-            </li>
-
-          {%- endif -%}
-        {%- endfor %}
+        {% for game_name in item.games %}
+          <li>{{ game_name }}</li>
+        {% endfor %}
       </ul>
     </div>
   {% endfor %}
 
 {% else %}
-  {% comment %}
-  Fallback when no next locations are defined.
-  {% endcomment %}
   <p>No next locations listed.</p>
 {% endif %}
+
   
 <h2>Ongoing Tournaments</h2>
 
