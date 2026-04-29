@@ -3,7 +3,7 @@ layout: country
 name: China 
 slug: china
 continent: Asia
-order: 26
+order: 27
 intro: |
 
     Retracing our steps somewhat we head north-east and into China - a country vast in size, population and history. 

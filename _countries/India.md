@@ -3,7 +3,7 @@ layout: country
 name: India 
 slug: india
 continent: Asia
-order: 25
+order: 26
 intro: |
 
     From the dizzying altitudes of Nepal we descend south into India which, with 1.4 billion people, has overtaken China as the world's most populous country. 
