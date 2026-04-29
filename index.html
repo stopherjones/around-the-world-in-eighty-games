@@ -84,6 +84,9 @@ We extract the value into "t".
     If not found, fall back to prettified slugs.
     {% endcomment %}
     {% assign game = site.data.games | where: "slug", t.game | first %}
+    {% unless game %}
+      {% assign game = site.data.games | where: "name", t.game | first %}
+    {% endunless %}
     {% assign country = site.countries | where: "slug", t.country | first %}
 
     <li>
@@ -92,7 +95,7 @@ We extract the value into "t".
       {% if game %}
         {{ game.name }}
       {% else %}
-        {{ t.game | replace: "-", " " | capitalize }}
+        {{ t.game }}
       {% endif %}
 
       –

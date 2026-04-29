@@ -58,10 +58,22 @@ layout: default
 
   {% if t.country == page.slug %}
     {% assign game = games | where: "slug", t.game | first %}
+    {% unless game %}
+      {% assign game = games | where: "name", t.game | first %}
+    {% endunless %}
 
     <li>
-      {{ game.name }} –
-      <a href="{{ t.bga_url }}" target="_blank">BGA tournament link</a>
+      {% if game %}
+        {{ game.name }}
+      {% else %}
+        {{ t.game }}
+      {% endif %}
+      –
+      {% if t.bga_url %}
+        <a href="{{ t.bga_url }}" target="_blank">BGA tournament link</a>
+      {% else %}
+        Tournament link coming soon
+      {% endif %}
       <br>
       Status: {{ t.status }}
 {% if t.top4 %}

@@ -50,9 +50,11 @@ permalink: /games/
       {% assign t = nil %}
       {% for t_hash in tournaments %}
         {% assign t_candidate = t_hash[1] %}
-        {% if t_candidate.game == game.slug and t_candidate.country == stop.slug %}
-          {% assign t = t_candidate %}
-          {% break %}
+        {% if t_candidate.country == stop.slug %}
+          {% if t_candidate.game == game.slug or t_candidate.game == game.name %}
+            {% assign t = t_candidate %}
+            {% break %}
+          {% endif %}
         {% endif %}
       {% endfor %}
 
@@ -99,7 +101,7 @@ permalink: /games/
   {% assign t = nil %}
   {% for t_hash in tournaments %}
     {% assign t_candidate = t_hash[1] %}
-    {% if t_candidate.game == game.slug %}
+    {% if t_candidate.game == game.slug or t_candidate.game == game.name %}
       {% assign t = t_candidate %}
       {% break %}
     {% endif %}
