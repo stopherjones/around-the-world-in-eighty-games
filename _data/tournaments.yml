@@ -606,3 +606,19 @@
   bga_url: https://boardgamearena.com/tournament?id=538888
   status: ongoing
   round: null
+"554868":
+  id: 554868
+  country: india
+  game: Go Goa
+  name: Go Goa Tournament (India)
+  bga_url: https://boardgamearena.com/tournament?id=554868
+  status: ongoing
+  round: null
+"554870":
+  id: 554870
+  country: india
+  game: Jaipur  
+  name: Jaipur Tournament (India)
+  bga_url: https://boardgamearena.com/tournament?id=554870
+  status: ongoing
+  round: null
