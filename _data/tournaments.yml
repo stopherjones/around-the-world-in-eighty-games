@@ -622,3 +622,19 @@
   bga_url: https://boardgamearena.com/tournament?id=554870
   status: ongoing
   round: null
+"558711":
+  id: 558711
+  country: china
+  game: Takenoko
+  name: Takenoko Tournament (China)
+  bga_url: https://boardgamearena.com/tournament?id=558711
+  status: ongoing
+  round: null
+"558713":
+  id: 558713
+  country: China
+  game: In the Year of the Dragon
+  name: In the Year of the Dragon Tournament (China)
+  bga_url: https://boardgamearena.com/tournament?id=558713
+  status: ongoing
+  round: null
