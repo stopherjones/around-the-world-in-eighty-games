@@ -1,4 +1,4 @@
-"354697":
+'354697':
   id: 354697
   country: united-kingdom
   game: mr-jack
@@ -6,31 +6,31 @@
   bga_url: https://boardgamearena.com/tournament?id=354697
   status: completed
   top4:
-    - rank: 1st
-      name: TacCOIG
-    - rank: 2nd
-      name: Cheery Dog
-    - rank: 3rd
-      name: Saugust2
-    - rank: 3rd
-      name: andycupid
-"354698":
+  - rank: 1st
+    name: TacCOIG
+  - rank: 2nd
+    name: Cheery Dog
+  - rank: 3rd
+    name: Saugust2
+  - rank: 3rd
+    name: andycupid
+'354698':
   id: 354698
   country: united-kingdom
   game: next-station-london
-  name: "Next Station: London Tournament (United Kingdom)"
+  name: 'Next Station: London Tournament (United Kingdom)'
   bga_url: https://boardgamearena.com/tournament?id=354698
   status: completed
   top4:
-    - rank: 1st
-      name: TacCOIG
-    - rank: 2nd
-      name: andycupid
-    - rank: 3rd
-      name: Cheery Dog
-    - rank: 4th
-      name: stopherjones
-"360285":
+  - rank: 1st
+    name: TacCOIG
+  - rank: 2nd
+    name: andycupid
+  - rank: 3rd
+    name: Cheery Dog
+  - rank: 4th
+    name: stopherjones
+'360285':
   id: 360285
   country: netherlands
   game: gift-of-tulips
@@ -38,15 +38,15 @@
   bga_url: https://boardgamearena.com/tournament?id=360285
   status: completed
   top4:
-    - rank: 1st
-      name: beckmast
-    - rank: 2nd
-      name: TacCOIG
-    - rank: 3rd
-      name: stopherjones
-    - rank: 4th
-      name: Niall
-"360291":
+  - rank: 1st
+    name: beckmast
+  - rank: 2nd
+    name: TacCOIG
+  - rank: 3rd
+    name: stopherjones
+  - rank: 4th
+    name: Niall
+'360291':
   id: 360291
   country: germany
   game: thurn-and-taxis
@@ -54,15 +54,15 @@
   bga_url: https://boardgamearena.com/tournament?id=360291
   status: completed
   top4:
-    - rank: 1st
-      name: andycupid
-    - rank: 2nd
-      name: Cheery Dog
-    - rank: 3rd
-      name: Niall
-    - rank: 3rd
-      name: Sharon F
-"368884":
+  - rank: 1st
+    name: andycupid
+  - rank: 2nd
+    name: Cheery Dog
+  - rank: 3rd
+    name: Niall
+  - rank: 3rd
+    name: Sharon F
+'368884':
   id: 368884
   country: denmark
   game: copenhagen
@@ -70,15 +70,15 @@
   bga_url: https://boardgamearena.com/tournament?id=368884
   status: completed
   top4:
-    - rank: 1st
-      name: Castz
-    - rank: 2nd
-      name: TacCOIG
-    - rank: 3rd
-      name: GeraldineMerida
-    - rank: 3rd
-      name: Bleedingriver
-"368887":
+  - rank: 1st
+    name: Castz
+  - rank: 2nd
+    name: TacCOIG
+  - rank: 3rd
+    name: GeraldineMerida
+  - rank: 3rd
+    name: Bleedingriver
+'368887':
   id: 368887
   country: sweden
   game: fika
@@ -86,15 +86,15 @@
   bga_url: https://boardgamearena.com/tournament?id=368887
   status: completed
   top4:
-    - rank: 1st
-      name: Niall
-    - rank: 2nd
-      name: Cheery Dog
-    - rank: 3rd
-      name: andycupid
-    - rank: 3rd
-      name: stopherjones
-"374194":
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: Cheery Dog
+  - rank: 3rd
+    name: andycupid
+  - rank: 3rd
+    name: stopherjones
+'374194':
   id: 374194
   country: norway
   game: knarr
@@ -102,15 +102,15 @@
   bga_url: https://boardgamearena.com/tournament?id=374194
   status: completed
   top4:
-    - rank: 1st
-      name: Niall
-    - rank: 2nd
-      name: VemRD
-    - rank: 3rd
-      name: beckmast
-    - rank: 3rd
-      name: TacCOIG
-"378251":
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: VemRD
+  - rank: 3rd
+    name: beckmast
+  - rank: 3rd
+    name: TacCOIG
+'378251':
   id: 378251
   country: russia
   game: st-petersburg
@@ -118,15 +118,15 @@
   bga_url: https://boardgamearena.com/tournament?id=378251
   status: completed
   top4:
-    - rank: 1st
-      name: Niall
-    - rank: 2nd
-      name: Castz
-    - rank: 3rd
-      name: TacCOIG
-    - rank: 3rd
-      name: VemRD
-"380123":
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: Castz
+  - rank: 3rd
+    name: TacCOIG
+  - rank: 3rd
+    name: VemRD
+'380123':
   id: 380123
   country: norway
   game: herrlof
@@ -134,15 +134,15 @@
   bga_url: https://boardgamearena.com/tournament?id=380123
   status: completed
   top4:
-    - rank: 1st
-      name: TacCOIG
-    - rank: 2nd
-      name: stopherjones
-    - rank: 3rd
-      name: Niall
-    - rank: 3rd
-      name: Cheery Dog
-"387302":
+  - rank: 1st
+    name: TacCOIG
+  - rank: 2nd
+    name: stopherjones
+  - rank: 3rd
+    name: Niall
+  - rank: 3rd
+    name: Cheery Dog
+'387302':
   id: 387302
   country: greece
   game: akropolis
@@ -150,15 +150,15 @@
   bga_url: https://boardgamearena.com/tournament?id=387302
   status: completed
   top4:
-    - rank: 1st
-      name: Castz
-    - rank: 2nd
-      name: TacCOIG
-    - rank: 3rd
-      name: Arjo14
-    - rank: 4th
-      name: Salvidrim
-"387304":
+  - rank: 1st
+    name: Castz
+  - rank: 2nd
+    name: TacCOIG
+  - rank: 3rd
+    name: Arjo14
+  - rank: 4th
+    name: Salvidrim
+'387304':
   id: 387304
   country: greece
   game: santorini
@@ -166,15 +166,15 @@
   bga_url: https://boardgamearena.com/tournament?id=387304
   status: completed
   top4:
-    - rank: 1st
-      name: TacCOIG
-    - rank: 2nd
-      name: Arjo14
-    - rank: 3rd
-      name: andycupid
-    - rank: 3rd
-      name: Cheery Dog
-"404118":
+  - rank: 1st
+    name: TacCOIG
+  - rank: 2nd
+    name: Arjo14
+  - rank: 3rd
+    name: andycupid
+  - rank: 3rd
+    name: Cheery Dog
+'404118':
   id: 404118
   country: italy
   game: ponte-del-diavolo
@@ -182,15 +182,15 @@
   bga_url: https://boardgamearena.com/tournament?id=404118
   status: completed
   top4:
-    - rank: 1st
-      name: andycupid
-    - rank: 2nd
-      name: Castz
-    - rank: 3rd
-      name: Niall
-    - rank: 3rd
-      name: TacCOIG
-"404125":
+  - rank: 1st
+    name: andycupid
+  - rank: 2nd
+    name: Castz
+  - rank: 3rd
+    name: Niall
+  - rank: 3rd
+    name: TacCOIG
+'404125':
   id: 404125
   country: italy
   game: verona-twist
@@ -198,15 +198,15 @@
   bga_url: https://boardgamearena.com/tournament?id=404125
   status: completed
   top4:
-    - rank: 1st
-      name: andycupid
-    - rank: 2nd
-      name: Castz
-    - rank: 3rd
-      name: Niall
-    - rank: 3rd
-      name: Cheery Dog
-"404206":
+  - rank: 1st
+    name: andycupid
+  - rank: 2nd
+    name: Castz
+  - rank: 3rd
+    name: Niall
+  - rank: 3rd
+    name: Cheery Dog
+'404206':
   id: 404206
   country: italy
   game: viticulture
@@ -214,31 +214,31 @@
   bga_url: https://boardgamearena.com/tournament?id=404206
   status: completed
   top4:
-    - rank: 1st
-      name: Niall
-    - rank: 2nd
-      name: VemRD
-    - rank: 3rd
-      name: Castz
-    - rank: 4th
-      name: drharris
-"410031":
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: VemRD
+  - rank: 3rd
+    name: Castz
+  - rank: 4th
+    name: drharris
+'410031':
   id: 410031
   country: switzerland
   game: ticket-to-ride-switzerland
-  name: "Ticket to Ride: Switzerland Tournament (Switzerland)"
+  name: 'Ticket to Ride: Switzerland Tournament (Switzerland)'
   bga_url: https://boardgamearena.com/tournament?id=410031
   status: completed
   top4:
-    - rank: 1st
-      name: TacCOIG
-    - rank: 2nd
-      name: beckmast
-    - rank: 3rd
-      name: Niall
-    - rank: 3rd
-      name: andycupid
-"420784":
+  - rank: 1st
+    name: TacCOIG
+  - rank: 2nd
+    name: beckmast
+  - rank: 3rd
+    name: Niall
+  - rank: 3rd
+    name: andycupid
+'420784':
   id: 420784
   country: france
   game: oriflamme
@@ -246,15 +246,15 @@
   bga_url: https://boardgamearena.com/tournament?id=420784
   status: completed
   top4:
-    - rank: 1st
-      name: Castz
-    - rank: 2nd
-      name: TacCOIG
-    - rank: 2nd
-      name: Kurorac
-    - rank: 3rd
-      name: Salvidrim
-"420786":
+  - rank: 1st
+    name: Castz
+  - rank: 2nd
+    name: TacCOIG
+  - rank: 2nd
+    name: Kurorac
+  - rank: 3rd
+    name: Salvidrim
+'420786':
   id: 420786
   country: france
   game: carcassonne
@@ -262,15 +262,15 @@
   bga_url: https://boardgamearena.com/tournament?id=420786
   status: completed
   top4:
-    - rank: 1st
-      name: Niall
-    - rank: 2nd
-      name: VemRD
-    - rank: 3rd
-      name: stopherjones
-    - rank: 3rd
-      name: TacCOIG
-"420787":
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: VemRD
+  - rank: 3rd
+    name: stopherjones
+  - rank: 3rd
+    name: TacCOIG
+'420787':
   id: 420787
   country: france
   game: fromage
@@ -278,15 +278,15 @@
   bga_url: https://boardgamearena.com/tournament?id=420787
   status: completed
   top4:
-    - rank: 1st
-      name: Niall
-    - rank: 2nd
-      name: Castz
-    - rank: 3rd
-      name: drharris
-    - rank: 4th
-      name: beckmast
-"420929":
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: Castz
+  - rank: 3rd
+    name: drharris
+  - rank: 4th
+    name: beckmast
+'420929':
   id: 420929
   country: france
   game: the-castles-of-burgundy
@@ -294,15 +294,15 @@
   bga_url: https://boardgamearena.com/tournament?id=420929
   status: completed
   top4:
-    - rank: 1st
-      name: Castz
-    - rank: 2nd
-      name: Niall
-    - rank: 3rd
-      name: VemRD
-    - rank: 4th
-      name: TacCOIG
-"427916":
+  - rank: 1st
+    name: Castz
+  - rank: 2nd
+    name: Niall
+  - rank: 3rd
+    name: VemRD
+  - rank: 4th
+    name: TacCOIG
+'427916':
   id: 427916
   country: mallorca
   game: finca
@@ -310,15 +310,15 @@
   bga_url: https://boardgamearena.com/tournament?id=427916
   status: completed
   top4:
-    - rank: 1st
-      name: Castz
-    - rank: 2nd
-      name: GeraldineMerida
-    - rank: 3rd
-      name: Zozoken
-    - rank: 3rd
-      name: Arjo14
-"427918":
+  - rank: 1st
+    name: Castz
+  - rank: 2nd
+    name: GeraldineMerida
+  - rank: 3rd
+    name: Zozoken
+  - rank: 3rd
+    name: Arjo14
+'427918':
   id: 427918
   country: spain
   game: alhambra
@@ -326,31 +326,31 @@
   bga_url: https://boardgamearena.com/tournament?id=427918
   status: completed
   top4:
-    - rank: 1st
-      name: Niall
-    - rank: 2nd
-      name: VemRD
-    - rank: 3rd
-      name: Castz
-    - rank: 4th
-      name: Cheery Dog
-"427919":
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: VemRD
+  - rank: 3rd
+    name: Castz
+  - rank: 4th
+    name: Cheery Dog
+'427919':
   id: 427919
   country: portugal
   game: azul-summer-pavilion
-  name: "Azul: Summer Pavilion Tournament (Portugal)"
+  name: 'Azul: Summer Pavilion Tournament (Portugal)'
   bga_url: https://boardgamearena.com/tournament?id=427919
   status: completed
   top4:
-    - rank: 1st
-      name: Niall
-    - rank: 2nd
-      name: TacCOIG
-    - rank: 3rd
-      name: VemRD
-    - rank: 3rd
-      name: Kurorac
-"439073":
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: TacCOIG
+  - rank: 3rd
+    name: VemRD
+  - rank: 3rd
+    name: Kurorac
+'439073':
   id: 439073
   country: morocco
   game: marrakech
@@ -358,15 +358,15 @@
   bga_url: https://boardgamearena.com/tournament?id=439073
   status: completed
   top4:
-    - rank: 1st
-      name: Niall
-    - rank: 2nd
-      name: Castz
-    - rank: 3rd
-      name: TacCOIG
-    - rank: 4th
-      name: Arjo14
-"439074":
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: Castz
+  - rank: 3rd
+    name: TacCOIG
+  - rank: 4th
+    name: Arjo14
+'439074':
   id: 439074
   country: morocco
   game: medina
@@ -374,15 +374,15 @@
   bga_url: https://boardgamearena.com/tournament?id=439074
   status: completed
   top4:
-    - rank: 1st
-      name: Castz
-    - rank: 2nd
-      name: stopherjones
-    - rank: 3rd
-      name: TacCOIG
-    - rank: 4th
-      name: drharris
-"461495":
+  - rank: 1st
+    name: Castz
+  - rank: 2nd
+    name: stopherjones
+  - rank: 3rd
+    name: TacCOIG
+  - rank: 4th
+    name: drharris
+'461495':
   id: 461495
   country: sahara-desert
   game: targi
@@ -390,15 +390,15 @@
   bga_url: https://boardgamearena.com/tournament?id=461495
   status: completed
   top4:
-    - rank: 1st
-      name: Cheery Dog
-    - rank: 2nd
-      name: Niall
-    - rank: 3rd
-      name: Sharon F
-    - rank: 3rd
-      name: LaurieW917
-"461517":
+  - rank: 1st
+    name: Cheery Dog
+  - rank: 2nd
+    name: Niall
+  - rank: 3rd
+    name: Sharon F
+  - rank: 3rd
+    name: LaurieW917
+'461517':
   id: 461517
   country: sahara-desert
   game: caravan
@@ -406,15 +406,15 @@
   bga_url: https://boardgamearena.com/tournament?id=461517
   status: completed
   top4:
-    - rank: 1st
-      name: Niall
-    - rank: 2nd
-      name: Cheery Dog
-    - rank: 3rd
-      name: TacCOIG
-    - rank: 4th
-      name: Bleedingriver
-"488440":
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: Cheery Dog
+  - rank: 3rd
+    name: TacCOIG
+  - rank: 4th
+    name: Bleedingriver
+'488440':
   id: 488440
   country: botswana
   game: orapa-mine
@@ -422,15 +422,15 @@
   bga_url: https://boardgamearena.com/tournament?id=488440
   status: completed
   top4:
-    - rank: 1st
-      name: Cheery Dog
-    - rank: 2nd
-      name: beckmast
-    - rank: 3rd
-      name: Niall
-    - rank: 3rd
-      name: stopherjones
-"488444":
+  - rank: 1st
+    name: Cheery Dog
+  - rank: 2nd
+    name: beckmast
+  - rank: 3rd
+    name: Niall
+  - rank: 3rd
+    name: stopherjones
+'488444':
   id: 488444
   country: uganda
   game: rift-valley-reserve
@@ -438,15 +438,15 @@
   bga_url: https://boardgamearena.com/tournament?id=488444
   status: completed
   top4:
-    - rank: 1st
-      name: Castz
-    - rank: 2nd
-      name: Niall
-    - rank: 3rd
-      name: TacCOIG
-    - rank: 4th
-      name: stopherjones
-"488602":
+  - rank: 1st
+    name: Castz
+  - rank: 2nd
+    name: Niall
+  - rank: 3rd
+    name: TacCOIG
+  - rank: 4th
+    name: stopherjones
+'488602':
   id: 488602
   country: south-africa
   game: rallymangt
@@ -454,15 +454,15 @@
   bga_url: https://boardgamearena.com/tournament?id=488602
   status: completed
   top4:
-    - rank: 1st
-      name: Castz
-    - rank: 2nd
-      name: Niall
-    - rank: 3rd
-      name: Cheery Dog
-    - rank: 4th
-      name: stopherjones
-"499398":
+  - rank: 1st
+    name: Castz
+  - rank: 2nd
+    name: Niall
+  - rank: 3rd
+    name: Cheery Dog
+  - rank: 4th
+    name: stopherjones
+'499398':
   id: 499398
   country: egypt
   game: nile
@@ -470,15 +470,15 @@
   bga_url: https://boardgamearena.com/tournament?id=499398
   status: completed
   top4:
-    - rank: 1st
-      name: Castz
-    - rank: 2nd
-      name: GeraldineMerida
-    - rank: 3rd
-      name: Sharon F
-    - rank: 4th
-      name: Silene
-"499404":
+  - rank: 1st
+    name: Castz
+  - rank: 2nd
+    name: GeraldineMerida
+  - rank: 3rd
+    name: Sharon F
+  - rank: 4th
+    name: Silene
+'499404':
   id: 499404
   country: egypt
   game: sobek
@@ -486,15 +486,15 @@
   bga_url: https://boardgamearena.com/tournament?id=499404
   status: completed
   top4:
-    - rank: 1st
-      name: Castz
-    - rank: 2nd
-      name: TacCOIG
-    - rank: 3rd
-      name: Sharon F
-    - rank: 4th
-      name: VemRD
-"499408":
+  - rank: 1st
+    name: Castz
+  - rank: 2nd
+    name: TacCOIG
+  - rank: 3rd
+    name: Sharon F
+  - rank: 4th
+    name: VemRD
+'499408':
   id: 499408
   country: egypt
   game: luxor
@@ -502,15 +502,15 @@
   bga_url: https://boardgamearena.com/tournament?id=499408
   status: completed
   top4:
-    - rank: 1st
-      name: Castz
-    - rank: 2nd
-      name: Arjo14
-    - rank: 3rd
-      name: Silene
-    - rank: 4th
-      name: Cheery Dog
-"499409":
+  - rank: 1st
+    name: Castz
+  - rank: 2nd
+    name: Arjo14
+  - rank: 3rd
+    name: Silene
+  - rank: 4th
+    name: Cheery Dog
+'499409':
   id: 499409
   country: egypt
   game: imhotep
@@ -518,15 +518,15 @@
   bga_url: https://boardgamearena.com/tournament?id=499409
   status: completed
   top4:
-    - rank: 1st
-      name: Silene
-    - rank: 2nd
-      name: Cheery Dog
-    - rank: 3rd
-      name: TacCOIG
-    - rank: 4th
-      name: Kurorac
-"511272":
+  - rank: 1st
+    name: Silene
+  - rank: 2nd
+    name: Cheery Dog
+  - rank: 3rd
+    name: TacCOIG
+  - rank: 4th
+    name: Kurorac
+'511272':
   id: 511272
   country: kenya
   game: elongo
@@ -534,15 +534,15 @@
   bga_url: https://boardgamearena.com/tournament?id=511272
   status: completed
   top4:
-    - rank: 1st
-      name: Niall
-    - rank: 2nd
-      name: stopherjones
-    - rank: 3rd
-      name: drharris
-    - rank: 4th
-      name: TacCOIG
-"511982":
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: stopherjones
+  - rank: 3rd
+    name: drharris
+  - rank: 4th
+    name: TacCOIG
+'511982':
   id: 511982
   country: saudi-arabia
   game: neom
@@ -550,15 +550,15 @@
   bga_url: https://boardgamearena.com/tournament?id=511982
   status: completed
   top4:
-    - rank: 1st
-      name: Silene
-    - rank: 2nd
-      name: drharris
-    - rank: 3rd
-      name: Arjo14
-    - rank: 4th
-      name: stopherjones
-"528478":
+  - rank: 1st
+    name: Silene
+  - rank: 2nd
+    name: drharris
+  - rank: 3rd
+    name: Arjo14
+  - rank: 4th
+    name: stopherjones
+'528478':
   id: 528478
   country: iraq
   game: Tigris & Euphrates
@@ -566,7 +566,7 @@
   bga_url: https://boardgamearena.com/tournament?id=528478
   status: ongoing
   round: null
-"520693":
+'520693':
   id: 520699
   country: iraq
   game: Assyria
@@ -574,15 +574,23 @@
   bga_url: https://boardgamearena.com/tournament?id=520699
   status: ongoing
   round: null
-"528687":
+'528687':
   id: 528687
   country: uzbekistan
   game: Khiva
   name: Khiva Tournament (Uzbekistan)
   bga_url: https://boardgamearena.com/tournament?id=528687
-  status: ongoing
-  round: null
-"538858":
+  status: completed
+  top4:
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: Cheery Dog
+  - rank: 3rd
+    name: stopherjones
+  - rank: 4th
+    name: drharris
+'538858':
   id: 538858
   country: pakistan-and-nepal
   game: K2
@@ -590,7 +598,7 @@
   bga_url: https://boardgamearena.com/tournament?id=538858
   status: ongoing
   round: null
-"538885":
+'538885':
   id: 538885
   country: pakistan-and-nepal
   game: Nanga Parbat
@@ -598,7 +606,7 @@
   bga_url: https://boardgamearena.com/tournament?id=538885
   status: ongoing
   round: null
-"538888":
+'538888':
   id: 538888
   country: pakistan-and-nepal
   game: Trek12
@@ -606,7 +614,7 @@
   bga_url: https://boardgamearena.com/tournament?id=538888
   status: ongoing
   round: null
-"554868":
+'554868':
   id: 554868
   country: india
   game: Go Goa
@@ -614,10 +622,10 @@
   bga_url: https://boardgamearena.com/tournament?id=554868
   status: ongoing
   round: null
-"554870":
+'554870':
   id: 554870
   country: india
-  game: Jaipur  
+  game: Jaipur
   name: Jaipur Tournament (India)
   bga_url: https://boardgamearena.com/tournament?id=554870
   status: ongoing
