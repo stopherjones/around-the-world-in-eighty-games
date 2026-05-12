@@ -1,56 +1,64 @@
-- player: Niall
-  stops: 2
-  points: 17
-  trophies: 🥇
-- player: drharris
-  stops: 2
-  points: 16
-  trophies: 🥈
-- player: stopherjones
-  stops: 2
-  points: 14
-  trophies: 🥉
-- player: Cheery Dog
-  stops: 2
-  points: 12
-  trophies: 🥈
 - player: Silene
-  stops: 1
-  points: 12
-  trophies: 🥇
-- player: TacCOIG
   stops: 2
+  points: 24
+  trophies: 🥇🥇
+- player: Niall
+  stops: 3
+  points: 22
+  trophies: 🥇
+- player: stopherjones
+  stops: 3
+  points: 22
+  trophies: 🥉🥉
+- player: drharris
+  stops: 3
+  points: 19
+  trophies: 🥈
+- player: Cheery Dog
+  stops: 3
+  points: 18
+  trophies: 🥈
+- player: TacCOIG
+  stops: 3
+  points: 12
+  trophies: ''
+- player: VemRD
+  stops: 3
+  points: 12
+  trophies: ''
+- player: Kurorac
+  stops: 3
+  points: 10
+  trophies: ''
+- player: Salvidrim
+  stops: 1
+  points: 10
+  trophies: 🥈
+- player: Sharon F
+  stops: 3
+  points: 10
+  trophies: ''
+- player: Bleedingriver
+  stops: 3
   points: 9
   trophies: ''
 - player: Arjo14
   stops: 1
   points: 8
   trophies: 🥉
-- player: Bleedingriver
+- player: LaurieW917
   stops: 2
-  points: 7
+  points: 4
   trophies: ''
-- player: Kurorac
-  stops: 2
-  points: 7
-  trophies: ''
-- player: VemRD
-  stops: 2
-  points: 7
-  trophies: ''
-- player: Sharon F
-  stops: 2
-  points: 6
+- player: ren v hoek
+  stops: 1
+  points: 4
   trophies: ''
 - player: GeraldineMerida
   stops: 1
   points: 3
   trophies: ''
 - player: beckmast
-  stops: 1
-  points: 1
-  trophies: ''
-- player: LaurieW917
   stops: 1
   points: 1
   trophies: ''

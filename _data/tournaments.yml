@@ -612,8 +612,16 @@
   game: Trek12
   name: Trek12 Tournament (Pakistan and Nepal)
   bga_url: https://boardgamearena.com/tournament?id=538888
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: Silene
+  - rank: 2nd
+    name: Salvidrim
+  - rank: 3rd
+    name: stopherjones
+  - rank: 4th
+    name: Cheery Dog
 '554868':
   id: 554868
   country: india
@@ -630,7 +638,7 @@
   bga_url: https://boardgamearena.com/tournament?id=554870
   status: ongoing
   round: null
-"558711":
+'558711':
   id: 558711
   country: china
   game: Takenoko
@@ -638,7 +646,7 @@
   bga_url: https://boardgamearena.com/tournament?id=558711
   status: ongoing
   round: null
-"558713":
+'558713':
   id: 558713
   country: china
   game: In the Year of the Dragon
