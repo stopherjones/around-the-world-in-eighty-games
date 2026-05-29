@@ -662,3 +662,11 @@
   bga_url: https://boardgamearena.com/tournament?id=558713
   status: ongoing
   round: null
+"566869":
+  id: 566869
+  country: vietnam
+  game: Fai Fo
+  name: Fai Fo Tournament (Vietnam)
+  bga_url: https://boardgamearena.com/tournament?id=566869
+  status: planned
+  round: null

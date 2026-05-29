@@ -126,11 +126,7 @@ countries:
     games:
       - takenoko
       - in-the-year-of-the-dragon
-
-  - slug: thailand
-    games:
-      - siam
-
+    
   - slug: vietnam
     games:
       - fai-fo-hoi-pho
