@@ -33,11 +33,9 @@ Over the coming weeks, we’ll explore board games that represent different corn
   {% for item in page.next_locations %}
     <div class="next-location">
       <h3>
-        {% comment %} 
-        Display the slug directly. We use 'replace' and 'capitalize' 
-        to make it look like a title (e.g., "pakistan-and-nepal" -> "Pakistan and nepal")
-        {% endcomment %}
-        {{ item.slug | replace: "-", " " | capitalize }}
+        <a href="{{ '/countries/' | append: item.slug | append: '/' | relative_url }}">
+          {{ item.slug | replace: "-", " " | capitalize }}
+        </a>
       </h3>
 
       <h4>Games we'll play there:</h4>
