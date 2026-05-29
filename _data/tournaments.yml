@@ -564,8 +564,16 @@
   game: Tigris & Euphrates
   name: Tigris & Euphrates Tournament (Iraq)
   bga_url: https://boardgamearena.com/tournament?id=528478
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: Castz
+  - rank: 2nd
+    name: Cheery Dog
+  - rank: 3rd
+    name: Niall
+  - rank: 4th
+    name: Kurorac
 '520693':
   id: 520699
   country: iraq
