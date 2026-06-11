@@ -223,11 +223,6 @@
   countries:
     - china
 
-- slug: siam
-  name: "Siam"
-  countries:
-    - thailand
-
 - slug: fai-fo-hoi-pho
   name: "Fai Fo / Hoi Pho"
   countries:
