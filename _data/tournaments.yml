@@ -670,3 +670,11 @@
   bga_url: https://boardgamearena.com/tournament?id=566869
   status: planned
   round: null
+"571136":
+  id: 571136
+  country: singapore
+  game: Roll to the Top
+  name: Roll to the Top Tournament (Singapore)
+  bga_url: https://boardgamearena.com/tournament?id=571136
+  status: planned
+  round: null
