@@ -1,43 +1,47 @@
-- player: Niall
-  stops: 4
-  points: 30
-  trophies: 🥇🥉
-- player: Cheery Dog
-  stops: 4
-  points: 28
-  trophies: 🥈🥈
-- player: stopherjones
-  stops: 4
-  points: 25
-  trophies: 🥉🥉
-- player: drharris
-  stops: 4
-  points: 24
-  trophies: 🥈
 - player: Silene
-  stops: 2
-  points: 24
-  trophies: 🥇🥇
+  stops: 3
+  points: 36
+  trophies: 🥇🥇🥇
+- player: Niall
+  stops: 5
+  points: 35
+  trophies: 🥇🥉
+- player: stopherjones
+  stops: 5
+  points: 31
+  trophies: 🥉🥉
+- player: Cheery Dog
+  stops: 5
+  points: 30
+  trophies: 🥈🥈
+- player: drharris
+  stops: 5
+  points: 27
+  trophies: 🥈
+- player: TacCOIG
+  stops: 5
+  points: 26
+  trophies: 🥈
 - player: VemRD
-  stops: 4
-  points: 17
+  stops: 5
+  points: 22
   trophies: ''
 - player: Kurorac
-  stops: 4
-  points: 16
-  trophies: ''
-- player: TacCOIG
-  stops: 4
-  points: 16
+  stops: 5
+  points: 18
   trophies: ''
 - player: Bleedingriver
-  stops: 4
-  points: 12
+  stops: 5
+  points: 15
   trophies: ''
 - player: Castz
   stops: 1
   points: 12
   trophies: 🥇
+- player: ren v hoek
+  stops: 2
+  points: 12
+  trophies: 🥉
 - player: Salvidrim
   stops: 1
   points: 10
@@ -50,19 +54,15 @@
   stops: 1
   points: 8
   trophies: 🥉
+- player: LaurieW917
+  stops: 3
+  points: 7
+  trophies: ''
 - player: CabbageOfKastis
   stops: 1
   points: 4
   trophies: ''
 - player: daniinnc
-  stops: 1
-  points: 4
-  trophies: ''
-- player: LaurieW917
-  stops: 2
-  points: 4
-  trophies: ''
-- player: ren v hoek
   stops: 1
   points: 4
   trophies: ''

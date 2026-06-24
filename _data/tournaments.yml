@@ -604,8 +604,16 @@
   game: K2
   name: K2 Tournament (Pakistan and Nepal)
   bga_url: https://boardgamearena.com/tournament?id=538858
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: Silene
+  - rank: 2nd
+    name: TacCOIG
+  - rank: 3rd
+    name: ren v hoek
+  - rank: 4th
+    name: stopherjones
 '538885':
   id: 538885
   country: pakistan-and-nepal
@@ -662,7 +670,7 @@
   bga_url: https://boardgamearena.com/tournament?id=558713
   status: ongoing
   round: null
-"566869":
+'566869':
   id: 566869
   country: vietnam
   game: Fai Fo
@@ -670,7 +678,7 @@
   bga_url: https://boardgamearena.com/tournament?id=566869
   status: planned
   round: null
-"571136":
+'571136':
   id: 571136
   country: singapore
   game: Roll to the Top
