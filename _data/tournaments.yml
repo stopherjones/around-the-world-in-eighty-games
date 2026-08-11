@@ -660,8 +660,16 @@
   game: Takenoko
   name: Takenoko Tournament (China)
   bga_url: https://boardgamearena.com/tournament?id=558711
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: TacCOIG
+  - rank: 2nd
+    name: Silene
+  - rank: 3rd
+    name: Arjo14
+  - rank: 4th
+    name: Kurorac
 '558713':
   id: 558713
   country: china
@@ -676,8 +684,16 @@
   game: Fai Fo
   name: Fai Fo Tournament (Vietnam)
   bga_url: https://boardgamearena.com/tournament?id=566869
-  status: planned
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: stopherjones
+  - rank: 2nd
+    name: Castz
+  - rank: 3rd
+    name: drharris
+  - rank: 4th
+    name: Silene
 '571136':
   id: 571136
   country: singapore
