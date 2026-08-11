@@ -691,8 +691,8 @@
 '566869':
   id: 566869
   country: vietnam
-  game: Fai Fo
-  name: Fai Fo Tournament (Vietnam)
+  game: Fai Fo / Hoi Pho
+  name: Fai Fo / Hoi Pho Tournament (Vietnam)
   bga_url: https://boardgamearena.com/tournament?id=566869
   status: completed
   top4:
@@ -707,8 +707,8 @@
 '571136':
   id: 571136
   country: singapore
-  game: Roll to the Top
-  name: Roll to the Top Tournament (Singapore)
+  game: Roll to the Top (Marina Bay)
+  name: Roll to the Top (Marina Bay) Tournament (Singapore)
   bga_url: https://boardgamearena.com/tournament?id=571136
   status: planned
   round: null
