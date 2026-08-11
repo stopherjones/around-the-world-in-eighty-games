@@ -1,25 +1,16 @@
 ---
 permalink: /404.html
-layout: page
+layout: default
+title: Page not found
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<div class="not-found-card">
+  <p class="not-found-eyebrow">404 error</p>
+  <h1>Page not found</h1>
+  <p>The page you were looking for seems to have gone missing. You can head back home, browse the countries, or use the search box above to jump to a destination.</p>
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <div class="not-found-actions">
+    <a class="button primary" href="{{ '/' | relative_url }}">Return home</a>
+    <a class="button secondary" href="{{ '/countries/' | relative_url }}">Browse countries</a>
+  </div>
 </div>

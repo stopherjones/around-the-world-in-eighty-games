@@ -702,3 +702,59 @@
   bga_url: https://boardgamearena.com/tournament?id=571136
   status: planned
   round: null
+"590670":
+  id: 590670
+  country: indonesia
+  game: Hutan
+  name: Hutan Tournament (Indonesia)
+  bga_url: https://boardgamearena.com/tournament?id=590670
+  status: ongoing
+  round: null
+"590694":
+  id: 590694
+  country: japan
+  game: King of Tokyo
+  name: King of Tokyo Tournament (Japan)
+  bga_url: https://boardgamearena.com/tournament?id=590694
+  status: ongoing
+  round: null
+"590696":
+  id: 590696
+  country: japan
+  game: Let's Go To Japan
+  name: Let's Go To Japan Tournament (Japan)
+  bga_url: https://boardgamearena.com/tournament?id=590696
+  status: ongoing
+  round: null
+"590697":
+  id: 590697
+  country: japan
+  game: The White Castle
+  name: The White Castle Tournament (Japan)
+  bga_url: https://boardgamearena.com/tournament?id=590697
+  status: ongoing
+  round: null
+"590698":
+  id: 590698
+  country: japan
+  game: Kokeshi
+  name: Kokeshi Tournament (Japan)
+  bga_url: https://boardgamearena.com/tournament?id=590698
+  status: ongoing
+  round: null
+"590700":
+  id: 590700
+  country: australia
+  game: Boomerang Australia
+  name: Boomerang Australia Tournament (Australia)
+  bga_url: https://boardgamearena.com/tournament?id=590700
+  status: ongoing
+  round: null
+"590701":
+  id: 590701
+  country: australia
+  game: Dingo's Dreams
+  name: Dingo's Dreams Tournament (Australia)
+  bga_url: https://boardgamearena.com/tournament?id=590701
+  status: ongoing
+  round: null

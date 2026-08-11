@@ -225,6 +225,70 @@ ul li::before {
 
 
 /* ===========================
+   404 / Not Found
+=========================== */
+.not-found-card {
+  background: rgba(255, 253, 248, 0.95);
+  border: 1px solid var(--border-light);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(63, 47, 37, 0.12);
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.not-found-eyebrow {
+  color: var(--nav-bg);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+}
+
+.not-found-card h1 {
+  border: 0;
+  margin: 0 0 0.75rem;
+  padding: 0;
+  font-size: 2.6rem;
+}
+
+.not-found-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.button {
+  border: 1px solid var(--border-light);
+  border-radius: 999px;
+  display: inline-block;
+  font-weight: 700;
+  padding: 0.75rem 1.1rem;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.button:hover {
+  opacity: 0.95;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.button.primary {
+  background: var(--nav-bg);
+  border-color: var(--nav-bg);
+  color: var(--text-light);
+}
+
+.button.secondary {
+  background: transparent;
+  color: var(--nav-bg);
+}
+
+/* ===========================
    Footer
 =========================== */
 .site-footer {
