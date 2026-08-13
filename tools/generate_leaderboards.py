@@ -39,7 +39,7 @@ import yaml
 # ---------------------------------------------------------------------------
 
 TOURNAMENTS_YML  = "_data/tournaments.yml"
-TOURNAMENTS_JSON = "https://raw.githubusercontent.com/stopherjones/BGA-tournaments/main/data/tournaments.json"
+TOURNAMENTS_JSON = "https://gist.githubusercontent.com/stopherjones/9e76e51ec3edc32616434a96fbb76d27/raw/tournaments.json"
 OUTPUT_DIR       = "_data/leaderboard"
 SERIES_FILTER    = "TBA Around the World"
 
