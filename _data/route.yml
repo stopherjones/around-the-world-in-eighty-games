@@ -2,51 +2,73 @@ current_index: 19
 
 countries:
   - slug: united-kingdom
+    lat: 51.5074
+    lng: -0.1278
     games:
       - mr-jack
       - next-station-london
 
   - slug: netherlands
+    lat: 52.3676
+    lng: 4.9041
     games:
       - gift-of-tulips
 
   - slug: germany
+    lat: 52.5200
+    lng: 13.4050
     games:
       - thurn-and-taxis
 
   - slug: denmark
+    lat: 55.6761
+    lng: 12.5683
     games:
       - copenhagen
 
   - slug: sweden
+    lat: 59.3293
+    lng: 18.0686
     games:
       - fika
 
   - slug: norway
+    lat: 59.9139
+    lng: 10.7522
     games:
       - knarr
       - herrlof
 
   - slug: russia
+    lat: 59.9343
+    lng: 30.3351
     games:
       - st-petersburg
 
   - slug: greece
+    lat: 37.9838
+    lng: 23.7275
     games:
       - akropolis
       - santorini
 
   - slug: italy
+    lat: 41.9028
+    lng: 12.4964
     games:
       - ponte-del-diavolo
       - verona-twist
       - viticulture
 
   - slug: switzerland
+    lat: 46.9480
+    lng: 7.4474
     games:
       - ticket-to-ride-switzerland
 
   - slug: france
+    lat: 48.8566
+    lng: 2.3522
     games:
       - oriflamme
       - carcassonne
@@ -54,40 +76,58 @@ countries:
       - the-castles-of-burgundy
 
   - slug: mallorca
+    lat: 39.6953
+    lng: 3.0176
     games:
       - finca
 
   - slug: spain
+    lat: 40.4168
+    lng: -3.7038
     games:
       - alhambra
 
   - slug: portugal
+    lat: 38.7223
+    lng: -9.1393
     games:
       - azul-summer-pavilion
 
   - slug: morocco
+    lat: 31.6295
+    lng: -7.9811
     games:
       - marrakech
       - medina
 
   - slug: sahara-desert
+    lat: 23.8061
+    lng: 11.2884
     games:
       - targi
       - caravan
 
   - slug: botswana
+    lat: -21.3000
+    lng: 25.3700
     games:
       - orapa-mine
 
   - slug: south-africa
+    lat: -33.9249
+    lng: 18.4241
     games:
       - rallymangt
 
   - slug: uganda
+    lat: 0.3476
+    lng: 32.5825
     games:
       - rift-valley-reserve
 
   - slug: egypt
+    lat: 30.0444
+    lng: 31.2357
     games:
       - sobek
       - luxor
@@ -95,51 +135,73 @@ countries:
       - nile
 
   - slug: kenya
+    lat: -1.2921
+    lng: 36.8219
     games:
       - elongo
 
   - slug: saudi-arabia
+    lat: 24.7136
+    lng: 46.6753
     games:
       - neom
     
   - slug: iraq
+    lat: 33.3152
+    lng: 44.3661
     games:
       - tigris-and-euphrates
       - assyria
 
   - slug: uzbekistan
+    lat: 41.3783
+    lng: 60.3639
     games:
       - khiva
       
   - slug: pakistan-and-nepal
+    lat: 27.7172
+    lng: 85.3240
     games:
       - nanga-parbat
       - k2
       - trek-12
 
   - slug: india
+    lat: 28.6139
+    lng: 77.2090
     games:
       - jaipur
       - go-goa
 
   - slug: china
+    lat: 39.9042
+    lng: 116.4074
     games:
       - takenoko
       - in-the-year-of-the-dragon
     
   - slug: vietnam
+    lat: 15.8801
+    lng: 108.3380
     games:
       - fai-fo-hoi-pho
 
   - slug: singapore
+    lat: 1.3521
+    lng: 103.8198
     games:
       - roll-to-the-top-marina-bay
 
   - slug: indonesia
+    lat: -6.2088
+    lng: 106.8456
     games:
       - hutan
 
   - slug: japan
+    lat: 35.6762
+    lng: 139.6503
     games:
       - lets-go-to-japan
       - king-of-tokyo
@@ -147,59 +209,85 @@ countries:
       - kokeshi
 
   - slug: australia
+    lat: -33.8688
+    lng: 151.2093
     games:
       - boomerang-australia
       - dingos-dreams
 
   - slug: hawaii
+    lat: 21.3069
+    lng: -157.8583
     games:
       - hawaii
 
   - slug: incan-america
+    lat: -13.1631
+    lng: -72.5450
     games:
       - incan-gold
 
   - slug: bolivia
+    lat: -16.4897
+    lng: -68.1193
     games:
       - tiwanaku
 
   - slug: argentina
+    lat: -34.6037
+    lng: -58.3816
     games:
       - cities-buenos-aires
 
   - slug: amazon
+    lat: -3.1190
+    lng: -60.0217
     games:
       - rainforest
       - amazonas
 
   - slug: tobago
+    lat: 11.1802
+    lng: -60.7335
     games:
       - tobago
 
   - slug: puerto-rico
+    lat: 18.4655
+    lng: -66.1057
     games:
       - puerto-rico
 
   - slug: bahamas
+    lat: 25.0343
+    lng: -77.3963
     games:
       - bahama-taxi
 
   - slug: caribbean
+    lat: 14.5000
+    lng: -65.0000
     games:
       - maracaibo
 
   - slug: guatemala
+    lat: 17.2220
+    lng: -89.6237
     games:
       - yaxha
       - tikal
 
   - slug: mexico
+    lat: 19.4326
+    lng: -99.1332
     games:
       - mexica
       - viva-catrina
       - teotihuacan
 
   - slug: usa
+    lat: 36.1699
+    lng: -115.1398
     games:
       - gold-west
       - pioneer-days
@@ -209,11 +297,15 @@ countries:
       - get-on-board-new-york
 
   - slug: canada
+    lat: 45.4215
+    lng: -75.6972
     games:
       - niagara
       - quadrata-canada
       - fleet
 
   - slug: greenland
+    lat: 64.1814
+    lng: -51.6941
     games:
       - northwest-passage

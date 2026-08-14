@@ -299,3 +299,36 @@ ul li::before {
   font-size: 0.9em;
   border-top: 1px solid var(--accent);
 }
+
+/* ===========================
+   Leaflet Map Popup Overrides
+=========================== */
+.leaflet-popup-content {
+  font-family: system-ui, sans-serif;
+  color: var(--text-dark);
+}
+
+.leaflet-popup-content strong {
+  color: var(--nav-bg);
+}
+
+/* Reset global list styles inside popups */
+.leaflet-popup-content ul {
+  list-style: disc;
+  padding-left: 1.1rem;
+  margin: 0.4rem 0 0.8rem 0;
+}
+
+.leaflet-popup-content li {
+  position: static;
+  margin: 0.2rem 0;
+  padding-left: 0;
+  font-size: 0.85rem;
+  font-weight: normal;
+  color: #4b4b4b;
+}
+
+/* Strip out the site-wide vintage chevron */
+.leaflet-popup-content li::before {
+  content: none;
+}
