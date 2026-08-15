@@ -686,8 +686,16 @@
   game: In the Year of the Dragon
   name: In the Year of the Dragon Tournament (China)
   bga_url: https://boardgamearena.com/tournament?id=558713
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: Silene
+  - rank: 2nd
+    name: Castz
+  - rank: 3rd
+    name: Niall
+  - rank: 4th
+    name: Kurorac
 '566869':
   id: 566869
   country: vietnam
