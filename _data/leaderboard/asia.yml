@@ -1,38 +1,46 @@
 - player: Silene
-  stops: 7
-  points: 70
-  trophies: 🥇🥇🥇🥇🥈
-- player: stopherjones
-  stops: 9
-  points: 61
-  trophies: 🥇🥈🥉🥉
-- player: Niall
   stops: 8
-  points: 57
-  trophies: 🥇🥇🥉🥉
+  points: 78
+  trophies: 🥇🥇🥇🥇🥈🥉
+- player: stopherjones
+  stops: 10
+  points: 69
+  trophies: 🥇🥈🥉🥉🥉
 - player: TacCOIG
+  stops: 10
+  points: 64
+  trophies: 🥇🥇🥈
+- player: Niall
   stops: 9
-  points: 52
-  trophies: 🥇🥈
+  points: 62
+  trophies: 🥇🥇🥉🥉
 - player: drharris
-  stops: 9
-  points: 45
+  stops: 10
+  points: 50
   trophies: 🥈🥉
 - player: Cheery Dog
-  stops: 8
-  points: 38
-  trophies: 🥈🥈
-- player: VemRD
   stops: 9
-  points: 38
+  points: 48
+  trophies: 🥈🥈🥈
+- player: VemRD
+  stops: 10
+  points: 43
+  trophies: ''
+- player: Kurorac
+  stops: 10
+  points: 42
   trophies: ''
 - player: Castz
   stops: 4
   points: 37
   trophies: 🥇🥈🥈
-- player: Kurorac
-  stops: 9
-  points: 37
+- player: ren v hoek
+  stops: 4
+  points: 21
+  trophies: 🥉
+- player: Bleedingriver
+  stops: 6
+  points: 20
   trophies: ''
 - player: Arjo14
   stops: 3
@@ -46,21 +54,13 @@
   stops: 2
   points: 18
   trophies: 🥈🥉
-- player: ren v hoek
-  stops: 3
-  points: 16
-  trophies: 🥉
-- player: Bleedingriver
-  stops: 5
-  points: 15
-  trophies: ''
 - player: Sharon F
   stops: 4
   points: 15
   trophies: ''
 - player: LaurieW917
-  stops: 3
-  points: 7
+  stops: 4
+  points: 12
   trophies: ''
 - player: CabbageOfKastis
   stops: 1

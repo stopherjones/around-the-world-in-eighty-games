@@ -620,8 +620,16 @@
   game: Nanga Parbat
   name: Nanga Parbat Tournament (Pakistan and Nepal)
   bga_url: https://boardgamearena.com/tournament?id=538885
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: TacCOIG
+  - rank: 2nd
+    name: Cheery Dog
+  - rank: 3rd
+    name: Silene
+  - rank: 3rd
+    name: stopherjones
 '538888':
   id: 538888
   country: pakistan-and-nepal
