@@ -726,8 +726,16 @@
   game: Roll to the Top (Marina Bay)
   name: Roll to the Top (Marina Bay) Tournament (Singapore)
   bga_url: https://boardgamearena.com/tournament?id=571136
-  status: planned
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: ren v hoek
+  - rank: 2nd
+    name: TacCOIG
+  - rank: 3rd
+    name: stopherjones
+  - rank: 4th
+    name: Niall
 '590670':
   id: 590670
   country: indonesia
