@@ -758,8 +758,16 @@
   game: Let's Go To Japan
   name: Let's Go To Japan Tournament (Japan)
   bga_url: https://boardgamearena.com/tournament?id=590696
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: Castz
+  - rank: 3rd
+    name: stopherjones
+  - rank: 4th
+    name: Jonitis
 '590697':
   id: 590697
   country: japan

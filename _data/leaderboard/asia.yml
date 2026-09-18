@@ -1,39 +1,39 @@
-- player: Silene
-  stops: 8
-  points: 78
-  trophies: 🥇🥇🥇🥇🥈🥉
 - player: stopherjones
-  stops: 11
-  points: 77
-  trophies: 🥇🥈🥉🥉🥉🥉
-- player: TacCOIG
-  stops: 11
-  points: 74
-  trophies: 🥇🥇🥈🥈
+  stops: 12
+  points: 85
+  trophies: 🥇🥈🥉🥉🥉🥉🥉
+- player: Silene
+  stops: 9
+  points: 83
+  trophies: 🥇🥇🥇🥇🥈🥉
 - player: Niall
-  stops: 10
-  points: 68
-  trophies: 🥇🥇🥉🥉
-- player: drharris
   stops: 11
-  points: 55
+  points: 80
+  trophies: 🥇🥇🥇🥉🥉
+- player: TacCOIG
+  stops: 12
+  points: 78
+  trophies: 🥇🥇🥈🥈
+- player: drharris
+  stops: 12
+  points: 59
   trophies: 🥈🥉
 - player: Cheery Dog
-  stops: 10
-  points: 52
+  stops: 11
+  points: 55
   trophies: 🥈🥈🥈
+- player: VemRD
+  stops: 12
+  points: 51
+  trophies: ''
+- player: Castz
+  stops: 5
+  points: 47
+  trophies: 🥇🥈🥈🥈
 - player: Kurorac
   stops: 11
   points: 47
   trophies: ''
-- player: VemRD
-  stops: 11
-  points: 46
-  trophies: ''
-- player: Castz
-  stops: 4
-  points: 37
-  trophies: 🥇🥈🥈
 - player: ren v hoek
   stops: 5
   points: 33
@@ -42,6 +42,10 @@
   stops: 6
   points: 23
   trophies: ''
+- player: Salvidrim
+  stops: 3
+  points: 21
+  trophies: 🥈🥉
 - player: Bleedingriver
   stops: 6
   points: 20
@@ -50,10 +54,6 @@
   stops: 3
   points: 19
   trophies: 🥉🥉
-- player: Salvidrim
-  stops: 2
-  points: 18
-  trophies: 🥈🥉
 - player: Sharon F
   stops: 4
   points: 15
@@ -66,7 +66,19 @@
   stops: 4
   points: 7
   trophies: ''
+- player: Jonitis
+  stops: 1
+  points: 6
+  trophies: ''
+- player: beckmast
+  stops: 2
+  points: 4
+  trophies: ''
 - player: CabbageOfKastis
+  stops: 1
+  points: 4
+  trophies: ''
+- player: rakkamar
   stops: 1
   points: 4
   trophies: ''
@@ -77,8 +89,4 @@
 - player: havensand
   stops: 1
   points: 3
-  trophies: ''
-- player: beckmast
-  stops: 1
-  points: 1
   trophies: ''
