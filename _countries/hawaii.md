@@ -1,8 +1,8 @@
 ---
 layout: country
-name: Australia 
-slug: australia
-continent: Asia
+name: Hawaii 
+slug: hawaii
+continent: Americas
 order: 33
 intro: |
 
