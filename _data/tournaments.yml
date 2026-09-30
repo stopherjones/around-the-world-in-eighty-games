@@ -800,3 +800,11 @@
   bga_url: https://boardgamearena.com/tournament?id=590701
   status: ongoing
   round: null
+"609153":
+  id: 609153
+  country: hawaii
+  game: Hawaii
+  name: Hawaii Tournament (Hawaii)
+  bga_url: https://boardgamearena.com/tournament?id=609153
+  status: ongoing
+  round: null

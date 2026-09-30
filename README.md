@@ -64,6 +64,6 @@ next_locations:
       - xxx
       - xxx
 
-## Deployment
+  ## Deployment
 
 This project is set up for GitHub Pages-style deployment using Jekyll. After pushing changes to your repository, the site can be published through the standard GitHub Pages workflow.
