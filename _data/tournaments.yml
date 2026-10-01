@@ -670,8 +670,16 @@
   game: Jaipur
   name: Jaipur Tournament (India)
   bga_url: https://boardgamearena.com/tournament?id=554870
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: Cheery Dog
+  - rank: 2nd
+    name: Silene
+  - rank: 3rd
+    name: Zozoken
+  - rank: 3rd
+    name: beckmast
 '558711':
   id: 558711
   country: china
@@ -800,7 +808,7 @@
   bga_url: https://boardgamearena.com/tournament?id=590701
   status: ongoing
   round: null
-"609191":
+'609191':
   id: 609191
   country: hawaii
   game: Hawaii

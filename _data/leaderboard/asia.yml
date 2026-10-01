@@ -1,81 +1,85 @@
+- player: Silene
+  stops: 10
+  points: 93
+  trophies: 🥇🥇🥇🥇🥈🥈🥉
 - player: stopherjones
+  stops: 13
+  points: 86
+  trophies: 🥇🥈🥉🥉🥉🥉🥉
+- player: Niall
   stops: 12
   points: 85
-  trophies: 🥇🥈🥉🥉🥉🥉🥉
-- player: Silene
-  stops: 9
-  points: 83
-  trophies: 🥇🥇🥇🥇🥈🥉
-- player: Niall
-  stops: 11
-  points: 80
   trophies: 🥇🥇🥇🥉🥉
 - player: TacCOIG
-  stops: 12
-  points: 78
+  stops: 13
+  points: 83
   trophies: 🥇🥇🥈🥈
-- player: drharris
-  stops: 12
-  points: 59
-  trophies: 🥈🥉
 - player: Cheery Dog
-  stops: 11
-  points: 55
-  trophies: 🥈🥈🥈
-- player: VemRD
   stops: 12
-  points: 51
+  points: 67
+  trophies: 🥇🥈🥈🥈
+- player: drharris
+  stops: 13
+  points: 60
+  trophies: 🥈🥉
+- player: VemRD
+  stops: 13
+  points: 56
+  trophies: ''
+- player: Kurorac
+  stops: 12
+  points: 52
   trophies: ''
 - player: Castz
   stops: 5
   points: 47
   trophies: 🥇🥈🥈🥈
-- player: Kurorac
-  stops: 11
-  points: 47
-  trophies: ''
 - player: ren v hoek
-  stops: 5
-  points: 33
+  stops: 6
+  points: 34
   trophies: 🥇🥉
 - player: daniinnc
-  stops: 6
-  points: 23
+  stops: 7
+  points: 24
   trophies: ''
 - player: Salvidrim
-  stops: 3
-  points: 21
+  stops: 4
+  points: 22
   trophies: 🥈🥉
+- player: Arjo14
+  stops: 4
+  points: 20
+  trophies: 🥉🥉
 - player: Bleedingriver
   stops: 6
   points: 20
   trophies: ''
-- player: Arjo14
-  stops: 3
-  points: 19
-  trophies: 🥉🥉
 - player: Sharon F
   stops: 4
   points: 15
   trophies: ''
+- player: Zozoken
+  stops: 5
+  points: 15
+  trophies: 🥉
+- player: beckmast
+  stops: 3
+  points: 12
+  trophies: 🥉
 - player: LaurieW917
   stops: 4
   points: 12
-  trophies: ''
-- player: Zozoken
-  stops: 4
-  points: 7
   trophies: ''
 - player: Jonitis
   stops: 1
   points: 6
   trophies: ''
-- player: beckmast
-  stops: 2
-  points: 4
-  trophies: ''
 - player: CabbageOfKastis
   stops: 1
+  points: 4
+  trophies: ''
+- player: havensand
+  stops: 2
   points: 4
   trophies: ''
 - player: rakkamar
@@ -83,10 +87,6 @@
   points: 4
   trophies: ''
 - player: GeraldineMerida
-  stops: 1
-  points: 3
-  trophies: ''
-- player: havensand
   stops: 1
   points: 3
   trophies: ''
