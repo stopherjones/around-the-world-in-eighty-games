@@ -758,8 +758,16 @@
   game: King of Tokyo
   name: King of Tokyo Tournament (Japan)
   bga_url: https://boardgamearena.com/tournament?id=590694
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: Castz
+  - rank: 2nd
+    name: Arjo14
+  - rank: 3rd
+    name: beckmast
+  - rank: 4th
+    name: Silene
 '590696':
   id: 590696
   country: japan

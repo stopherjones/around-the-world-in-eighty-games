@@ -1,59 +1,63 @@
 - player: Silene
-  stops: 10
-  points: 93
+  stops: 11
+  points: 99
   trophies: 🥇🥇🥇🥇🥈🥈🥉
 - player: stopherjones
-  stops: 13
-  points: 86
+  stops: 14
+  points: 91
   trophies: 🥇🥈🥉🥉🥉🥉🥉
 - player: Niall
-  stops: 12
-  points: 85
+  stops: 13
+  points: 87
   trophies: 🥇🥇🥇🥉🥉
 - player: TacCOIG
-  stops: 13
-  points: 83
+  stops: 14
+  points: 87
   trophies: 🥇🥇🥈🥈
 - player: Cheery Dog
-  stops: 12
-  points: 67
+  stops: 13
+  points: 71
   trophies: 🥇🥈🥈🥈
 - player: drharris
-  stops: 13
-  points: 60
+  stops: 14
+  points: 65
   trophies: 🥈🥉
+- player: Castz
+  stops: 6
+  points: 59
+  trophies: 🥇🥇🥈🥈🥈
 - player: VemRD
-  stops: 13
-  points: 56
+  stops: 14
+  points: 59
   trophies: ''
 - player: Kurorac
   stops: 12
   points: 52
   trophies: ''
-- player: Castz
-  stops: 5
-  points: 47
-  trophies: 🥇🥈🥈🥈
 - player: ren v hoek
   stops: 6
   points: 34
   trophies: 🥇🥉
+- player: Arjo14
+  stops: 5
+  points: 30
+  trophies: 🥈🥉🥉
 - player: daniinnc
   stops: 7
   points: 24
+  trophies: ''
+- player: Bleedingriver
+  stops: 7
+  points: 23
   trophies: ''
 - player: Salvidrim
   stops: 4
   points: 22
   trophies: 🥈🥉
-- player: Arjo14
+- player: beckmast
   stops: 4
   points: 20
   trophies: 🥉🥉
-- player: Bleedingriver
-  stops: 6
-  points: 20
-  trophies: ''
 - player: Sharon F
   stops: 4
   points: 15
@@ -61,10 +65,6 @@
 - player: Zozoken
   stops: 5
   points: 15
-  trophies: 🥉
-- player: beckmast
-  stops: 3
-  points: 12
   trophies: 🥉
 - player: LaurieW917
   stops: 4
