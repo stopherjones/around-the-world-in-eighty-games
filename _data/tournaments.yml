@@ -798,8 +798,16 @@
   game: Kokeshi
   name: Kokeshi Tournament (Japan)
   bga_url: https://boardgamearena.com/tournament?id=590698
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: Castz
+  - rank: 3rd
+    name: stopherjones
+  - rank: 4th
+    name: drharris
 '590700':
   id: 590700
   country: australia
