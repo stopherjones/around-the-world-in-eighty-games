@@ -790,8 +790,16 @@
   game: The White Castle
   name: The White Castle Tournament (Japan)
   bga_url: https://boardgamearena.com/tournament?id=590697
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: Silene
+  - rank: 2nd
+    name: Castz
+  - rank: 3rd
+    name: beckmast
+  - rank: 4th
+    name: Niall
 '590698':
   id: 590698
   country: japan

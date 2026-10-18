@@ -1,34 +1,34 @@
 - player: Silene
-  stops: 12
-  points: 103
-  trophies: 🥇🥇🥇🥇🥈🥈🥉
+  stops: 13
+  points: 115
+  trophies: 🥇🥇🥇🥇🥇🥈🥈🥉
 - player: Niall
-  stops: 14
-  points: 99
+  stops: 15
+  points: 105
   trophies: 🥇🥇🥇🥇🥉🥉
 - player: stopherjones
-  stops: 15
-  points: 99
+  stops: 16
+  points: 104
   trophies: 🥇🥈🥉🥉🥉🥉🥉🥉
 - player: TacCOIG
-  stops: 15
-  points: 92
+  stops: 16
+  points: 96
   trophies: 🥇🥇🥈🥈
+- player: Castz
+  stops: 8
+  points: 79
+  trophies: 🥇🥇🥈🥈🥈🥈🥈
 - player: Cheery Dog
-  stops: 14
-  points: 76
+  stops: 15
+  points: 79
   trophies: 🥇🥈🥈🥈
 - player: drharris
-  stops: 15
-  points: 71
+  stops: 16
+  points: 76
   trophies: 🥈🥉
-- player: Castz
-  stops: 7
-  points: 69
-  trophies: 🥇🥇🥈🥈🥈🥈
 - player: VemRD
-  stops: 15
-  points: 63
+  stops: 16
+  points: 67
   trophies: ''
 - player: Kurorac
   stops: 12
@@ -42,6 +42,10 @@
   stops: 5
   points: 30
   trophies: 🥈🥉🥉
+- player: beckmast
+  stops: 5
+  points: 28
+  trophies: 🥉🥉🥉
 - player: daniinnc
   stops: 7
   points: 24
@@ -54,10 +58,6 @@
   stops: 4
   points: 22
   trophies: 🥈🥉
-- player: beckmast
-  stops: 4
-  points: 20
-  trophies: 🥉🥉
 - player: Sharon F
   stops: 4
   points: 15
@@ -70,6 +70,10 @@
   stops: 4
   points: 12
   trophies: ''
+- player: rakkamar
+  stops: 2
+  points: 8
+  trophies: ''
 - player: Jonitis
   stops: 1
   points: 6
@@ -80,10 +84,6 @@
   trophies: ''
 - player: havensand
   stops: 2
-  points: 4
-  trophies: ''
-- player: rakkamar
-  stops: 1
   points: 4
   trophies: ''
 - player: GeraldineMerida
