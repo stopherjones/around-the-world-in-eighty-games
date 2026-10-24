@@ -822,8 +822,16 @@
   game: Boomerang Australia
   name: Boomerang Australia Tournament (Australia)
   bga_url: https://boardgamearena.com/tournament?id=590700
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: drharris
+  - rank: 2nd
+    name: Niall
+  - rank: 3rd
+    name: stopherjones
+  - rank: 4th
+    name: VemRD
 '590701':
   id: 590701
   country: australia
