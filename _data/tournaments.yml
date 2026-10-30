@@ -750,8 +750,16 @@
   game: Hutan
   name: Hutan Tournament (Indonesia)
   bga_url: https://boardgamearena.com/tournament?id=590670
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: Castz
+  - rank: 2nd
+    name: Niall
+  - rank: 3rd
+    name: rakkamar
+  - rank: 4th
+    name: TacCOIG
 '590694':
   id: 590694
   country: japan
