@@ -846,8 +846,22 @@
   game: Dingo's Dreams
   name: Dingo's Dreams Tournament (Australia)
   bga_url: https://boardgamearena.com/tournament?id=590701
-  status: ongoing
-  round: null
+  status: completed
+  top4:
+  - rank: 1st
+    name: TacCOIG
+  - rank: 2nd
+    name: Cheery Dog
+  - rank: 2nd
+    name: Silene
+  - rank: 3rd
+    name: Niall
+  - rank: 4th
+    name: VemRD
+  - rank: 4th
+    name: drharris
+  - rank: 4th
+    name: Castz
 '609191':
   id: 609191
   country: hawaii
