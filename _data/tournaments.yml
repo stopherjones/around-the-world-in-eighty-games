@@ -574,14 +574,13 @@
     name: Niall
   - rank: 4th
     name: Kurorac
-'520693':
-  id: 520699
+'528477':
+  id: 528477
   country: iraq
   game: Assyria
   name: Assyria Tournament (Iraq)
-  bga_url: https://boardgamearena.com/tournament?id=520699
-  status: ongoing
-  round: null
+  bga_url: https://boardgamearena.com/tournament?id=528477
+  status: unknown
 '528687':
   id: 528687
   country: uzbekistan
