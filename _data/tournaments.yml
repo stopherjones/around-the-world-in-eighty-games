@@ -580,7 +580,16 @@
   game: Assyria
   name: Assyria Tournament (Iraq)
   bga_url: https://boardgamearena.com/tournament?id=528477
-  status: unknown
+  status: completed
+  top4:
+  - rank: 1st
+    name: Niall
+  - rank: 2nd
+    name: Castz
+  - rank: 3rd
+    name: stopherjones
+  - rank: 4th
+    name: Bleedingriver
 '528687':
   id: 528687
   country: uzbekistan
